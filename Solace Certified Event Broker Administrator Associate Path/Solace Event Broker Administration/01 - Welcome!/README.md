@@ -64,12 +64,3 @@ A Continue button advances the screen. The table is legible in the module; there
 ## Screen 5: Module end screen
 
 The final content panel says “Let's get started!” and offers a Start Over control. No further lesson content or knowledge check is shown in the SCORM module.
-
-## Completion record
-
-The SCORM module ended at “Let's get started!” with no further internal content or assessment. After closing the module and allowing the Academy state to sync, the course page visibly reported “You have completed this lesson!” and changed the course progress from 0/14 to 1/14.
-
-## Resume checkpoint
-
-Welcome! is complete in both the SCORM module and Academy. The next syllabus item was SDKPerf Messaging Tool, a file resource; Academy now shows both Welcome section lessons complete (2/14 course lessons).
-

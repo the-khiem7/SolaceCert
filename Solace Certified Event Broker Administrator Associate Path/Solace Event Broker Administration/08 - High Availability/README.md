@@ -17,9 +17,7 @@ source: Solace Academy
 
 ### Screen 1: Course overview
 
-The SCORM launch opens to the **High Availability** course overview. The description says: “In this course, you will delve into the realm of high availability, understanding its goals, drivers, and the unique approach adopted by Solace. The course is designed to offer a comprehensive overview from an Administrator's perspective, providing insights into the challenges and solutions in achieving high availability in software systems.” The visible contents are **What's the Scenario?**, **What is High Availability with Solace?**, **Understanding the Administrator Perspective**, **Config-Sync**, and **Quiz**; each is marked **Unstarted**. The overview displays **START COURSE**. The course-level syllabus shows this lesson as the current item, while Academy still reports 6/14 overall and Guaranteed Messaging remains in progress.
 
-**Next:** Start the SCORM course and record the scenario screen before advancing.
 
 ### Screen 2: What's the Scenario?
 
@@ -31,9 +29,7 @@ The first lesson is **What's the Scenario?** Haroldo introduces himself as a mid
 
 The scenario continues: **“We need to ensure that we don't lose our order processing data. Is there any way to make sure that no data is lost if there is a broker failure?”** It offers two responses: **(1)** “You already have about 98% availability, is that not enough?” and **(2)** “Let's consider high availability so we can protect those mission critical systems and aim to keep downtime as low as possible.” The second response best addresses the risk by protecting mission-critical systems and reducing downtime.
 
-**Next:** Select response 2 and record the course feedback before continuing.
 
-Selecting response 2 replaces the answer choices with the selected response and the course reply **“Thank you! I definitely need to know more.”** A **CONTINUE** button appears, followed by the next lesson link **2 of 5 - What is High Availability with Solace?** No explicit correct/incorrect label is shown. After continuing, the scenario displays **“It looks like you've won over Haroldo!”** and **“Now let's learn more about high availability.”** with a **START OVER** control. The scenario is marked **Completed** in the sidebar; the SCORM course indicator is **20% COMPLETE**.
 
 **Next:** Open **2 of 5 - What is High Availability with Solace?** and record its first screen.
 
@@ -97,15 +93,11 @@ Starting the **Failback** process reveals a three-step sequence. **Step 1** says
 
 The Failback **Last step** control advances to a player state labeled **Step 4**. It contains only **START AGAIN** and the step navigation controls; it exposes no additional explanatory text or separate instructional image. The process is complete.
 
-The Failback process exposes **Step 1**, **Step 2**, **Step 3**, and **Last step** controls. When it opened, the SCORM sidebar marked **What is High Availability with Solace? Completed** and the overall module showed **40% COMPLETE**.
 
-The local images above are original PNG course assets served by the Academy lesson's exposed `assets/` paths. They were downloaded from those exact rendered image sources and visually checked. The original `<img>` elements had no alt text, so the notes supply descriptive alt text. After opening both options, the lesson's internal progress indicator for this section reached **44% Completed**.
 
 ### Screen 5: Understanding the Administrator Perspective
 
-The section is **Lesson 3 of 5**. Its introduction says administrators should check several settings on each router when configuring high availability. The sidebar shows **Understanding the Administrator Perspective - 13% Completed**, while the overall SCORM indicator remains **40% COMPLETE**.
 
-For the **Primary Node as the Active Event Broker**, the course says **Redundancy Status** must be `Up`; **Operating Mode** must be `Message Routing Node` or `Monitoring Node`; **Active-Standby Role** must be `Primary`; and **Activity Status** must show `Local Active` for Primary and `Shutdown` for Backup. The displayed command and output are:
 
 ```text
 primary_vmr(admin/config-sync)# show redundancy
@@ -205,13 +197,10 @@ The course says a PubSub+ event broker maintains two types of configuration info
 
 The local original course image was read from the visible image element's exact `assets/AdobeStock_411448069.jpg` URL, downloaded, signature-checked as JPEG, and visually inspected. The original image element had no alt text, so this note supplies a descriptive alt.
 
-On entering this section, the SCORM module showed **60% COMPLETE**; the sidebar showed **Understanding the Administrator Perspective Completed** and **Config-Sync Unstarted**. The course screen's progress indicator shows **33% Completed**. The Academy course overview still shows **6 of 14 lessons completed**, with Guaranteed Messaging at **0 of 1** and **In progress**.
 
-**Next:** Open **5 of 5 - Quiz** and record each quiz screen, answer, and feedback before moving on.
 
 ### Screen 7: Quiz questions
 
-The final section is **Lesson 5 of 5**. The quiz introduction says, **“Now let's see if we have enough information to help out Haroldo.”** The sidebar shows **What's the Scenario?**, **What is High Availability with Solace?**, **Understanding the Administrator Perspective**, and **Config-Sync** as **Completed**; **Quiz** is **Unstarted**. The overall module shows **80% COMPLETE**.
 
 Three knowledge checks are visible:
 
@@ -224,9 +213,7 @@ Three knowledge checks are visible:
 
 3. For the distributed-systems strategy question, selected **“load balancing and redundant systems”**. The exact feedback was: **“Correct. Correct answer: load balancing and redundant systems. Your answer: load balancing and redundant systems.”** The selected option is marked **Correctly selected** and the other choices **Correctly unselected**. The question shows **Correct**.
 
-After these three correct answers, the SCORM module shows **100% COMPLETE** and the sidebar marks **Quiz Completed**. The four preceding sections also show **Completed**. This establishes completion within the SCORM module; verify the Academy syllabus status after closing the module.
 
-After closing the SCORM player, the Academy course page still reports **Course in progress, 6 of 14 lessons completed**. In the syllabus, **High Availability** remains **0 of 1 completed** and its individual row shows only **Content type: SCORM**, without a Completed status. The SCORM completion has therefore not propagated to the Academy lesson counter.
 
 ## Visuals
 

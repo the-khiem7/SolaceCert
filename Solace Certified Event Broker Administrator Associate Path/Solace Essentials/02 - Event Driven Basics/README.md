@@ -11,7 +11,6 @@ source: Solace Academy
 
 - **Course:** Solace Essentials
 - **Syllabus order:** 02
-**Academy status:** Completed on 2026-09-24
 ## Event Driven Basics - Step 1 of 2
 
 The lesson introduces common terminology used in event-driven architecture.
@@ -33,5 +32,3 @@ The lesson introduces common terminology used in event-driven architecture.
 ## Key visual asset recovery
 
 No discrete key instructional visual is described in the archived notes for this lesson.
-
-No local course image was available to link from this lesson. The course page currently confirms completion, and reopening completed SCORM content exposes a retake action rather than its lesson screens. The lesson image folder is ready for source assets; no substitute images were fabricated.

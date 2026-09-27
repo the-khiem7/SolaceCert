@@ -16,7 +16,6 @@ source: Solace Academy
 
 ## Lesson resource screen
 
-The Academy lesson explains that SDKPerf is used to send messages on a PubSub+ Event Broker. It describes SDKPerf as a tool for validating performance, checking configuration, and exploring broker features. The resource card offers the three-page SDKPerf Tool Guide PDF. Downloading the guide marked the file lesson complete in the Academy.
 
 Academy tags shown for this resource: messaging, tool, performance, java, api, implementation, sdkperf, sdkperf tool, and client interface.
 
@@ -62,6 +61,4 @@ The example publisher sends to news/sports/football; the subscriber pattern news
 
 ![SDKPerf publisher and subscriber example using topic news/sports/](img/sdkperf-command-examples.png)
 
-## Resume checkpoint
-
-This file resource is complete in the Academy. Its PDF guide has been saved beside this note, and the architecture, download-options, and command-example visuals have been extracted from the guide into this lesson's img folder.
+Its PDF guide has been saved beside this note, and the architecture, download-options, and command-example visuals have been extracted from the guide into this lesson's img folder.

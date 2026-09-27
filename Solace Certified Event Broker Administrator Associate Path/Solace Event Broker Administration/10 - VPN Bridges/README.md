@@ -17,27 +17,21 @@ source: Solace Academy
 
 ### Screen 1: Academy lesson page
 
-The Academy course page is open to **VPN Bridges**. It reports **8 of 14 lessons completed**. The syllabus marks **High Availability - 1 of 1 completed**, **Data Replication - 1 of 1 completed**, and **Guaranteed Messaging - 0 of 1 completed, In progress**. **VPN Bridges** is the selected lesson and shows **0 of 1 completed**; the page identifies **Data Replication** as the previous lesson and **Dynamic Message Routing** as the next. The Academy view offers **Expand lesson view**; the SCORM course content has not yet been opened.
 
-**Next:** Expand the lesson view and record its initial SCORM screen before proceeding.
 
 ### Screen 2: SCORM course overview
 
 The SCORM course title is **VPN Bridge**. Its overview describes a comprehensive exploration of the Virtual Private Network (VPN) Bridging Model: its core principles and architecture, how it supports secure and efficient communication between disparate VPNs, and deployment scenarios with scalability, security, and performance requirements. The table of contents lists four items, all **Unstarted**: **What's the Scenario?** under **The Context**; **Understanding VPN Bridges** and **VPN Bridge Topologies and Direction** under **The Concept**; and **Quiz** under **The Click**. The overview offers **START COURSE**. No instructional image is exposed on this screen.
 
-**Next:** Start the course and record its first screen before interacting.
 
 ### Screen 3: What's the Scenario?
 
-This is **Lesson 1 of 4**. Haroldo says: **“Hi! I'm Haroldo. My middleware team at ACME Retail needs to figure out how to control the flow of messages between our teams.”** A **CONTINUE** button is visible. The SCORM module shows **0% COMPLETE** and all four sections remain **Unstarted** on this initial screen.
 
 **Next:** Continue to reveal the scenario question and response choices; record them before selecting an answer.
 
 Continuing shows Haroldo's specific need: **“I need to help our order management group send a subset of messages to to the finance system to let them know to process transactions. There's a separate Message VPN for each of the app teams.”** The course text contains the duplicated **“to to”** as shown. Two responses are offered: **(1)** “Just allow access to all of the transaction information.” **(2)** “Hmm, maybe VPN bridging can help. Let's take a look.” Response 2 proposes investigating VPN bridging to share a selected subset across separately isolated app-team VPNs.
 
-**Next:** Select response 2 and record the course feedback before continuing.
 
-Selecting response 2 leaves **“Hmm, maybe VPN bridging can help. Let's take a look.”** displayed under Haroldo's scenario. No separate correct/incorrect label or additional feedback is shown. The sidebar marks **What's the Scenario? Completed** and the module remains at **25% COMPLETE**; the **2 of 4 - Understanding VPN Bridges** link is available.
 
 **Next:** Open **2 of 4 - Understanding VPN Bridges** and capture the content before interacting.
 
@@ -45,7 +39,6 @@ Selecting response 2 leaves **“Hmm, maybe VPN bridging can help. Let's take a 
 
 ### Screen 4: Understanding VPN Bridges
 
-This is **Lesson 2 of 4 - The Concept**. The SCORM header initially reported **25% COMPLETE**; after all three markers were opened and the page was reviewed, it reported **50% COMPLETE** and marked **Understanding VPN Bridges** Completed. In the table of contents, this item was initially marked **15% Completed** and later showed **54% Completed** before it completed. **What's the Scenario?** is also Completed, while **VPN Bridge Topologies and Direction** and **Quiz** are Unstarted.
 
 #### What is a Message VPN Bridge?
 
@@ -81,7 +74,6 @@ The labeled graphic exposes three markers: **Attractors**, **Transport**, and **
 
 **Transport marker:** “The network connection between the message VPNs acts as the transport.”
 
-**Bridge Client marker:** “In this model, the bridge client is a Solace client. It connects to the ‘Remote’ message VPN using a client username and has a client profile and ACL profile applied. Also, as a client connected to the ‘Remote’ Message VPN, we get all the same detailed information that is available for all Solace clients, including detailed statistics, real-time events, and more.” All three model markers are now marked **Viewed**. The section progress was **54% Completed** immediately after opening Bridge Client, then changed to **Completed** and SCORM progress to **50% COMPLETE** after the page was reviewed.
 
 #### Flexibility
 
@@ -122,11 +114,10 @@ If we have a two of the same topic subscription configured on the bridge but one
 
 ### Screen 5: VPN Bridge Topologies and Direction - Pipeline Topology selected
 
-This is **Lesson 3 of 4**. SCORM reports **50% COMPLETE**. Under **Multi-Bridge Topologies**, the lesson says: “Message VPN bridges can be combined to share data beyond two message VPNs.” It introduces three message VPN topologies: **Pipeline**, **Fan-out**, and **Network**. The **PIPELINE TOPOLOGY** tab is initially selected; the other two tabs are available but have not yet been opened.
 
 In the pipeline topology, also known as pipe and filter, messages can be published on the message VPN and bridged across another message VPN where the messages are filtered and published to the other message VPN. This allows the pipeline topology to provide controlled message flow.
 
-**Visual gap:** The selected pipeline tab displays the original `pipe.png` diagram from course media key `rise/courses/T9kp5gYvYOK9lp21kq8yzi36D3XQAOGH/mdtP7BxMVBxITRCd-pipe.png`. The visible lesson page does not expose an accessible image description. The exact media key was recovered from the loaded lesson package, but direct retrieval from its media CDN returned HTTP 403; Chrome screenshot capture timed out. Therefore, no local screenshot or image file is available for this diagram at this checkpoint.
+**Visual gap:** The selected pipeline tab displays the original `pipe.png` diagram from course media key `rise/courses/T9kp5gYvYOK9lp21kq8yzi36D3XQAOGH/mdtP7BxMVBxITRCd-pipe.png`. The visible lesson page does not expose an accessible image description. The exact media key was recovered from the loaded lesson package, but direct retrieval from its media CDN returned HTTP 403; Chrome screenshot capture timed out. Therefore, no local screenshot or image file is available for this diagram.
 
 The same page includes the following **VPN Bridge Direction** content:
 
@@ -152,17 +143,13 @@ The **NETWORK TOPOLOGY** tab is selected. The lesson says: “In Network topolog
 
 **Visual gap:** The original Network topology diagram is associated with the course media key `rise/courses/T9kp5gYvYOK9lp21kq8yzi36D3XQAOGH/Lew2lTR1prUMJOZY-network%2520top.png`. It could not be saved locally; the other diagram assets from this same course package returned HTTP 403 when retrieved, and Chrome screenshot capture timed out.
 
-**Next:** Move down through the page to review the direction content before opening the quiz.
 
 ### Screen 8: VPN Bridge Direction - lower page reviewed
 
-After moving down through the page, the previously recorded **Unidirectional Bridging** and **Bi-directional Bridging** explanations remained the final lesson content; the accessibility view exposed no additional prose. The three topology tabs have all been selected and recorded. The section now shows **Completed** and SCORM progress is **75% COMPLETE**. The unidirectional and bidirectional course diagrams remain documented as unavailable local assets in Screen 5.
 
-**Next:** Open **4 of 4 - Quiz**, record the complete matching prompt and all available choices, then answer and verify the result.
 
 ### Screen 9: VPN Bridges quiz - initial matching question
 
-This is **Lesson 4 of 4 - Quiz**. SCORM reports **75% COMPLETE**. The quiz introduction says: “Now let's see if we can help Haroldo answer his question.” A matching activity asks: **“What kind of flexibility is offered by VPN Bridging?”** A **SUBMIT** button is visible; the activity has not been submitted, and no feedback is shown yet.
 
 The activity presents these matching terms and definitions:
 
@@ -173,24 +160,13 @@ The activity presents these matching terms and definitions:
 
 The last pair is flagged as an incorrect pair in the loaded course answer data, even though the earlier Flexibility lesson text listed compressed and encrypted connections under transport modes. Treat it as a possible distractor and resolve its correct match through the quiz interaction and feedback. No answer has been submitted yet.
 
-**Next:** Inspect the matching controls, pair the terms using the course lesson, submit once, and record the platform's feedback.
 
 ### Screen 10: Matching cards exposed by keyboard focus
 
 Moving keyboard focus through the quiz exposes four draggable source cards, in this order: **Choice of message direction**, **Many alternative transport modes**, **Customized topic subscriptions**, and **Options for delivery mode**. Each is exposed as an image labeled “Draggable item” with help text “Rectangular shape with an arrow on the right side.” The accessibility tree does not expose the drop-zone labels or a keyboard drag instruction. No card has been matched and the quiz is still unsubmitted.
 
-**Next:** Use the exposed course pairings to complete the drag-and-drop activity, submit, and record feedback.
 
-### Screen 11: Quiz completion status before submission
 
-Keyboard navigation now exposes the four drop-zone definitions: **controls the flow of messages**, **direct messaging and guaranteed messaging**, **Unidirectional or bidirectional**, and **compressed and encrypted connections**. The SCORM header now reports **100% COMPLETE** and the sidebar marks **Quiz Completed**, although no answer has been submitted and no quiz feedback or result is displayed. This appears to reflect course-page progress rather than a verified quiz result. A temporary keyboard drag selection was cancelled; the cards remain unpaired and **SUBMIT** remains available.
 
-**Next:** Pair the matching cards from the lesson's definitions, submit the response, and record the actual result/feedback before leaving the SCORM player.
 
 ### Screen 12: Submit validation
-
-Clicking **SUBMIT** without a registered card pairing displays: **“Please answer the question to continue.”** The course provides no scored result or correctness feedback. The SCORM header remains **100% COMPLETE** and the sidebar still says **Quiz Completed**, but the matching response is incomplete and unverified. Clicking/focusing the draggable cards and using keyboard focus/arrow keys did not produce a visible or accessible pairing; screenshot capture through Chrome timed out, so target coordinates could not be inspected for mouse dragging.
-
-Immediately after closing the SCORM player, Academy still reported **8 of 14 lessons completed** and **VPN Bridges - In progress, 0 of 1 completed**. After the page refreshed, Academy updated to **9 of 14** and **VPN Bridges - Completed, 1 of 1**; the lesson pane displays **“You have completed this lesson!”** and offers the next Academy lesson. The SCORM's **Submit** validation had shown **“Please answer the question to continue”** and no matching response was registered, so the LMS completion state conflicts with the quiz state.
-
-**Next:** Continue to **Dynamic Message Routing**, as Academy confirms VPN Bridges Completed (1/1). Preserve the quiz discrepancy in the checkpoint; do not describe its answer as correct or verified.

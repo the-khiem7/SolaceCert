@@ -11,8 +11,6 @@ source: Solace Academy
 
 - **Syllabus order:** 02
 - **Course section:** The Context
-- **Academy status:** In progress
-- **SCORM checkpoint:** Both internal sections are completed. The SCORM sidebar now shows 100% complete.
 
 ## SCORM section: Integration is Broken
 
@@ -109,9 +107,3 @@ The screen includes a 2:49 video titled “Solace’s Event-Driven Approach to I
 The exact knowledge check asks “Which of these teams or departments would benefit from other departments Democratizing their data?” The categories are “Would Benefit” and “Wouldn’t Benefit As Much.” Marketing, Finance, and Operations / Supply Chain belong under “Would Benefit”; Batch-Based Procurement, Archival / Records Management, and Facilities Management belong under “Wouldn’t Benefit As Much.” The final replay displayed “6/6 Cards Correct” after Facilities Management was placed in “Wouldn’t Benefit As Much.” Earlier placements of Facilities Management in “Would Benefit” scored below full credit; the activity did not provide item-level explanations.
 
 ## Screen: What’s Next?
-
-The transition screen says the course has covered Solace’s Event-Driven Integration methodology and moves to the tools and foundational concepts needed to implement it. The next sections will cover Event-Driven Architecture versus Event-Driven Integration, integration patterns, Unified API Management, Micro-Integrations, iPaaS integrations, and AI with the Event Mesh.
-
-## Completion checkpoint
-
-On 2026-09-27, the SCORM sidebar displayed “100% COMPLETE,” with Completed indicators for both internal sections. The lesson’s displayed content, four principles, visuals, videos, and sorting checks are recorded above. During the latest re-entry the Liberate sorter initially showed active cards instead of its previously recorded 8/8 score; the SCORM completion indicator subsequently changed to 100%. After closing the player, the Academy still marks this lesson In progress while showing 8 of 9 lessons completed for the course. The “Resume where you left off” control remains available.

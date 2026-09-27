@@ -11,12 +11,7 @@ source: Solace Academy
 
 Course: Solace Certified Event Broker Administrator Associate Exam
 Lesson: SCEBAA-v1.1-Sept2021 Exam
-Course state at start: Exam in progress; 1 of 2 lessons completed; 3 attempts available.
 Exam format shown by the platform: 70 required questions, timed.
-
-## Resume checkpoint
-
-Recorded through question 2. Question 1 is selected and question 2 is ready to be answered. Exam feedback and final result are pending.
 
 ## Questions and recorded responses
 

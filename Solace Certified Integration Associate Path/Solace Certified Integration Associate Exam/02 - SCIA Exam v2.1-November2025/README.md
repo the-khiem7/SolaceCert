@@ -9,7 +9,6 @@ lesson_order: 2
 
 # SCIA Exam: v2.1-November2025
 
-The Academy presents this lesson as a 37-question timed test with 3 attempts. The test allows 2 hours. The live attempt opened at Question 1 with about 1 hour 37 minutes remaining.
 
 ## Question 1 of 37
 
@@ -558,6 +557,3 @@ Choices shown:
 - Platform feedback: the test passed with a 95.2% final score. No item-by-item correctness breakdown was displayed.
 
 ## Result
-
-The Academy visibly marked the test and course completed and displayed “Well done, you have passed the test!” Final score: 95.2%. The completion modal listed the Solace Certified Integration Associate course certificate and the Solace Certified Integration Associate Certification. The course page says the certification is renewable and expires on 2028-09-27. No certificate file was downloaded during this run. Individual answer correctness was not shown, so the choices above are preserved as submitted selections rather than individually confirmed answers.
-

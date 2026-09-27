@@ -11,14 +11,10 @@ source: Solace Academy
 
 - **Syllabus order:** 01
 - **Course section:** The Context
-- **Academy status:** Completed.
-- **SCORM status:** 100% complete; its internal sections are Welcome and Event Driven Definitions.
 
 ## Course player screens
 
-The course player showed 3 sections, 9 lessons, and 4 hours. The Context showed 1 of 2 lessons completed; Welcome was Completed and How Solace Does Integration was In progress. The Concepts showed 0 of 5 completed, and The Click showed 0 of 1 completed. Feedback Survey - 2025 appeared as a separate Survey item.
 
-The course header showed 1 of 9 lessons completed. The learning-plan panel showed 0 of 2 courses completed and listed Solace Certified Integration Associate Exam as the next course, Not started, 2 hours, English. The Welcome completion screen displayed “You have completed this lesson!” with a checkmark illustration and controls for Next lesson How Solace Does Integration and Retake the lesson.
 
 ## SCORM section: Welcome
 
@@ -90,7 +86,3 @@ The Welcome section uses a dark-blue and teal title banner with overlapping circ
 The original course assets for the Event Driven Integration Venn diagram and topic infographic, EDA concept and producer/broker flow, implementation context and requirements, Solace Platform, Acme Rideshare Event Designer, and event mesh were saved in this lesson's img folder and linked beside their explanations. The separate zoomable EDA/EDInt illustration is described above; the Academy page did not expose a standalone download for that visual.
 
 No graded quiz or answer choices appeared in this internal page; the Welcome page's four checkboxes are reflective prompts rather than a scored knowledge check.
-
-## Resume checkpoint
-
-Both internal SCORM sections, Welcome and Event Driven Definitions, are marked complete in the player; the module shows 100% complete. Their screens, interactive tabs, and available visuals have been recorded. The Academy still shows Welcome as Completed and course progress as 1 of 9. The next step is How Solace Does Integration, which the Academy marks In progress.

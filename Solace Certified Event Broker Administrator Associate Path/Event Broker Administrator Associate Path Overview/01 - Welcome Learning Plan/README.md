@@ -11,7 +11,6 @@ source: Solace Academy
 
 - **Course:** Event Broker Administrator Associate Path Overview
 - **Syllabus order:** 01
-- **Academy status:** Completed
 
 ## Welcome Learning Plan screens
 
@@ -37,11 +36,9 @@ The learning path is intended for engineers, system administrators, and operatio
 
 ### 6. Let’s Get Started
 
-The final overview slide displays “Let’s Get Started” with Solace branding and no additional visible instructional text. All six screens showed as visited, and the lesson completion page confirmed completion.
 
 ## Historical capture boundary
 
-This file records the overview course and learning-plan context viewed so far. The remaining mandatory courses are Solace Essentials, Solace Event Broker Administration, and the certification exam.
 
 ## Visual asset recovery
 

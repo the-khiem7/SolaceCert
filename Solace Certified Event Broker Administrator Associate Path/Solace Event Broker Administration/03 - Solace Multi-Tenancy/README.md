@@ -25,7 +25,6 @@ The overview groups its SCORM content into three parts:
 - **The Concept:** What is Solace Multi-Tenancy?; Resource Management; Understanding Role-Based Access.
 - **The Click:** Hands-on Activity; Quiz.
 
-The lesson status showed all six items as unstarted when this screen was opened. A Start Course link begins the module.
 
 ## Screen 1: What's the Scenario? - Haroldo
 
@@ -50,7 +49,6 @@ The second response follows the lessons stated topic and introduces the concept.
 
 ## Screen 3: Scenario conclusion
 
-The conclusion says “It looks like you've won over Haroldo!” and adds, “Now let's learn more about multi-tenancy and help him to implement this solution.” The panel offers Start Over; the module also exposes the next internal section, What is Solace Multi-Tenancy?
 
 No new instructional diagram appears; the scenario reuses Haroldo and the office background already linked above.
 
@@ -64,11 +62,9 @@ The original illustration shows one Solace broker with four separate, secured Me
 
 ![Solace broker illustration showing four isolated, secured Message VPNs](img/message-vpn-multitenancy.png)
 
-The module first showed this section as 67% complete. Opening the image with Zoom image marked the section complete; the SCORM sidebar then showed 33% overall completion (two of six sections).
 
 ## Resource Management
 
-The third SCORM section is titled **Resource Management** and presents a video player. The player metadata exposed the media name `resource limits.mp4`, a duration of 53.19 seconds, and no caption or text tracks. No transcript control was exposed. I played the video to its end; the player reached 99.98% and reset to the paused start frame, while the SCORM table of contents continued to mark this section Completed.
 
 The player exposed a poster asset named `resource limits.jpg`. It could not be saved: the Chrome screenshot API timed out, and the workstation could not resolve the CDN hostname for the original poster URL. Therefore the video's narrated concepts and visual details could not be recovered reliably. This is an explicit content and image gap; no substitute has been invented.
 
@@ -125,7 +121,6 @@ The activity's concluding message says the isolated Message VPNs let the middlew
 
 Neither video exposed captions or a transcript. Their posters were identified as `create msg vpncrop.jpg` and `create admin user for msg vpn.jpg`, but could not be saved. Chrome screenshot capture timed out and the browser download attempt did not yield a file; the workstation also could not resolve the CDN hostname for an earlier original image. Consequently, the exact UI actions shown in the videos could not be transcribed and their visuals are not in `img/`. This gap is recorded rather than filled with guessed instructions or replacement images.
 
-## Quiz and SCORM completion
 
 ### Multiple-choice question
 
@@ -146,9 +141,3 @@ The instruction was: “Sort the cards based on whether they show a responsibili
 | authentications | client management |
 
 The activity confirmed **6/6 Cards Correct**.
-
-The SCORM table of contents now marks all six internal sections Completed and displays **100% COMPLETE**. This verifies completion of the Solace Multi-Tenancy SCORM lesson; the Academy course-level lesson status still needs checking after closing the SCORM view.
-
-## Resume checkpoint
-
-The Solace Multi-Tenancy SCORM lesson is complete (100%; all six internal sections completed). The Academy course page confirms this lesson is Completed and overall progress is 3/14. Next is Client Authentication Features.

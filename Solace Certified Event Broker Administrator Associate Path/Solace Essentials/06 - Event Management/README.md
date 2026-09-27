@@ -11,10 +11,8 @@ source: Solace Academy
 
 - **Course:** Solace Essentials
 - **Syllabus order:** 06
-**Academy status:** Completed on 2026-09-24
 ## LMS update on opening Event Management
 
-Advancing from the Event Brokers final screen and opening Event Management caused the LMS to update: Event Brokers is now 1/1 completed and the course progress is 5 of 11 lessons. Event Management is open in the syllabus and its SCORM frame is still loading.
 
 ### Event Management SCORM launch screen
 
@@ -142,7 +140,6 @@ The Publish Topic example gives AP-1 in VPN-1 a default action of `allow` for pu
 
 The screen says PubSub+ Cloud Console offers an evolving single view of the Solace ecosystem and can deploy/manage brokers anywhere. For configuring objects inside an already deployed broker, the available tools are PubSub+ Broker Manager, SEMP, and CLI.
 
-Broker Manager is a browser-based admin console packaged with the broker, with a next-generation UI for configuration, viewing, and troubleshooting. The lesson describes it as intuitive, integrated with PubSub+ Cloud, and built on SEMP v2 APIs.
 
 The “How to Access PubSub+ Broker Manager” tabs are PUBSUB+ CLOUD, PUBSUB+ SOFTWARE AND APPLIANCE, and OAUTH. The selected Cloud tab says to open Cluster Manager in the Cloud Console, select a broker service, then choose “Open PubSub+ Broker Manager” at the service’s top right.
 
@@ -184,9 +181,4 @@ The final screen directs the learner to try four exercises in the Solace Essenti
 
 ## LMS check after visiting Event Management
 
-After closing Event Management on its last step, the LMS shows 5 of 11 lessons completed. Event Brokers is now 1/1 completed. Event Management remains listed 0/1 with no status label yet, while Event Portal Essential is still In progress and the Event Portal section is 0/1. Event Monitoring and Event Mesh remain 0/1. Summary and Feedback Survey - 2025 remain listed.
 ## Key visual asset recovery
-
-The archived notes describe Message VPN and dedicated-resource diagrams, client object and profile diagrams, an OAuth login illustration, and a CLI terminal illustration. Those lesson visuals could not be recovered from the completed Academy page.
-
-No local course image was available to link from this lesson. The course page currently confirms completion, and reopening completed SCORM content exposes a retake action rather than its lesson screens. The lesson image folder is ready for source assets; no substitute images were fabricated.

@@ -11,9 +11,6 @@ source: Solace Academy
 
 - **Syllabus order:** 05
 - **Course section:** The Concepts
-- **Academy status at lesson entry:** Not started
-- **Academy status at latest capture:** Completed; the outer syllabus now confirms 4 of 9 course lessons completed.
-- **Embedded module checkpoint:** The internal section had reported 82% Completed and the module header 0% Complete at the last content view; the LMS subsequently recorded iPaaS Integration as Completed.
 
 ## Notes
 
@@ -44,7 +41,6 @@ The closing carousel recommends three related courses:
 - **Event Driven Integration Course – SAP:** asks how Solace and SAP work together; [View the Course](https://training.solace.com/learn/courses/593/event-driven-integration-course-sap).
 - **Event Driven Integration Architecture – MuleSoft:** asks how Solace and MuleSoft work together; [View the Course](https://training.solace.com/learn/courses/550/event-driven-integration-architecture-mulesoft).
 
-All three carousel cards were viewed. The third card, for MuleSoft, was the last view. At that checkpoint the internal section reported 82% Completed while the module header reported 0% Complete, and no internal Continue control or quiz was visible. The Academy syllabus now confirms the lesson as Completed.
 
 ## Visuals
 
@@ -52,7 +48,3 @@ All three carousel cards were viewed. The third card, for MuleSoft, was the last
 - [Boomi course card](img/recommended-boomi-course.jpg).
 - [SAP course card](img/recommended-sap-course.jpg).
 - [MuleSoft course card](img/recommended-mulesoft-course.jpg).
-
-## Academy checkpoint
-
-The outer course reports 4 of 9 lessons completed, with iPaaS Integration Completed and Unified API Management open next. The syllabus section The Concepts reports 3 of 5 completed. The LMS syllabus status is the completion confirmation; the embedded module's last visible progress values were inconsistent (82% for the section and 0% in the header).

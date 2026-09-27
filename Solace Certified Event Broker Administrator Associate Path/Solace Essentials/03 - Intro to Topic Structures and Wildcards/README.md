@@ -11,7 +11,6 @@ source: Solace Academy
 
 - **Course:** Solace Essentials
 - **Syllabus order:** 03
-**Academy status:** Completed on 2026-09-24
 
 ## Step 1 of 4 - objectives
 
@@ -53,7 +52,3 @@ System feedback: `*` matches one topic level, so the first pattern cannot cover 
 
 System feedback: `>` matches one or more following levels, so the second pattern would require a level after `get`. `*` cannot span the `billing` and `get` levels.
 ## Key visual asset recovery
-
-The archived lesson describes a topic hierarchy diagram showing levels 1-4 and the forward-slash delimiter. That course visual could not be recovered from the completed Academy page.
-
-No local course image was available to link from this lesson. The course page currently confirms completion, and reopening completed SCORM content exposes a retake action rather than its lesson screens. The lesson image folder is ready for source assets; no substitute images were fabricated.

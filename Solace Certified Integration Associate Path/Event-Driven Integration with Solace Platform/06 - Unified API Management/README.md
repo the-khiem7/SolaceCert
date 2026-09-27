@@ -11,14 +11,11 @@ source: Solace Academy
 
 - **Syllabus order:** 06
 - **Course section:** The Concepts
-- **Academy status:** Completed; advancing to Integration and AI produced the LMS “Lesson completed” confirmation.
-- **Embedded module checkpoint:** 100% Complete; both internal sections are marked Completed.
 
 ## Notes
 
 ### Bridging Traditional and Event-Driven Integration
 
-Unified API Management (APIM) manages an organization's entire API ecosystem, extending traditional API management to cover both synchronous REST APIs and asynchronous Event-Driven APIs under one governance framework. The course says this approach enables organizations to manage the complete lifecycle of all API types, provide consistent developer experiences, apply uniform security and governance policies, and track usage and performance metrics across integration patterns.
 
 The comparison tabs describe REST APIs as synchronous request-response, tightly coupled because a requester must know the endpoint, direct because a client explicitly calls a service, and higher-latency due to HTTP overhead and connection establishment. Scaling REST APIs requires load balancers and added infrastructure. Listed use cases are CRUD operations, immediate responses, and transactional workflows.
 
@@ -42,7 +39,6 @@ For developers, APIM combines REST for GET/POST/PUT/DELETE, query interactions, 
 
 For platform teams, the “unified view” tab covers alignment with existing lifecycle processes, complete lifecycle control, cross-API regulatory compliance, and unified usage, performance, and health monitoring. Self-service provides API discovery and access without IT intervention, automated provisioning, democratized event-API access, and streamlined consumer onboarding. Automated controls enforce consistent security, classification-based policy application, uniform access controls, and centralized audit logging. Faster onboarding includes simplified partner integration, reduced time-to-value, broader PubSub+ adoption, and a course-reported claim of 50% faster new-system rollouts. The close says APIM accelerates integration projects while maintaining governance and control for both developers and platform teams.
 
-Both internal sections reached Completed and the embedded module reports 100% Complete. No quiz appeared in the module.
 
 ## Visuals
 

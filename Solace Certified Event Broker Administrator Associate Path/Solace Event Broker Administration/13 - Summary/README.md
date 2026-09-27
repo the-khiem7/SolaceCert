@@ -31,13 +31,11 @@ The Summary SCORM preview repeats the **Summary - EVENT BROKER FUNDAMENTALS 24**
 
 The Summary SCORM contains **1 step of 1**. A presenter appears beside a panel reading **“That's it!”** and **“Now you know about Event Broker administration with Solace.”** A **CONTINUE** button is shown. The background depicts a dark server-room aisle; no additional technical diagram or explanatory text appears. The screenshot was inspected, but no local image path or download option was available, so the visual is described without a substitute.
 
-**Next:** Select CONTINUE and verify the SCORM's final state before leaving the lesson.
 
 ### Screen 4: Learning outcomes recap
 
 After continuing from the closing message, the single step shows **“You should now have a better understanding of:”** followed by **Multi-Tenancy**, **Client Authentication & Authorization**, **Direct & Guaranteed Messaging**, **High Availability**, **Data Replication**, **VPN Bridges**, **DMR**, and **Operational Maintenance**. The screen offers **CONTINUE** and **Restart**. No new instructional diagram is shown.
 
-**Next:** Select CONTINUE and verify whether the module reports completion.
 
 ### Screen 5: Additional resources and end of Summary
 
@@ -47,7 +45,6 @@ The last Summary view says **“If you want to learn more, check out the additio
 
 ### Screen 6: Academy after closing Summary
 
-After closing Summary, the Academy still shows **11 of 14 lessons completed**. Operational Maintenance is now **1 of 1 Completed**. Guaranteed Messaging remains **0 of 1, In progress**. Summary appears in the course-level syllabus without an individual completion status in this view; the next Academy lesson is **Feedback Survey - 2025**.
 
 **Next:** Advance to Feedback Survey - 2025, then verify Summary's synchronization and complete the survey.
 

@@ -36,7 +36,6 @@ The two responses are:
 1. “Let's learn about the different authentication methods and features to help you choose.”
 2. “With cloud authentication, that's just a risk you have to take.”
 
-The first response is the appropriate path because it investigates authentication controls rather than accepting impersonation risk. The scenario remains at 33% SCORM completion and marks What's the Scenario? Completed.
 
 ## Screen 4: Scenario response
 
@@ -81,7 +80,6 @@ A client connecting to a Message VPN must still provide a valid client username.
 
 ### Key visuals and capture gap
 
-The lesson exposes four images: `security-concepts-overview.jpg` (608 x 611 pixels, loaded in the page), `AdobeStock_135042763.jpg`, `AdobeStock_442053298.jpg`, and `LDAP process.jpg`. All have empty alt text. The image filenames are recorded, but none is in `img/`: Chrome screenshot capture has timed out on the Academy page and direct image retrieval fails because the workstation cannot resolve the CDN host. No substitute visuals were created. The section shows **8% Completed** at the last observation; the scenario prompt “Tell me what you've got!” and its CONTINUE control remain at the bottom.
 
 ## Image interaction: Goals for a secure system
 
@@ -97,7 +95,6 @@ The RADIUS illustration also opens in an enlarged-image container with an Unzoom
 
 ## Certificate checklist interaction
 
-I checked all four items shown under the client-certificate implementation requirements: client certificate/private key, certificate-authentication configuration for each target Message VPN, TLS/SSL service, and CA certificates on the broker. All four checkboxes now show selected, and the SCORM table of contents marks Understanding Client Authentication Completed. The module shows 67% overall (two of three sections complete).
 
 The LDAP image opened after a retry using its refreshed accessibility control. Its enlarged-image container adds no descriptive text, and the image itself has no alt text; the visual remains uncaptured.
 
@@ -114,7 +111,6 @@ The activity says its goal is to explore implementing client authentication in P
 
 The second step explicitly refers to using the learner's own environment, so I will inspect the course demonstration and instructions first and will not change a live broker without a target/action authorized by the user. The original screen asset is `Hands-on Activity - Client Authentication Configuration.jpg` (1920 x 1080, no alt text); it was not captured locally because course screenshots and CDN retrieval are unavailable.
 
-At the time this screen opened, the SCORM table of contents already marked Hands-on Activity Completed and showed **100% COMPLETE**, before I had opened its START control. I will still review the visible steps and any course video before leaving.
 
 ## Step 1: Walkthrough video
 
@@ -122,18 +118,9 @@ The first activity card is titled **Walkthrough video** and says, “Let's do a 
 
 The poster has no descriptive alt text and is not saved locally because the Academy screenshot/CDN capture limitations noted above also apply here. No live configuration has been performed.
 
-## Resume checkpoint
 
-The course video was played through to its end while muted at 2x speed. Its duration is **2:25** (145.512 seconds), and the player exposes no caption or text tracks. The player returned to the beginning after reaching the end. No external PubSub+ Manager changes were made. This completes the walkthrough review; the SCORM remained marked 100% complete.
 
 ## Step 2: Explore your environment
 
-The activity instructs the learner to follow along in **their own environment** to understand the available client-authentication options and how to configure them. It provides no embedded broker simulator or course-controlled sandbox on this screen. This is an instruction for a real external environment, so I did not connect to or modify a broker. The screen is recorded as reviewed with the environment exercise intentionally not performed. The SCORM had already marked the full Hands-on Activity complete before either step was reviewed.
 
 ## Hands-on Activity: final screen
-
-The activity's final step contains only **START AGAIN** and the step-progress controls; it presents no additional lesson text. The player shows the walkthrough at 100% loaded, and the lesson outline marks all three sections Completed with **100% COMPLETE**. The SCORM review is finished.
-
-## Resume checkpoint
-
-Lesson 04 has been reviewed through the final screen of the Hands-on Activity. Its SCORM shows 100% COMPLETE and all three sections are marked Completed. Next, close the SCORM and refresh the Academy course page to verify the lesson completion status before opening Lesson 05, Client Authorization.

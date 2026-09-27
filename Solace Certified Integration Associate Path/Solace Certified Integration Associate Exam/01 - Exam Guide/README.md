@@ -11,12 +11,10 @@ source: Solace Academy
 
 - **Syllabus order:** 01
 - **Type:** File.
-- **Academy status:** The lesson changed from Not started to Completed after the Academy download action.
 - **Original course file:** [Solace Certified Integration Associate Exam Guide.pdf](<Solace Certified Integration Associate Exam Guide.pdf>) (3 pages; 378.94 KB per Academy).
 
 ## Lesson launch screen
 
-The Academy player showed the Exam Guide selected in a two-lesson syllabus. Its launch card said “Start learning from Exam Guide” and offered “Start learning now.” After starting, the lesson displayed the official PDF tile with a “Download file” control. The page reported 0 of 2 course lessons complete at launch and learning-plan progress of 1 of 2 courses complete. The player lists tags for event driven architecture, certification exam, event mesh, Micro-Integrations, Event Driven Integration, AI integration, integration patterns, iPaaS, and Unified API Management.
 
 ## Purpose and prerequisite
 
@@ -53,7 +51,6 @@ The Academy course overview separately lists the standalone exam at $100 USD, th
 3. Event-Driven Integration with Solace Platform.
 4. Solace Certified Integration Associate Exam (SCIA).
 
-The guide says SCEDAP is a prerequisite and that SCIA remains locked until prerequisites are complete, unless the learner completed the prerequisite exam separately and Academy unlocks SCIA automatically.
 
 ## Topic blueprint
 
@@ -78,7 +75,3 @@ The guide introduces these as the major exam sections and prints each percentage
 ## Visuals
 
 Each of the three pages repeats the same small Solace wordmark in the header. The guide contains no instructional diagrams or charts, so no course visual asset was needed in `img/`.
-
-## Completion checkpoint
-
-After the PDF download, the live Academy player showed Exam Guide as Completed and course progress as 1 of 2 lessons completed. The next syllabus item is the SCIA Exam test; it remains unopened and unattempted. The guide warns that the test cannot be paused and that leaving before submission may reset responses and count as an attempt. The course overview and PDF also disagree on question count (37 versus 35); verify the active exam instructions before beginning.

@@ -11,8 +11,6 @@ source: Solace Academy
 
 - **Syllabus order:** 04
 - **Course section:** The Concepts
-- **Academy status at lesson entry:** In progress
-- **Embedded module at lesson exit:** 100% complete; all three internal sections Completed.
 - **Knowledge checks:** Both multiple-choice checks answered correctly.
 
 ## Notes
@@ -148,7 +146,6 @@ Topics are addresses or channels for messages. Smart Topics construct addresses 
 
 The lesson links to [Mapping Headers and Payloads (Beta)](https://docs.solace.com/Micro-Integrations/Managed/create-message-headers.htm) and the [Transformation Function Reference](https://docs.solace.com/Micro-Integrations/Managed/mi-ref/transformation-function-ref.htm).
 
-The final knowledge check asks what happens to unmapped payload fields when at least one field is mapped. **They are dropped and not included in the target payload** was selected; the module confirmed the answer as Correct and marked all three internal sections Completed at 100%.
 
 ## Visuals
 
@@ -181,7 +178,3 @@ The final knowledge check asks what happens to unmapped payload fields when at l
 - [Smart Topic concatenation mapping](img/smart-topic-concatenation-mapping.jpg) - a constant and a source value feed the topic destination.
 - [Smart Topic destination in the console](img/smart-topic-destination-console.jpg).
 - [Transformation demo poster](img/transformation-demo-poster.jpg).
-
-## Academy checkpoint
-
-At the lesson completion screen, the syllabus showed The Context 1 of 2 and The Concepts 2 of 5 lessons completed; Micro-Integrations was Completed and the “Next lesson iPaaS Integration” control was available. This puts the outer course at 3 of 9 lessons completed. The embedded module reached 100%, all three internal sections were Completed, and both knowledge checks were confirmed correct.

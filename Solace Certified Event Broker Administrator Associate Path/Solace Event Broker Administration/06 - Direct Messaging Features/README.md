@@ -32,13 +32,11 @@ Haroldo asks: “What type of messaging should I use for our in-store inventory 
 1. “There's no real difference between the message types”
 2. “Let's learn about direct messaging to see if that will work for your situation.”
 
-Response 2 is the suitable choice because the scenario needs current inventory data and explicitly tolerates occasional message loss. The screen is at **20% COMPLETE** before selection. Haroldo's active illustration shows him gesturing; that original course image is also saved locally:
 
 ![Haroldo gesturing while asking about in-store inventory messaging](img/haroldo-speaking.png)
 
 ## Screen 4: Scenario response
 
-I selected response 2, “Let's learn about direct messaging to see if that will work for your situation.” The course retains that response and removes the other choice. What's the scenario? is marked **Completed**. Haroldo appears in a smiling standing pose on this screen; the corresponding original image is saved locally:
 
 ![Haroldo smiling after the selected scenario response](img/haroldo-selected-response.png)
 
@@ -159,9 +157,3 @@ I selected **direct messaging is best suited for scenarios where message loss ca
 I filled in **Message eliding**. The system marked it correct and stated: “Correct. Acceptable responses: eliding, message eliding. Your answer: Message eliding.”
 
 ## Screen 8: Shared Subscription Walkthrough
-
-The final SCORM section is titled **Shared Subscription Walkthrough** (**Lesson 5 of 5**). The screen contains an embedded video player and no additional explanatory text. On entry, the SCORM outline showed **100% COMPLETE** and listed all five sections as completed. I played the approximately 10:41 walkthrough to the end at 2× with audio muted; the player returned to **Play** at the beginning after reaching the end. No captions or transcript control, poster URL, or accessible video-frame description was exposed, so the video's individual UI steps could not be transcribed or saved as images. The separate shared-subscription explanation and three original step diagrams are preserved in Screen 5. No live broker configuration was changed.
-
-## Resume checkpoint
-
-The overview, scenario, direct-messaging characteristics/use cases, POS example, all three interaction steps and final summary, Message Eliding screen text and illustrations, all quiz prompts, choices, and feedback, and completion of the final walkthrough are recorded. Original instructional course images are saved in `img/` with relative references. Both videos were played through at 2× with audio muted; neither player exposed captions or a transcript control. The final walkthrough also exposed no poster URL or accessible frame description, so its individual UI steps and frames are documented as unavailable. The SCORM outline showed **100% COMPLETE** with all five sections completed. After closing and refreshing the Academy lesson page, LMS progress advanced to **6/14** and Direct Messaging Features was marked **Completed**. The next course lesson is Guaranteed Messaging.

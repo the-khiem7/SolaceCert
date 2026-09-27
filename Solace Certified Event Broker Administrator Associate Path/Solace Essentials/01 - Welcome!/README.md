@@ -11,7 +11,6 @@ source: Solace Academy
 
 - **Course:** Solace Essentials
 - **Syllabus order:** 01
-**Academy status:** Completed on 2026-09-24
 ## Introduction section
 
 ## Welcome! - opening
@@ -36,5 +35,3 @@ The lesson closes with “Let’s get started!”
 ## Key visual asset recovery
 
 No discrete key instructional visual is described in the archived notes for this lesson.
-
-No local course image was available to link from this lesson. The course page currently confirms completion, and reopening completed SCORM content exposes a retake action rather than its lesson screens. The lesson image folder is ready for source assets; no substitute images were fabricated.

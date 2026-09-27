@@ -17,19 +17,15 @@ source: Solace Academy
 
 ### Screen 1: Academy lesson page
 
-Dynamic Message Routing is the selected lesson in Section 10 of the course. The course has 14 lessons, with **9 of 14 completed**. The syllabus shows **VPN Bridges - 1 of 1 completed**, **Dynamic Message Routing - 0 of 1**, and **Guaranteed Messaging - 0 of 1, In progress**. The page identifies **VPN Bridges** as the previous lesson and **Operational Maintenance** as the next. The lesson pane offers **Resume where you left off**. No instructional visual is displayed on this Academy screen.
 
-**Next:** Resume the SCORM lesson and record its initial screen before interacting.
 
 ### Screen 2: SCORM course overview
 
 The module is titled **Dynamic Message Routing (DMR)**. Its overview says the course covers DMR basics, key configuration terms, and feature comparisons; explains how DMR enables efficient message distribution across distributed systems; and explores DMR's advantages over traditional messaging models. The table of contents has three sections: **The Context - What's the Scenario?**, **The Concept - Understanding DMR; A Deeper Dive**, and **The Click - Quiz**. All four activities are marked **Unstarted**. The page offers **START COURSE**. The large title-cover artwork is decorative course branding; no instructional diagram is exposed on this screen.
 
-**Next:** Start the course and record its first scenario screen before choosing a response.
 
 ### Screen 3: What's the Scenario? - opening
 
-This is **Lesson 1 of 4**. Haroldo introduces himself: **“Hi! I'm Haroldo, a middleware manager for ACME Retail.”** The screen shows **25% COMPLETE** in the course sidebar, and **What's the Scenario?** is already marked **Completed** there; the other listed activities are Unstarted. A **CONTINUE** button is visible. Chrome's screenshot capture timed out on this screen, so only its accessible text and controls are recorded; no key instructional diagram is exposed in the text.
 
 **Next:** Continue to reveal the scenario and its response choices; record the question before selecting.
 
@@ -39,13 +35,11 @@ Haroldo asks: **“We have multiple message centers globally that process the sa
 
 **Next:** Select response 2 and record the displayed response and section status.
 
-Selecting response 2 displays **“Dynamic Message Routing can help! Let's discuss how.”** beneath Haroldo's question. No separate correct/incorrect label or explanatory feedback appears. The sidebar continues to show **What's the Scenario? Completed** and the SCORM remains at **25% COMPLETE**.
 
 **Next:** Open **2 of 4 - Understanding DMR** and record the content before interacting.
 
 ### Screen 5: Understanding DMR - lesson content
 
-This is **Lesson 2 of 4**. The SCORM sidebar reports **25% COMPLETE**; **Understanding DMR** advanced from **15% to 23% Completed** as the content and first image were inspected.
 
 #### What is Dynamic Message Routing (DMR)?
 
@@ -55,7 +49,6 @@ The first diagram depicts three Solace brokers interconnected in a multi-site ar
 
 ![Three Solace event brokers connected in a DMR network, with local server endpoints attached to each broker](img/dmr-overview.jpg)
 
-The next section is **Multi-Site Connectivity** and contains an embedded video. Under **Horizontal Scaling: Clustering Use Case**, the course says clusters can form **full mesh** or **tree** topologies, typically for IoT and data distribution. It presents two labeled topology images: **Full mesh topology** and **Tree topology**.
 
 ![Multi-site DMR connecting Solace Message VPNs in Amazon Web Services and Google Cloud Platform to an on-premises Solace broker](img/multi-site-connectivity-video-poster.jpg)
 
@@ -97,17 +90,14 @@ Under the **Multi-Site Connectivity** heading, an embedded video player is visib
 
 Selecting **Play Video** changed the player controls to **Pause**. The duration initially appeared as 0:00 while loading; once loaded, the progress bar advanced and the control later returned to **Play**. The player and accessibility controls expose no captions or transcript. A screenshot during playback timed out, but the course's associated Multi-Site Connectivity diagram is available locally above. No spoken transcript is claimed; audio-only details remain unavailable in this capture.
 
-**Next:** Review and mark the five prerequisites as covered, then inspect the remaining DMR lesson images before advancing to A Deeper Dive.
 
 ### Screen 8: DMR prerequisites - checklist completed
 
-All five prerequisite checklist items are checked. After checking the first item, the SCORM sidebar changed to **50% COMPLETE** and **Understanding DMR Completed**; the other four checks were then completed as well. **A Deeper Dive** remains **Unstarted**. The course checklist does not report a scored result or additional feedback.
 
 **Next:** Open **3 of 4 - A Deeper Dive** and record its content before interacting.
 
 ### Screen 9: A Deeper Dive - configuration, flexibility, and delivery modes
 
-This is **Lesson 3 of 4**. The sidebar remains **50% COMPLETE**; **Understanding DMR** is Completed, and **A Deeper Dive** now shows **38% Completed** as it is reviewed.
 
 #### Configurations
 
@@ -159,13 +149,10 @@ The **Guaranteed Messages** tab says: **“The consumer defines if they would li
 
 ![Guaranteed a/b messages pass through queues over the cluster link and reach a Node B endpoint](img/dmr-guaranteed-message-flow.jpg)
 
-**A Deeper Dive** remains at **88% Completed** in the sidebar; the **4 of 4 - Quiz** link is next.
 
-**Next:** Open the quiz and record the complete question, choices, submission result, and feedback before retrying or advancing.
 
 ### Screen 12: DMR quiz - questions and choices before submission
 
-This is **Lesson 4 of 4**. The SCORM sidebar reports **75% COMPLETE**. **What's the Scenario?**, **Understanding DMR**, and **A Deeper Dive** are Completed; **Quiz** is Unstarted. The page says: **“Let's see if we've learned enough to help out Haroldo!”** It contains three separate knowledge checks with separate **SUBMIT** buttons.
 
 #### Question 1 - Multiple choice
 
@@ -192,9 +179,7 @@ The last choice conflicts with the earlier checklist, which stated **at least 1,
 
 **Next:** Answer Question 1 using the scenario and clustering content, submit it, and record the exact result before proceeding to Question 2.
 
-For Question 1, **“intelligently interconnecting event brokers in a mesh”** is selected. The radio button shows selected; the quiz item now reports **50% Completed** before submission. No result or correctness feedback has been submitted yet.
 
-Submitting Question 1 displays **“Correct. Correct answer: intelligently interconnecting event brokers in a mesh. Your answer: intelligently interconnecting event brokers in a mesh.”** The feedback reads **Correct**; all three radio choices are disabled and labeled correctly selected/unselected. The quiz item remains **50% Completed**.
 
 Question 2's fill-in field is now populated with **link** and is still awaiting submission. The exact prompt is “To enable DMR, administrators must configure the _______ to establish communication connections between Solace PubSub+ event brokers.” No correctness result has been submitted yet.
 
@@ -202,7 +187,6 @@ Submitting **link** displays **“Correct. Acceptable responses: link, links. Yo
 
 **Next:** Answer Question 3, submit, and record the exact feedback before advancing.
 
-For Question 3, the first submitted selection included **DMR mode must be configured**, **SMF (Solace Message Format) service must be enabled**, and **the connection tier must be at least 100 connections**. **Message backbone service must be disabled** was left unselected because the lesson prerequisite says the service must be enabled. The feedback was **“Incorrect. Correct answer: DMR mode must be configured., SMF (Solace Message Format) service must be enabled.. Your answer: DMR mode must be configured., SMF (Solace Message Format) service must be enabled., When using PubSub+ Software the connection tier must be at least 100 connections..”** The quiz therefore confirms only the first and third listed choices in the question (DMR mode and SMF enabled) and rejects the 100-connection option, despite the earlier screen's 1,000-connection prerequisite. The quiz sidebar reports **100% COMPLETE** and **Quiz Completed**, while this knowledge check is **Incorrect** and offers **TAKE AGAIN**.
 
 **Next:** Retry Question 3 with only DMR mode configured and SMF enabled, then record the result.
 
@@ -210,11 +194,9 @@ On the retry, **DMR mode must be configured** and **SMF (Solace Message Format) 
 
 Submitting the retry displays **“Correct. Correct answer: DMR mode must be configured., SMF (Solace Message Format) service must be enabled.. Your answer: DMR mode must be configured., SMF (Solace Message Format) service must be enabled..”** The feedback reads **Correct**; DMR mode and SMF are marked **Correctly checked**, while the disabled-backbone and 100-connection options are **Correctly unchecked**. This confirms the earlier 100-connection choice is not a DMR bridge prerequisite according to this quiz.
 
-**Next:** Verify the SCORM's final state, then close it and check whether Academy updates the lesson completion status.
 
 ### Screen 13: Academy page after closing DMR SCORM
 
-The SCORM has closed and the Academy lesson page is visible again. The course still reports **9 of 14 lessons completed**. Section 10, **Dynamic Message Routing (DMR)**, remains **0 of 1 completed**; no content-status label is displayed for the lesson. **Guaranteed Messaging** is still **0 of 1 completed** and **In progress**. The other visible completed sections remain Welcome (2/2), Solace Multi-Tenancy (1/1), Client Authentication (1/1), Client Authorization (1/1), Direct Messaging (1/1), High Availability (1/1), Data Replication (1/1), and VPN Bridges (1/1). The next Academy lesson is **Operational Maintenance**.
 
 **Next:** Open Operational Maintenance and capture its first screen before interacting.
 

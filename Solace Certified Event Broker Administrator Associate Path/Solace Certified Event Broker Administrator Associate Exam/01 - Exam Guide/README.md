@@ -16,9 +16,7 @@ The Academy course page describes the certification exam as validating the knowl
 - Course ID: `E-Q077L0`.
 - Instructor: Dishant Langayan.
 - Target audience: Engineers, administrators, and operational staff.
-- Course duration shown: 1 hour 30 minutes; time to complete: unlimited access.
 - Syllabus item type: File.
-- Initial lesson status: Not started.
 
 This was a text-only course overview; no instructional visual appeared on this screen.
 
@@ -26,31 +24,17 @@ This was a text-only course overview; no instructional visual appeared on this s
 
 Not yet opened. Record the guide's exact exam format, allowed time, passing score, attempt policy, and other rules here before starting the test.
 
-## Checkpoint
-
-The overview screen is recorded. Next, open this file lesson and capture its contents before navigating to the test.
-
 ## Screen 2 - Exam Guide lesson idle state
 
-The lesson page is open at the Academy route for `Exam Guide`. The course shell reports 0 of 2 lessons completed and the learning plan progress indicator reports 3 of 4 courses completed. The lesson player is idle and offers **Start learning now**; no guide file content has been opened or displayed yet. The lesson details area currently shows tags including management, authentication, Solace, messaging, exam preparation, certification exams, queue provisioning, and Message Routing overview. No instructional visual is displayed in this idle state.
 
 A navigation welcome overlay was present in the page's rendered structure, offering **Explore on my own** and **Start tour**. It did not contain exam rules or lesson content.
-
-## Checkpoint
-
-This idle screen is recorded. Next, activate **Start learning now** and capture the guide content before using lesson navigation.
 
 ## Screen 3 - Guide file attachment
 
 Starting the lesson reveals a file attachment named **Event Broker Administrator Associate Exam Guide.pdf**, listed at **267.55 KB**, with a **Download file** control. The file itself is not rendered in the player. No additional lesson text or instructional visual appears here.
 
-## Checkpoint
-
-The attachment screen and its filename and size are recorded. Next, download and read the original PDF, then record its exam rules before opening the test.
-
 ## Screen 4 - Guide download acknowledged
 
-After using the download control, Academy changed the attachment label to **Event Broker Administrator Associate Exam Guide.pdf Downloaded!** and displayed **Download again**. Academy now reports **1 of 2 lessons completed** and marks Exam Guide Completed; the SCEBAA-v1.1-Sept2021 Exam test remains not started. The PDF was not found in the expected Chrome Downloads folder or this course folder, so its local copy and exact 2021 guide contents remain unavailable. The Academy player showed no rendered PDF pages or instructional visuals.
 
 ## Current exam rules and blueprint from Solace
 
@@ -68,7 +52,3 @@ The page warns that the exam cannot be saved and resumed. Navigating away or exi
 | Event Mesh | 5% |
 
 The live Academy test is named `SCEBAA-v1.1-Sept2021 Exam`, while Solace's current public page gives the current rules and blueprint above. Treat any older PDF details as version-specific if the guide becomes available locally.
-
-## Checkpoint
-
-Academy marks the Exam Guide complete and the course at 1 of 2 lessons. The test has not been opened. Solace says certification exams should not be collaborative; the learner must take and answer the live test independently. Because the test cannot be resumed and leaving can consume an attempt, stop here before entering it. Resume after the learner completes the test themselves, then verify the Academy's final course and learning-plan state.

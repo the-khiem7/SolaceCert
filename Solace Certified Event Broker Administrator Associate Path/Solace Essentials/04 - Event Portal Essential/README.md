@@ -11,7 +11,6 @@ source: Solace Academy
 
 - **Course:** Solace Essentials
 - **Syllabus order:** 04
-**Academy status:** Completed on 2026-09-24
 ## Event Portal Essential workshop
 
 ## Welcome screen
@@ -54,11 +53,9 @@ A six-image carousel illustrates Event Portal sample materials.
 
 **Carousel slide 6 of 6 - Acme Retail applications.** The screenshot shows the Applications tab for the Acme Retail domain. It lists Inventory and FraudCheck Service, Orders Service, Payment service, and Shipping Service. Each row has Broker Type Solace, Application Type Standard, and one version. The adjacent tabs are Components, Events, Schemas, Enumerations, Event APIs, and Event API Products; the page also shows a name filter and Create Application control.
 
-The page asks “What did you find...?” and provides a “TAKEN A LOOK? THEN CONTINUE” control. After recording all six carousel screens, the control was activated and the lesson was marked Completed. The GitHub sample and zip were not opened or downloaded.
 
 ## Lesson 3 of 7 - Level up on your definitions
 
-The opening screen is by Phil FitzGerald. It says learners may know EDA and Event Portal terms and have seen ACME screens, and now should understand what those terms mean as concepts and as GUI elements. Instructions: download the worksheet, play the audio chat (under 8 minutes), click the icons for more content, then explore the ACME environment; Ask Solly is available for questions. The page exposes a 1.5 MB image file, `Course_Graphics_Event Portal 1920.png`. The table of contents reports this lesson 25% complete and the course 14% complete; “Gener-AI-ate your EDA design” is marked Completed.
 
 At opening, the labeled graphic had 13 markers, all initially unviewed: Get organised; Making it easier; Meeting reality; Extending API reach; Check in on reality; Applications a la Apps; The fundamental event; Add in segregation; Refine the topics; What can apps expect?; Are we current?; Design to done; and Want to know the flow? The Video Transcript accordion was initially collapsed; its full transcript is recorded below.
 
@@ -140,7 +137,6 @@ The platform provides a timestamped transcript. It contains apparent speech-to-t
 
 ## Lesson 4 of 7 - The Event Portal Flow
 
-The lesson is by Phil FitzGerald. Its opening screen asks, “Event Portal flows how?” The screenshot shows an embedded video area with a central Play control below the prompt. A four-slide image carousel and a collapsed Video Transcript control are available, followed by the instruction “Complete the content above before moving on.” The table of contents now marks “Level up on your definitions” Completed, reports this lesson 40% complete, and shows 29% overall course progress.
 ### Video transcript summary - about 6:29
 
 The transcript describes a typical Event Portal workflow and encourages viewers to reproduce it in their sample environment. The speakers note that developers begin by discovering existing, interconnected objects, then design new objects or update a version. Authorization determines which objects they can change; developers can request access to objects owned by others. Design can be exported through APIs to automation platforms or deployed with config push. Audits compare broker and design state, and KPI tracking measures outcomes as the innovation cycle continues.
@@ -160,7 +156,6 @@ The video opens on an INNOVATE workflow graphic: Discover, Design, Authorize, Pr
 
 ## Lesson 5 of 7 - Explore with the Lab
 
-The opening screen is by Phil FitzGerald. It jokes, “What do Techies and a certain breed of dog owner have in common?” and answers, “Both insist that Labs are the best thing ever.” A 16-second audio player sits below the image, with the visible caption beginning “Work the labs, and when (not if).” The audio was played to completion; the visible caption remained a partial fragment rather than a complete transcript. The screen then introduces “Connect Event Portal to an Event Broker” and has a “GET CONNECTED” link that opens a new tab. On initial entry the lesson showed 43% progress; after viewing the screen, the table of contents showed 57%. Overall Event Portal Essential progress remained 29%.
 
 An embedded Solace documentation card links to “Configuring Event Brokers in Event Portal.” It says client details and queues can be configured in Designer, and that Event Portal configuration can add, update, or delete client credentials and queues on Solace event brokers. It points readers to Cluster Manager documentation for configuring queues there. The visible diagram maps Designer to a Model Event Broker and then to an Operational Event Broker Service. It shows Application A with a Solace Event Queue, topic subscription, configuration, client profile name, and published event/topic configuration; the model adds client username and credentials; the operational service includes a queue, topic subscription, client profile, ACL profile for publish/subscribe topic exceptions, and client username and credentials. Arrows also connect an AsyncAPI document and the application developer to the application flow. A help section titled “Did you get stuck? Take a look at the below.” embeds “How to Connect your Event Brokers to Event Portal,” with a Solace resource link.
 
@@ -172,13 +167,11 @@ At 1:10, the video shows Runtime Event Manager > us-west-solace-staging > Event 
 
 At about 1:30, the demo shows Staging-Europe as Connected. The broker type is Solace, and Connection Details says “Automatically managed by Event Portal - Connected.” The Discovery Scans table reports “No runtime data has been collected”; Associated Objects shows Applications (0) and Event API Products (0).
 
-The lower portion of the lesson displays an office and event-network illustration above the heading “Did you get stuck? Take a look at the below.” Under it is the poster for “Solace Event Portal - Connecting Your Solace Event Brokers to Solace Event Portal,” linked as “How to Connect your Event Brokers to Event Portal.” At this screen the lesson is marked Completed and the internal workshop progress reads 43% overall.
 
 The Solace resource page is labeled DEMO and titled “How to Connect your Event Brokers to Event Portal.” It embeds the same 1:34 Vidyard video and adds the description: connect event brokers to Event Portal to manage, monitor, and organize an event-driven architecture. No additional transcript is provided, and no broker action was requested on that page.
 
 ## Lesson 6 of 7 - Sure you got all that?
 
-By Phil FitzGerald. On entry, the workshop is 43% complete and this lesson is 17% complete. An interactive scenario overlays a female guide on an Event Portal environment-configuration screen. The guide says, “I've heard you know a fair bit about Event Portal.” A CONTINUE button advances the scenario. The page also says “You've seen it. But can you share it?”
 
 The page provides these reflection questions:
 
@@ -206,7 +199,6 @@ The second choice matches the lesson's approval workflow: an app cannot consume 
 
 ### Scenario response 1 - approval request
 
-Option 2 was selected. The guide repeats the correct response: request approval through Event Portal, wait for the reply, then continue configuring or narrow the topic selection. The guide responds, “Great, and it has me thinking where the 'request approval' setting is. But I'll ask that another time.” A CONTINUE button appears. The scenario now shows 50% lesson completion.
 
 ### Scenario screen 2 - promote an application
 
@@ -250,50 +242,37 @@ The second option matches the course's audit workflow for comparing runtime stat
 
 Option 2 was selected: run a discovery scan in the runtime environment and compare it with the Event Portal design. The guide responds, “Reminds me, I need to ensure my EMA is running.” A CONTINUE button appears.
 
-### Scenario completion screen
 
-The guide displays “Scenario Complete!” with a START OVER control. The background is an Event Portal audit view with an audit-results table and a Selected Topics (0) side panel, visually matching the runtime/design audit scenario. The control was not used. The workshop progress remains 43% overall, while the lesson navigation reports 50% complete.
 
-### Lesson 6 completion screen
 
 The reflection-question section is displayed over the Event Portal workflow infographic, including Authorize, Promote, Audit, Measure, Codegen & Implement, and Run labels. The first group has five questions and a “Wondering about something? ASK SOLLY” button; the next group continues below. After the scenario is completed and the page is scrolled, the table of contents marks “Sure you got all that?” Completed and the workshop progress is 57% overall.
 
 ## Lesson 7 of 7 - Advanced & Onwards
 
-By Phil FitzGerald. On entry, the workshop is 57% complete and this final lesson is 43% complete. A 40-second audio player displays the caption: “Well done. You're learning has just begun, here are the next-level links for you to enjoy. Congratulations.”
 
 The lesson offers three resource links: Solace Community for questions or suggestions; feeds.solace.dev to generate custom feeds for testing Event Portal live; and Solace's Event Portal how-to videos (“Go on, keep watching”). Two embedded resource cards are also listed: “How to Use Configuration Templates for Self-Service Access to Events” and “How to Have Self-Service Access to Events in the Runtime.” The page ends with “Congratulations. You've earned it.”
 
-The 40-second audio was played to completion; the player returned to 0:00. Its visible caption is the only transcript available in the lesson.
 
 ### Lower lesson screen - first advanced video card
 
 The scroll view shows a poster titled “Solace Event Portal - Using Configuration Templates for Self-Service Access to Events,” with the resource heading “How to Use Configuration Templates for Self-Service Access to Events” and a READ MORE SOLACE link. The next video card begins below it.
 
-### Lesson 7 completion screen
 
 The second resource poster is titled “How to Have Self-Service Access to Events in the Runtime” and has a READ MORE SOLACE link. Below it, a stylized Solace office/mascot image displays “Congratulations. You've earned it.” The table of contents marks “Advanced & Onwards” Completed and the Event Portal Essential progress is 71% overall.
 
-### Follow-up - Lesson 1 completion refreshed
 
-Reopening “What is Event Portal for?” changed its navigation state from 83% to Completed and raised overall Event Portal Essential progress from 71% to 86%. The lesson has a 24-second audio clip whose caption says, “Welcome to the Class. We are here to guide you, do use the downloads and do the hands-on.” The audio was played to completion. Its expanded, timestamped transcript was reviewed; the previously recorded summary covers it.
 
 ### Event Portal status after reopening - self-attestation gate
 
-Reopening Event Portal Essential confirms the internal workshop is 86% complete. The table of contents shows six of seven lessons completed; “The Event Portal Flow” is 80% complete. Its visible prompt is “Event Portal flows how?” with an embedded video, four-slide image carousel, and the button “TRIED IT IN YOUR SAMPLE ENVIRONMENT?” The course's completion gate is a claim that the learner tried the sample environment. No sample-environment work was done in this session, so the button has not been selected.
 
 ### Event Portal lab page checked for an in-course practice environment
 
 The completed “Explore with the Lab” screen asks whether the learner wants to connect Event Portal to an event broker and provides a GET CONNECTED link to instructional media, plus a help resource. The screen does not show a built-in broker sandbox or a self-contained lab to run in this SCORM lesson. The Event Portal Flow attestation remains unselected.
-### Event Portal Essential reopened after survey completion - player loading state
 
-The Academy syllabus confirms the course is still In progress at 10/11 and Event Portal Essential is In progress. Reopening it displays a full-screen lesson shell with Previous lesson, Next lesson, and a close control, while the SCORM content area is blank white and exposes no lesson text or interactive items. This loading screen is not treated as lesson completion.
 ### Event Portal Essential - Academy recovery prompt
 
-After closing the blank expanded lesson shell, the Academy page exposes a “Resume where you left off” button for Event Portal Essential. The syllabus still shows the lesson In progress and overall course progress at 10/11. This is the recovery control for returning to the saved SCORM screen.
 ### Event Portal Essential, “The Event Portal Flow” - full video transcript captured
 
-The page is lesson 4 of 7 in the SCORM module, which shows 86% complete. Its heading asks “Event Portal flows how?” The expanded transcript for Phil FitzGerald’s video runs from 00:00 to 06:29. The proposed developer workflow starts by discovering existing event objects and permissions, then designing new objects or updating versions. Developers can export designs through APIs to automation platforms or use Event Portal Config Push to update brokers. They compare design with broker state, track KPIs, and repeat the lifecycle of introducing, improving, or retiring assets (00:00–01:16).
 
 The walkthrough then explores what is already available: some application domains are browsable but not editable; applications can be published, in edit mode, or retired; events may be local to a domain or shared from another domain. Runtime Event Manager shows event meshes, environments, applications deployed to runtime, and broker connections. Message-flow arrows show direction. The designer's component view can simplify a busy graph and expose component details (01:16–02:31).
 
@@ -321,31 +300,16 @@ The final image frames a construction scenario. Its visible prompt reads, “You
 This is lesson 5 of 7, “Explore with the Lab.” The page's heading asks what techies and a certain breed of dog owner have in common and answers that both insist Labs are the best thing ever. Under “Work the labs, and when (not if),” it offers “Connect Event Portal to an Event Broker” with a GET CONNECTED link that opens a video in a new tab. The help section links “How to Connect your Event Brokers to Event Portal.” The embedded Solace documentation says Designer configuration can add, update, and delete client credentials and queues on Solace event brokers. These are instructions and documentation links; the page does not expose an in-course sandbox or provisioned broker to practice on.
 ### GET CONNECTED resource - instructional video landing screen
 
-The GET CONNECTED link opens a Solace video page titled “Event Portal | Connecting Your Solace Event Brokers to Solace Event Portal.” The page shows a video cover and Play Video control. It is instructional media, not a provisioned practice environment or broker console. Next action: inspect the guide to learn how a broker is connected, then return to the course.
 ### GET CONNECTED guide - key points from 1:34 video
 
 The video “Connecting Your Solace Event Brokers to Solace Event Portal” explains that Runtime Discovery & Audit and self-service access to events require an event broker connected to Event Portal. It contrasts earlier manual installation of the Event Management Agent with Solace-managed connection for cloud-managed event brokers in private and dedicated regions. A demonstration screen shows Runtime Event Manager's modelled event-mesh list with example development, production, staging, Solace, and Kafka entries. The media ends at 1:34 on its replay screen. The video is instructional and demonstrates populated sample data; it does not expose or provision a learner-specific sandbox.
 ### Event Portal Flow revisited after inspecting the lab resources
 
-Returning from the external connection guide to the SCORM table of contents restored “The Event Portal Flow” to carousel slide 1 of 4. The module still reports 86% complete, and the sample-environment attestation remains visible on the flow lesson. The recorded video transcript and four slide prompts remain in this file.
 ### Event Portal Flow restored after Activity Guide check
 
-After returning from the Activity Guide screen, the saved SCORM module resumes at “The Event Portal Flow,” lesson 4 of 7. The module reports 86% completion; the side navigation marks this lesson in progress while the other six lesson entries are complete. The course remains at 10/11 LMS lessons completed.
 
 ### Official lab provisioning requirements checked
 
 Official Solace guidance confirms that the Event Portal lab flow uses a learner-provisioned environment. The [Design, Code, Deploy with Solace Event Portal codelab](https://codelabs.solace.dev/codelabs/design-code-deploy-with-event-portal/?index=..%2F..index) instructs learners to register for a Solace Cloud trial, provision a PubSub+ Cloud broker, configure the modeled environment, and later push configuration to that broker. Its trial signup requires accepting Solace terms. The [Event Portal overview](https://docs.solace.com/Cloud/Event-Portal/event-portal-overview.htm) describes deploying runtime configuration to brokers and notes that the target environment must be enabled for runtime configuration. The [Event Portal Getting Started guide](https://solace.com/products/event-portal/event-portal-getting-started/) likewise describes setting up application domains, environments, modeled brokers, and operational broker connections.
 
-The Academy's “Explore with the Lab” materials provide connection instructions and a demonstration, but this course session does not expose a learner-specific sandbox, broker, or account. The remaining “TRIED IT IN YOUR SAMPLE ENVIRONMENT?” button is a self-attestation, so it is not selected without an actual sample-environment exercise. No Config Push or broker change was performed.
-## Resume checkpoint (historical; superseded by course completion)
-This checkpoint records the course state before completion was later confirmed by the Academy on 2026-09-24. It is retained as historical context, not as the current resume point.
-## Resume checkpoint
-
-Last verified course position: Solace Essentials is 10/11 lessons complete. Event Portal Essential is 86% complete; “The Event Portal Flow” is lesson 4 of 7 and remains the only incomplete course lesson. The survey and all other lessons are complete.
-
-Current blocker: the final flow lesson asks the learner to attest that they tried the workflow in a sample environment. The course provides instructions but no learner-specific sandbox. Official Solace guidance describes creating a trial account and provisioning a broker, followed by runtime configuration deployment. The user has asked to continue autonomously but has not identified an existing Event Portal tenant, broker, or environment or specified the changes allowed there. Do not select the attestation until the exercise has actually been performed. To resume, use a user-designated sample environment and its permitted scope; if a new Solace trial is required, the learner must accept the signup terms and establish the account and broker. The course is not yet complete.
 ## Key visual asset recovery
-
-The archived notes describe the six-image sample carousel, a 13-marker course infographic named Course_Graphics_Event Portal 1920.png, the Event Portal workflow graphic, the four-slide Event Portal Flow carousel, and resource posters. These original visuals are no longer exposed by the completed course page; its lesson player offers a retake action. No substitutes were created.
-
-No local course image was available to link from this lesson. The course page currently confirms completion, and reopening completed SCORM content exposes a retake action rather than its lesson screens. The lesson image folder is ready for source assets; no substitute images were fabricated.

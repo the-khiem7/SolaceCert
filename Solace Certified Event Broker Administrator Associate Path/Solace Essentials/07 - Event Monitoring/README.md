@@ -11,10 +11,8 @@ source: Solace Academy
 
 - **Course:** Solace Essentials
 - **Syllabus order:** 07
-**Academy status:** Completed on 2026-09-24
 ## LMS update on opening Event Monitoring
 
-Advancing to Event Monitoring changed the course progress to 6 of 11 lessons completed and marked Event Management as 1/1 Completed. Event Monitoring is open; its SCORM content is loading.
 
 ### Event Monitoring SCORM launch screen
 
@@ -38,7 +36,6 @@ Option 2 was selected, affirming that PubSub+ has methods to monitor and view da
 
 ### Event Monitoring screen 2 of 10 - Scenario Complete
 
-The in-course monitoring scenario shows “Scenario Complete!” over an office illustration. START OVER is available but was not used.
 
 ### Event Monitoring screen 3 of 10 - monitoring requirements and Visualization graphic
 
@@ -126,9 +123,4 @@ The final screen says to try Exercise 7, “Viewing Syslog Logs Files,” and Ex
 
 ### Event Monitoring LMS status after leaving the lesson
 
-After opening the next lesson, the Event Monitoring SCORM closed at step 10 of 10. This matches the course's observed behavior of updating lesson progress when advancing to the next lesson.
 ## Key visual asset recovery
-
-The archived notes describe monitoring-function graphics, collection and dashboard illustrations, a SEMP reference image, Syslog symbol, PubSub+ Monitor architecture diagram, and Insights dashboard. Those lesson visuals could not be recovered from the completed Academy page.
-
-No local course image was available to link from this lesson. The course page currently confirms completion, and reopening completed SCORM content exposes a retake action rather than its lesson screens. The lesson image folder is ready for source assets; no substitute images were fabricated.

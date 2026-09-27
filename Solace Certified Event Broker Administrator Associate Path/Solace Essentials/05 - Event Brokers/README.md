@@ -11,10 +11,8 @@ source: Solace Academy
 
 - **Course:** Solace Essentials
 - **Syllabus order:** 05
-**Academy status:** Completed on 2026-09-24
 ## Outer lesson - Event Brokers
 
-The Event Brokers SCORM opens with its title, a “Start” link, and the instruction: “To quickly navigate between steps, use the up and down arrow keys or the step controls region found on subsequent steps.” The outer course still shows 4 of 11 lessons completed; Event Brokers is now open.
 
 ### Event Brokers screen 1 of 6 - Lesson Objectives
 
@@ -82,9 +80,4 @@ The final screen says the learner is ready to try “Exercise 1 - Deploying your
 
 ## LMS check after visiting Event Brokers
 
-After closing the Event Brokers SCORM on its final step, the LMS still shows Solace Essentials “Course in progress, 4 of 11 lessons completed.” Activity Guide remains Completed and Introduction remains 3/3. Event Portal is 0/1 with Event Portal Essential marked In progress. Event Brokers is also 0/1; its syllabus row has no completed or in-progress status label. Event Management, Event Monitoring, and Event Mesh each remain 0/1. Summary and Feedback Survey - 2025 are still listed.
 ## Key visual asset recovery
-
-The archived notes describe Cloud, Software, and Appliance deployment material, including comparison content and a Cloud platform illustration. Those lesson visuals could not be recovered from the completed Academy page.
-
-No local course image was available to link from this lesson. The course page currently confirms completion, and reopening completed SCORM content exposes a retake action rather than its lesson screens. The lesson image folder is ready for source assets; no substitute images were fabricated.

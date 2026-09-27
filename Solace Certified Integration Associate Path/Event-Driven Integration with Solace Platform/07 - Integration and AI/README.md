@@ -11,8 +11,6 @@ source: Solace Academy
 
 - **Syllabus order:** 07
 - **Course section:** The Concepts
-- **Academy status:** Completed; the LMS displayed “Lesson completed” when Try it Yourself opened.
-- **Embedded module checkpoint:** The Rise of Intelligent Systems reached 100% Complete; its lesson outline now reads Completed.
 
 ## Notes
 
@@ -37,7 +35,6 @@ The next screen says an event mesh can help organizations advance in the AI era 
 
 The pop quiz asks: “What is the overarching strategic benefit of adopting an event mesh for organizations in the AI era?” The options are “It primarily helps in managing legacy systems,” “It offers a strategic approach to harness the full potential of enterprise context, AI, and real-time data,” “It mainly focuses on improving the user interface of AI applications,” and “It reduces the need for skilled AI developers.” The second option was selected and the module confirmed **Correct**.
 
-After watching the video through, the internal section still showed 95% until the final lesson/footer region was brought into view. The SCORM outline then changed to 100% Complete and the section displayed Completed. The LMS displayed “Lesson completed” when navigation advanced to Try it Yourself.
 
 ## Visuals
 

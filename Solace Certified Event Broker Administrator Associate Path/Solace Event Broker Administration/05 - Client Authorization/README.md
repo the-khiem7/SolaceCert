@@ -34,7 +34,6 @@ Jana says a consumer can read from an order-management topic they should not acc
 1. “Let's learn about how client authorization works to see if we can fix this issue!”
 2. “It's not that big a deal.”
 
-The first response is the constructive choice because it addresses the unauthorized topic access. The scenario continues to use the office-background asset saved above. Before selecting a response, the SCORM showed **17% COMPLETE** and What's the Scenario? was still active.
 
 ## Screen 4: Scenario response
 
@@ -177,16 +176,9 @@ The original poster shows a PubSub+ Manager dashboard and the caption “So we n
 
 ![Walkthrough poster showing PubSub+ Manager and the lesson's ACL-profile caption](img/acl-profile-walkthrough-poster.jpg)
 
-I reviewed the complete original course video through its rendered course asset. Its duration is **1:30.9**. It has no text tracks or separate transcript; English subtitles are burned into the video frames. Selected visible steps:
 
 - The opening subtitle says the goal is to create an ACL profile to manage access.
 - In PubSub+ Manager, navigate to **Access Control → ACL Profiles** and create an ACL profile.
 - The `ACL-1` example displays `Disallow` as the client-connect, publish-topic, and subscribe-topic default action. The list also shows subscribe-share-name default action `Allow`.
 - In **Edit Client Username Settings** for `cu-1`, the displayed Client Profile is `default` and ACL Profile is `ACL-1`; the username is enabled. Guaranteed Endpoint Permission Override and Subscription Manager are off.
 - The ending profile list shows `#acl-profile` and `default` with `Allow` for connect, publish, subscribe, and subscribe-share-name, while `ACL-1` uses the restrictions above.
-
-This is a course walkthrough. I did not make or save changes to a real broker. The standalone and embedded players reached their ends; the embedded player showed **Loaded: 100.00%** and returned to its beginning after completion. The quiz's system result says: “Correct. Correct answer: Use an ACL profile to restrict access for this consumer. Your answer: Use an ACL profile to restrict access for this consumer. Great! Let's learn how to set that up for Jana.” All six lesson sections are marked **Completed**, and the SCORM displays **100% COMPLETE**.
-
-## Resume checkpoint
-
-The overview, scenario, client authorization and profile behavior, all three ACL examples, OBO workflows, APIs, quiz feedback, and walkthrough are recorded. Ten original course visuals are saved in this lesson's `img/`. The SCORM shows all six sections Completed and 100% COMPLETE. Next, close the lesson player and reload the Academy course page to verify course-level completion.

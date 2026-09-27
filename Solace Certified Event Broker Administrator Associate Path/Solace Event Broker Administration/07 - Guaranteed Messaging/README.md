@@ -17,7 +17,6 @@ source: Solace Academy
 
 The active scenario introduces Haroldo as a middleware manager for ACME Retail. He says: “Hi! I'm Haroldo, a middleware manager for ACME Retail. It's really important that we don't lose customer data or have a disruption to order processing. How can we ensure we don't lose our data?” The screen provides a **CONTINUE** control to reveal the scenario response.
 
-The SCORM outline contains five sections: **What's the Scenario?**, **Introduction to Guaranteed Messaging**, **Understanding Guaranteed Messaging Patterns**, **Managing Guaranteed Messaging**, and **Quiz**. On entry, the outline showed **20% COMPLETE**, marked What's the Scenario? **Completed**, and listed the remaining sections as **Unstarted**. The scenario illustration has no accessible image description in this view; preserve an original course image or a faithful screenshot if it becomes available.
 
 ## Screen 2: Haroldo's order-retention question
 
@@ -34,7 +33,6 @@ I selected response 2, **“Let's learn how guaranteed messaging could help prot
 
 ## Screen 4: Scenario conclusion
 
-The closing scenario card says: **“It looks like you've won over Haroldo! Now let's learn more about high availability and data replication.”** It offers **START OVER**. This closes the scenario and points forward to the next concept lesson.
 
 ## Screen 5: Introduction to Guaranteed Messaging
 
@@ -162,7 +160,6 @@ The queue-flow and LVQ images expose useful alt descriptions above but no downlo
 
 ## Screen 7: Managing Guaranteed Messaging - Guaranteed Messaging Environments
 
-The SCORM outline now marks **Managing Guaranteed Messaging** as **9% Completed** and shows the course at **20% COMPLETE**. The page is **Lesson 4 of 5**. It introduces management of guaranteed-messaging resources at both the system and Message VPN levels, along with controls for application access and advanced message handling.
 
 ### Managing resources and spool quotas
 
@@ -222,27 +219,14 @@ At the initial quiz inspection, both multiple-choice items showed **Incorrect** 
 
 ### Multiple-choice retry log
 
-The first attempts for both multiple-choice questions were marked **Incorrect**. Their selected choices were not exposed by the page, so the original answers cannot be identified. Retried the persistent-storage question by selecting **persistent storage** and submitting. The course marked it **Correct** and displayed: **“Correct. Correct answer: persistent storage. Your answer: persistent storage.”** Then retried the firmware-notification question by selecting **sending a firmware update notification to IoT devices where it's crucial that every device receives the message**. The course marked it **Correct** and displayed: **“Correct. Correct answer: sending a firmware update notification to IoT devices where it's crucial that every device receives the message. Your answer: sending a firmware update notification to IoT devices where it's crucial that every device receives the message.”** Both selected options are marked **Correctly selected**, and both questions show **Correct** feedback. The quiz outline reports **Quiz Completed**.
 
-## Historical resume checkpoint - 2026-09-24
 
-The six-card sorting activity is complete at **6/6 Cards Correct** with all six assignments recorded above. Both multiple-choice questions have been retried and answered correctly; exact feedback is recorded above. On **2026-09-24**, after submitting the course survey and reopening this lesson, the SCORM resume page returned to **Quiz (Lesson 5 of 5)**. The quiz outline says **Completed**, and the sorting activity still shows **6/6 Cards Correct**, but overall SCORM progress was only **40% COMPLETE**. Its outline showed **What's the Scenario? Completed**, **Introduction to Guaranteed Messaging 88% Completed**, **Understanding Guaranteed Messaging Patterns 40% Completed**, **Managing Guaranteed Messaging 86% Completed**, and **Quiz Completed**. The Academy course page showed **13 of 14 lessons completed** and this lesson **In progress (0/1)**. Since then, Introduction has become Completed after opening its diagrams, and the lesson has advanced to Patterns. The current SCORM progress is **60% COMPLETE**; Patterns is at **70%**, Managing at **86%**, and Quiz is Completed. Continue recording every screen in Patterns and Managing, then verify the SCORM final state and Academy completion before marking the course complete.
 
-## Screen 9: Reopened SCORM resume state
 
-The Academy lesson was reopened from the syllabus because it remained **In progress (0/1)**. The SCORM resumed at **Quiz - Lesson 5 of 5**, with the sorting activity at **6/6 Cards Correct** and the outline marking Quiz **Completed**. The left outline shows five sections and an overall progress indicator of **40% COMPLETE**: What's the Scenario? **Completed**; Introduction to Guaranteed Messaging **88% Completed**; Understanding Guaranteed Messaging Patterns **40% Completed**; Managing Guaranteed Messaging **86% Completed**; Quiz **Completed**. In this resumed view, neither multiple-choice question currently has a selected answer, consistent with completed-result feedback having persisted separately from the transient radio selection. The underlying lesson progress-not the quiz's correct answers-is preventing LMS completion.
 
-**Next:** Inspect **Introduction to Guaranteed Messaging (88%)** in the SCORM outline and finish any remaining interactions. Record the newly revealed content and feedback before advancing. The SCORM course illustrations remain unavailable as local files; preserve that visual-retrieval gap rather than creating substitutes.
 
-## Screen 10: Academy resume prompt
 
-The Academy lesson page displays **Guaranteed Messaging - In progress** and offers **Resume training** in the player area. The course header remains **13 of 14 lessons completed**. The syllabus shows this lesson as **0 of 1 completed**; all other lesson groups, including Summary and Feedback Survey - 2025, are complete. The learning-plan panel shows **2 of 4 courses completed** and identifies the mandatory **Solace Certified Event Broker Administrator Associate Exam** as the next course, currently **Not started**. A screenshot of this resume page was inspected; its visible image is interface state rather than instructional course artwork, so no image asset is linked.
 
-**Next:** Resume the SCORM player, return to the incomplete Introduction section, and continue its remaining interaction(s).
-
-## Screen 11: Introduction to Guaranteed Messaging resumed
-
-The SCORM is on **Lesson 2 of 5: Introduction to Guaranteed Messaging** while its outline reports **40% COMPLETE** overall and **88% Completed** for this section. It presents a Direct Messaging versus Guaranteed Messaging comparison: Direct Messaging tolerates loss for regular “update” messages or when the application has a retry mechanism after request timeout; Guaranteed Messaging is for critical data in every message and slow or offline consumers. Under **Slow Subscribers**, the embedded video control currently says **Play Video**; the adjacent text explains that a Persistent Queue provides shock absorption, has much more storage than transport buffers, absorbs large bursts, and lets a consumer drain its backlog for lossless recovery. Under **Offline Subscribers**, the video also says **Play Video**; text says the queue retains undelivered messages during application failure or network outage, then redelivers in-flight messages for backlog recovery when the consumer returns. The page also reiterates at-least-once delivery, per-message producer ACK only after safe storage in the ADB, copying to the mate ADB before ACK for fault-tolerant pairs, NACK on rejection (for example, an ACL Profile denial), consumer ACK retention/removal on both routers, and router-acceptance ordering. Four zoomable diagrams are exposed for producer ACK, message rejection, consumer ACK, and message order. The diagram assets have no direct download or local screenshot file path available through this interface; this is a visual retrieval gap. A browser screenshot was inspected to read the comparison diagram, but no local image could be saved from the screenshot result.
 
 The video controls currently show **Play Video** even though earlier session notes recorded playback to the end; despite that earlier viewing, Introduction remains at 88%. Replaying and letting both videos reach their natural end is the next completion check.
 
@@ -250,13 +234,11 @@ The video controls currently show **Play Video** even though earlier session not
 
 ### Screen 12: Slow Subscribers video reached its end
 
-The **Slow Subscribers** video played to the end (36 seconds; playback set to **2×** and muted). Its player returned to a **Play Video** control, with **0:36** remaining for a replay. The SCORM still shows overall progress at **40% COMPLETE** and Introduction at **88% Completed** after this video alone. No captions, transcript, or completion feedback appeared; the written explanation about Persistent Queue shock absorption and draining the backlog remains the available instructional text.
 
 **Next:** Play the **Offline Subscribers** video through to the end and check whether the Introduction progress changes.
 
 ### Screen 13: Offline Subscribers video reached its end
 
-The **Offline Subscribers** video played through to the end (27 seconds; **2×**, muted). Its controls returned to **Play Video** and showed **0:27** remaining for a replay. The section remains at **88% Completed** and SCORM overall progress remains **40% COMPLETE** after both embedded videos were replayed. No captions, transcript, or completion feedback appeared; the lesson's on-screen explanation about queue retention during outages and redelivery after reconnection is preserved above.
 
 **Next:** Inspect the four zoomable diagrams and any remaining interactive controls in Introduction, then revisit the section outline to identify what is still unmarked before proceeding to Patterns.
 
@@ -274,13 +256,11 @@ The **Message Rejection** zoom view shows a producer sending to **“Q1”** tow
 
 ### Screen 16: Introduction marked complete
 
-After closing the Message Rejection diagram, the SCORM outline changed to **60% COMPLETE** overall and marked **Introduction to Guaranteed Messaging - Completed**. **Understanding Guaranteed Messaging Patterns** remains at **40% Completed** and **Managing Guaranteed Messaging** at **86% Completed**; the Quiz remains Completed. Replaying both videos had left Introduction at 88%, so the section's completion changed after the diagram zoom views were opened. The Academy still needs a later synchronization check because this is only the internal SCORM state.
 
 **Next:** Open the **Consumer Acknowledgements** zoom image, record the flow and labels, then inspect the Message Order diagram.
 
 ### Screen 17: Consumer Acknowledgements diagram
 
-The **Consumer Acknowledgements** zoom view has the caption **“Per-message acknowledgement.”** It shows a **Guaranteed Messaging** router on the left with messages numbered **4, 3, and 2**, an arrow pointing toward a consumer on the right, and a server icon labeled **Consumer**. The diagram illustrates delivery to a consumer and per-message acknowledgement. The zoom modal offers **Unzoom image** but no download control; I recorded the labels and direction because the screenshot interface cannot save this course image locally. After closing it, the section outline still marks Introduction **Completed** and overall SCORM progress remains **60% COMPLETE**.
 
 **Next:** Close the zoom view and inspect the Message Order diagram.
 
@@ -288,11 +268,8 @@ The **Consumer Acknowledgements** zoom view has the caption **“Per-message ack
 
 The **Message Order** zoom view shows producers on the left, a Solace router in the center, and consumers on the right. Two internal streams are each labeled **“A and B”**; the diagram marks messages **A1, A2, B1, and B2** and uses arrows to depict traffic through the router to consumers. It visually accompanies the rule that the router preserves the order in which it accepts messages. The exact mapping of each numbered marker is not text-labeled, so I recorded only the visible labels and roles. The modal exposes **Unzoom image** and no download control; the screenshot interface does not provide a local asset save path.
 
-**Next:** Close the zoom view and verify the SCORM section status before moving to Patterns.
 
-### Screen 19: Understanding Guaranteed Messaging Patterns resumed
 
-The SCORM outline now marks **Introduction to Guaranteed Messaging - Completed** and overall progress at **60% COMPLETE**. The current page is **Lesson 3 of 5: Understanding Guaranteed Messaging Patterns**, initially reported at **40% Completed**. Its opening heading **What is a Solace Queue?** defines a queue as both a destination to which clients publish and an endpoint from which clients bind and consume. Many consumers can bind to one queue, but one spooled message can be consumed by only one consumer. The visible queue illustration shows a producer feeding a queue, which then feeds a consumer. **Message Exchange Patterns** has three tabs: **POINT-TO-POINT** (currently selected), **PUBLISH-SUBSCRIBE**, and **REQUEST-REPLY**. Point-to-Point text says producers and consumers address an agreed queue by name.
 
 **Next:** Open each message-exchange pattern tab, record its text and diagram, and check whether changing the tabs advances the section.
 
@@ -324,7 +301,6 @@ The following **Dynamic Provisioning** section asks how application teams can ma
 
 ### Screen 23: Dynamic Provisioning and Template Queue
 
-The visible application-created-queue sequence shows that a client can create and delete its own queue; deleting an endpoint deletes all messages it contains. These operations do not require an administrator account, but the client application must have permission. **Template Queue** explains that administrators can define client-created queue properties by creating a template queue and referencing it in the client profile. The associated diagram labels a **Create-From Queue**, an **Administrator**, **Create**, and **Mark as Create-From**, with a dotted arrow toward an application queue used by a consumer. The SCORM section progress increased to **57% Completed** while scrolling through this content. No local image file was available for the diagrams.
 
 **Next:** Continue to Last-Value Queue, listen to its audio, and inspect the accompanying diagram.
 
@@ -362,13 +338,11 @@ The 1:47 embedded video played through to its end at 2× speed with audio muted.
 
 ### Screen 29: Handling Features and Dead Message Queue prerequisites
 
-**Handling Features** introduces scenarios where a queued message cannot be delivered to a consuming client. It presents two paths for a discarded message: delete it, or route it to a **Dead Message Queue (DMQ)**. The visible **Dead Message Queue** section says any endpoint, including a queue or DTE, can have an associated DMQ. For an expired endpoint message to go to a DMQ, the publisher must set that message's **Dead Message Queue eligible** flag; it is a per-message flag and defaults to false. The DMQ must also exist and be associated with the endpoint that held the message. The screenshot shows the top edge of a DMQ flow illustration below these requirements; its labels are not yet fully visible. The SCORM outline increased Patterns from 70% to **78% Completed** while continuing through this content; overall SCORM remains **60% COMPLETE**.
 
 **Next:** Scroll to reveal the rest of the DMQ illustration and handling rules, then record them before advancing.
 
 ### Screen 30: Dead Message Queue behavior and Message Rejection Handling
 
-Dead Message Queues do **not** respect Time to Live (TTL) and may have no limit on message delivery attempts. Keep an active consumer draining a DMQ so messages do not build up; the consumer can log diagnostic information because moved messages retain their original headers, including the originally addressed destination. The visible DMQ diagram contrasts the **No** and **Yes** eligibility paths: when eligible, a message is routed from its original queue to a **Dead Message Queue**, then toward a consumer. Below it, **Message Rejection Handling** begins with a slide stating that the default queue behavior is to have **`reject-msg-to-sender` enabled**; its queue-to-consumer illustration is only partly visible in this screen. Patterns progress reached **80% Completed**; overall SCORM remains **60% COMPLETE**. The diagrams are visible in Chrome but no direct course download or local screenshot file path is available through the current interface.
 
 **Next:** Inspect the full DMQ diagram using its zoom control, then capture the Message Rejection Handling and Priority Based Congestion Handling media before scrolling onward.
 
@@ -380,7 +354,6 @@ The zoomed diagram shows a message in a **Queue** going to a **Consumer** during
 
 ### Screen 32: Message Rejection Handling fan-out example
 
-The slide states that queues have **`reject-msg-to-sender` enabled by default**. A producer publishes to `training/topic`, which fans out to **Q1**, **Q2**, and **Q3**, each showing the topic subscription `training/>`. Q1 and Q2 have green acceptance marks; Q3 has a red rejection mark with the label **“Q3 is full.”** Each queue is shown feeding a consumer. The video play control overlays the slide. Patterns remains at **80% Completed** and overall SCORM remains **60% COMPLETE**.
 
 **Next:** Play the Message Rejection Handling video through to the end and capture its captions or key points before continuing.
 
@@ -392,7 +365,6 @@ The embedded Message Rejection Handling video ran to **100%** and reset to its P
 
 ### Screen 34: Priority Based Congestion Handling video completed
 
-The **Priority Based Congestion Handling** video played through to **100%** (duration **1:13**) at **2×** with audio muted. Its visible slide explains a **low-priority message threshold** on a queue: the queue accepts messages below the threshold; if it fills beyond the threshold, low-priority messages are discarded. A diagram shows a producer sending high- and low-priority messages into a queue and a consumer receiving the accepted messages, with a marked **Low Priority Acceptance Threshold**. One subtitle fragment visible during playback was **“based on the message rejection, to set the threshold at which low priority…”**; no separate transcript control appeared, so the fragment and slide summary are not a full transcript. At the end, the player showed a Message Rejection Handling fan-out frame with Q1/Q2 accepted and full Q3 rejected. Patterns remained at **80% Completed** and overall SCORM at **60% COMPLETE**. The course visual is visible in Chrome, but the screenshot output has no local path and the rendered lesson exposed no relevant downloadable image asset.
 
 **Next:** Inspect the Solace Endpoints diagram and the comparison between queues and topic endpoints before continuing.
 
@@ -406,7 +378,6 @@ The screen distinguishes Solace topics from Solace topic endpoints. A Solace end
 | Storage | Stored messages are unaffected by subscription changes. | Stored messages are deleted with subscription changes. |
 | Outbound | One or many consumers; optional outbound message filtering; queue browsing. | One or many non-exclusive consumers; JMS durable subscriber. |
 
-The visible comparison table was captured in Chrome for inspection. The lesson's preceding Solace Endpoints diagram has no accessible description or exposed downloadable source; this screenshot interface does not return a local file path, so no image is linked yet. The SCORM outline shows **60% COMPLETE** overall, and the Understanding Guaranteed Messaging Patterns section has advanced to **88% Completed**.
 
 **Next:** Inspect the Publish-Subscribe with Topic Endpoints diagram, then record its details and finish the remaining Patterns content.
 
@@ -421,11 +392,9 @@ Topic-subscription filtering lets applications select a subset of messages throu
 
 The **Message Rejection Handling with Topic Endpoints** section says Guaranteed Delivery producers are notified when messages have been persisted. In fan-out, the default all-or-nothing behavior rejects the publication if any endpoint rejects it: the message is queued to none of the endpoints and the producer is notified, preserving consistency across consumers. This is the default for queues. Individual endpoints can be configured so inbound discards do not cause rejection; this reduces delivery guarantees and can leave consumers inconsistent. That is the default for Topic Endpoints. The zoomed diagram shows a producer publishing `training/topic` to three topic endpoints (TE1, TE2, and TE3), each subscribed to `training/>`, with a consumer attached to each endpoint. TE1 and TE2 show green acceptance checks; TE3 shows a red rejection mark. This visual represents endpoint-level acceptance and rejection during fan-out. A Chrome screenshot was captured for review, but the screenshot tool did not provide a local file path and no course asset download control was exposed.
 
-**At the section footer:** The SCORM content shows a navigation link, “4 of 5 - Managing Guaranteed Messaging.” Patterns reports 98% at this point; open the next section and verify whether leaving this section completes it.
 
 ### Screen 38: Managing Guaranteed Messaging - environment overview
 
-The fourth SCORM section, **Managing Guaranteed Messaging**, begins by framing three parts of a Guaranteed Messaging environment: system and Message VPN resource limits, application access controls, and advanced message-handling features. Resource limits at system level depend on the platform, SolOS version, and attached SAN capacity. A system administrator configures Message VPN limits; further limits can apply to endpoints and client usernames. The page contains four expandable markers: **System Limits**, **Message VPN Limits**, **Endpoint Limits**, and **Client Username Limits**. A Chrome screenshot was captured; the SCORM player currently remains at **60% COMPLETE** overall, and Academy still shows Guaranteed Messaging **In progress (0/1)**.
 
 The **System Limits** marker opens a callout stating that limits are based on platform and SolOS version. The screenshot shows this callout over the resource-limit illustration; its attached-SAN context is stated in the surrounding text. The image remains unavailable as a local file.
 
@@ -465,11 +434,9 @@ Guaranteed Messaging limits are hard limits: the router prevents actions that wo
 
 Guaranteed Messaging uses more resources than non-persistent messaging, so administrators need controls over application access. The screen introduces **Sending and Receiving Guaranteed Messages** with a flow diagram divided into **Service Access**, **Destination Access**, and **Administrative Status**. Its visible send path starts at a producer using a client profile, is checked against an ACL Profile for the destination, and reaches a queue or topic endpoint with an administrative status. The diagram also depicts an administrator creating, updating, and deleting an endpoint. The zoomed diagram numbers the flow as **1 Sending**, **2 Receiving**, and **3 Administration**. A producer sends to a queue or topic endpoint, which delivers to a consumer. The administrator can create, update, and delete endpoints and add topic subscriptions; the consumer can receive and delete messages. The image distinguishes service access, destination access, and endpoint administrative status. A Chrome screenshot was captured, but no local image file or download control was exposed.
 
-**Next:** Expand Creating Endpoints and Deleting Endpoints, recording each disclosure before moving to the final quiz section.
 
 ### Screen 43: Sending and receiving access controls
 
-The **Sending and Receiving Guaranteed Messages** media presents the access path in three layers: **Service Access** is the Client Profile setting **Allow Guaranteed Message Send**; **Destination Access** is the ACL Profile setting **Allow Sending to Destination**; and **Administrative Status** is the endpoint setting **Ingress Enabled**. The flow runs from a producer through the ACL check to a queue or topic endpoint. The 5:54 tutorial was played muted at 2×. A later frame, **Consumers Receiving Messages**, reverses the path: the endpoint must have **Egress Enabled**, its ACL Profile grants endpoint permissions such as **Read / Consume** (and **Modify Topic** where needed), and the Client Profile allows **Guaranteed Message Receive**. The displayed caption begins “So for example, a consuming application may be upgraded”; no complete transcript was exposed. Chrome screenshots captured the diagram and tutorial frames, but the screenshot control did not provide a local file path and no course-asset download was exposed.
 
 ### Screen 44: Queue topic subscriptions and endpoint permissions
 
@@ -477,21 +444,5 @@ Unlike topic endpoints, queue topic subscriptions may be modified by users other
 
 ### Screen 45: Creating endpoints
 
-Administrators with read-write access can create durable endpoints through the CLI or SolAdmin (SEMP). An administrator-created endpoint has no owner, and non-owners start with **None** permission; the administrator must assign an owner or grant non-owners additional permission before consumers can use it. Applications can create endpoints when their assigned Client Profile grants **Guaranteed Endpoint Create**. The zoomed diagram distinguishes the permitted endpoint types: administrators create durable topic endpoints and durable queues; enabled applications can create durable or non-durable topic endpoints and queues. Chrome captured the creation illustration, but no downloadable course asset or local screenshot path was exposed. **Next:** Expand Deleting Endpoints and record its contents before opening the final Quiz section.
 
 ### Screen 46: Deleting endpoints
-
-Administrators and client applications can delete endpoints, but applications have narrower permissions. Deleting an endpoint also deletes every message it contains. An administrator with read-write access can delete any durable endpoint after first shutting it down. An application can delete only an endpoint that it created itself, and it must have **Delete** permission on that endpoint. The zoomed diagram lists durable topic endpoints and durable queues as the administrator's deletable endpoint types; application deletion is limited to application-created endpoints with the Delete permission. Chrome captured the deletion illustration, but no downloadable course asset or local screenshot path was exposed. **Next:** Open the final Quiz section and verify the completed SCORM state.
-### Screen 47: Final Quiz status review
-
-The final SCORM section is **Lesson 5 of 5**. Its sorting activity reports **6/6 Cards Correct**, and the sidebar marks **Quiz Completed**. The two multiple-choice questions currently show unselected radio buttons after reopening; their earlier successful submissions, exact answers, and **Correct** feedback remain recorded above. At this review, the SCORM showed **80% COMPLETE** overall and **98% Completed** for Understanding Guaranteed Messaging Patterns, while Introduction, Managing, and Quiz showed Completed. No quiz answer needs to be replaced. A Chrome screenshot was captured for inspection, but no local image path was exposed. **Next:** Reopen the 98% Patterns section; it later completed automatically and raised the SCORM to 100%.
-### Screen 48: SCORM completion confirmed
-
-Reopening **Understanding Guaranteed Messaging Patterns**, which had previously displayed **98% Completed**, refreshed the SCORM progress to **100% COMPLETE**. The left navigation now marks **What's the Scenario?**, **Introduction to Guaranteed Messaging**, **Understanding Guaranteed Messaging Patterns**, **Managing Guaranteed Messaging**, and **Quiz** as Completed. This visible state confirms the SCORM lesson is finished. A Chrome screenshot was captured for inspection; no local screenshot path was exposed. **Next:** Close the SCORM and verify that Academy synchronizes Guaranteed Messaging to Completed (1/1) and advances the course total.
-### Screen 49: Academy completion synchronization
-
-After closing the 100% SCORM and refreshing the Academy course page, the page displayed **Course completed**. The Syllabus lists Guaranteed Messaging as **1 of 1 completed**; the learning-plan card shows **3 of 4 courses completed** and the next course, **Solace Certified Event Broker Administrator Associate Exam**, as **Not started**. Academy's completion card is dated **2026-09-25**. This is the final verified course status. A Chrome screenshot was captured for inspection, but no local screenshot path was exposed.
-
-## Completion checkpoint
-
-**Completed 2026-09-25:** Solace Event Broker Administration is complete in Academy. Guaranteed Messaging is **1/1 completed** and its SCORM is **100% COMPLETE** with all five sections completed. The final quiz reports **6/6 Cards Correct** and both knowledge-check answers are confirmed correct in the retry log. The next learning-plan course is the Solace Certified Event Broker Administrator Associate Exam, still Not started. Several key course visuals were inspected in Chrome, but the current screenshot control did not provide local files and no downloadable course assets were exposed; no image references were fabricated.

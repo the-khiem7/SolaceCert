@@ -38,13 +38,10 @@ The page offers **Submit survey** and **Leave survey**. The three rating questio
 
 The selected answers are **Yes** to “Did you learn what you wanted to learn in this course?”, **Yes** to “Did the course provide content that was engaging?”, and **4** on the 1–5 course rating. The optional “Do you have any more feedback?” text field was left blank. The accessibility tree confirms both Yes checkboxes and rating 4 selected; **Submit survey** is available.
 
-**Next:** Submit these three required responses and record the confirmation and Academy progress.
 
 ### Screen 4: Survey submitted
 
-After submitting, the Academy displayed **“Survey completed, thanks for your contribution.”** The syllabus marks **Feedback Survey - 2025 - Content status: Completed**. The course header reports **Course in progress, 13 of 14 lessons completed**. The only incomplete syllabus item is **Guaranteed Messaging - In progress (0/1)**; all other displayed lessons, including Summary and this survey, are Completed.
 
-**Next:** Reopen Guaranteed Messaging and inspect its saved SCORM state and any remaining completion requirement.
 
 ## Visuals
 

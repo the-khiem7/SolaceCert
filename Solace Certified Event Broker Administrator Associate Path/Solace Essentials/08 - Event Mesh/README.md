@@ -11,14 +11,10 @@ source: Solace Academy
 
 - **Course:** Solace Essentials
 - **Syllabus order:** 08
-**Academy status:** Completed on 2026-09-24
-### Event Mesh screen - blank embedded lesson with LMS completion toast
 
-On opening Event Mesh, the LMS displayed a “Lesson completed” toast. The lesson content area remained blank, and its embedded SCORM frame showed `about:blank`; the LMS navigation offered Summary as the next lesson. No Event Mesh lesson text or activity was available to capture in the visible page.
 
 ### Event Mesh lesson preview - title screen after SCORM load
 
-After reopening Event Mesh from the syllabus, the embedded package finished loading and displayed its preview: a centered “Event Mesh” title with a downward arrow and an accessible Start link. The syllabus continued to mark the lesson In progress.
 
 ### Event Mesh screen 1 of 2 - lesson objectives
 
@@ -30,7 +26,6 @@ The final SCORM step embeds a video titled “How to Build an Event Mesh with So
 
 ### Event Mesh embedded video - playback and captions
 
-The Solace video started playing in the course at 0:03 of 9:03. English captions are enabled in the player. The visible opening caption says the presenter will walk through building an Event Mesh using Solace technology. The player offers speed settings; the lesson's Next control remains gated on completion.
 
 ### Event Mesh video - key points from the English captions
 
@@ -46,9 +41,4 @@ The presenter closes by noting that DMR setup can be automated through the SEMP 
 
 ### Event Mesh embedded video - playback completed
 
-The player reached its end screen at 9:02 of 9:03 and displays “Play video again,” the outro segment, and YouTube end-screen recommendations. English captions were enabled during playback. The SCORM step remains 2 of 2 and its Next control stays disabled because this is the last step; the LMS navigation offers Summary as the next lesson.
 ## Key visual asset recovery
-
-The archived notes preserve the embedded-video transcript and describe its broker-topology demonstration. No reusable still image was available in the completed course page.
-
-No local course image was available to link from this lesson. The course page currently confirms completion, and reopening completed SCORM content exposes a retake action rather than its lesson screens. The lesson image folder is ready for source assets; no substitute images were fabricated.

@@ -17,19 +17,15 @@ source: Solace Academy
 
 ### Screen 1: Academy lesson page
 
-Operational Maintenance is the selected lesson in Section 11 of the course. The course now shows **10 of 14 lessons completed**. The syllabus shows **Dynamic Message Routing (DMR) - 1 of 1 completed**, **Operational Maintenance - 0 of 1**, and **Guaranteed Messaging - 0 of 1, In progress**. The lesson pane identifies DMR as the previous lesson and Summary as the next. No instructional visual is displayed on this Academy screen.
 
-**Next:** Open Operational Maintenance and record the initial SCORM screen before interacting.
 
 ### Screen 2: SCORM course overview
 
 The module is titled **Operational Maintenance**. Its overview says it covers practical management and sustainment of Solace PubSub+ Event Brokers, including creating and applying **configuration scripts**, managing **SolOS versions**, and performing **configuration backups**. The table of contents has three sections: **The Context - What's the scenario?**, **The Concept - Understanding System Configuration Backups; Scripts and SolOS**, and **The Click - Quiz**. All four activities are marked **Unstarted**. The page offers **START COURSE**. Chrome screenshot capture timed out on the overview; the accessibility content exposes no instructional diagram, so no key visual is missing from this text-only screen.
 
-**Next:** Start the course and record the first scenario screen before interacting.
 
 ### Screen 3: What's the scenario? - opening
 
-This is **Lesson 1 of 4**. Haroldo introduces himself: **“Hi! I'm Haroldo. I manage a middleware team at ACME Retail.”** The SCORM sidebar reports **25% COMPLETE** and marks **What's the scenario?** Completed; the other activities remain Unstarted. A **CONTINUE** button is visible. Chrome screenshot capture timed out on this screen, and the accessibility tree exposes no key instructional diagram; the limitation is recorded rather than reconstructing the image.
 
 **Next:** Continue to reveal the scenario and its choices; record the question before choosing.
 
@@ -39,9 +35,7 @@ Haroldo asks: **“What type of messaging should I use for our in-store inventor
 
 **Next:** Select response 2 and record the displayed response and section status.
 
-Selecting response 2 displays the chosen text **“Let's learn about direct messaging to see if that will work for your situation.”** Haroldo replies: **“Yes, I definitely need more information before making the right call.”** No separate correct/incorrect label appears. The SCORM remains at **25% COMPLETE**, and **What's the scenario?** remains marked Completed.
 
-Continuing once more reveals the scenario result heading **“It looks like you've won over Haroldo!”** and a **START OVER** control. The selected prompt and reply remain visible; SCORM progress is still **25% COMPLETE**, with **What's the scenario? Completed**.
 
 **Next:** Continue to Understanding System Configuration Backups and record its opening screen before interacting.
 
@@ -73,7 +67,6 @@ The zoomed illustration is a dark-blue certificate or document with a cyan seal 
 
 ### Screen 8: CLI Scripts accordion expanded
 
-The **CLI Scripts** accordion says: **“CLI scripts are stored on the router in the `/cliscripts` subdirectory.”** An image element and **Zoom image** control are visible below the text. The SCORM sidebar now shows **50% COMPLETE**, and **Understanding System Configuration Backups** is marked Completed.
 
 **Next:** Inspect the CLI Scripts illustration through Zoom image and record its meaning before leaving this section.
 
@@ -98,13 +91,10 @@ The first command saves the current Message VPN configuration to a CLI script. T
 
 SolOS is the operating system for Solace PubSub+ event brokers, designed for high-speed, reliable messaging and data movement across distributed environments. It provides the foundation for hardware and software brokers and messaging capabilities including publish/subscribe, queueing, request/reply, and streaming across protocols and exchange patterns. SolOS releases include both PubSub+ Appliance and PubSub+ Software updates. The text links to the Solace **Product Lifecycle Policy** page. A separate image and **Zoom image** control appear with the SolOS Versions section; its accessible description is missing.
 
-The SolOS Versions diagram marks **Product Introduction**, **End of Sales**, and **End of Support** across a **0–5 year** timeline. **General Availability** runs from Product Introduction to End of Sales; **Year 0** aligns with End of Sales, followed by **No New Sales** through **Year 5**, when End of Support is marked. The adjacent text says versions are supported for a specific period under Solace's Product Lifecycle Policy. This key instructional visual is transcribed here because the Academy exposes no image-download control and Chrome's screenshot output has no local file path; no replacement is used. **Scripts and SolOS** is now marked Completed; SCORM progress is **75% COMPLETE**.
 
-**Next:** Open the Quiz and record all questions and answer choices before answering.
 
 ### Screen 10: Quiz - backup sorting activity, first card
 
-This is **Lesson 4 of 4**. Jana asks: **“Now let's see if we can help Jana answer her question. What can or cannot be saved in a backup?”** The sorting activity shows a draggable **Client Usernames** card with two drop zones: **Cannot be saved** and **Can be saved**. The SCORM sidebar already reports **100% COMPLETE** and marks Quiz Completed, even though the sorting activity still needs to be completed. Based on the prior backup content-which names product keys, trusted certificates, and CLI scripts as the excluded items-Client Usernames appear to belong in **Can be saved**; this is a provisional inference pending the activity feedback.
 
 **Next:** Place Client Usernames in Can be saved and record the activity's response.
 
@@ -112,13 +102,11 @@ The **Client Usernames** card was placed in **Can be saved**. No correctness mes
 
 ### Screen 11: Quiz - backup sorting activity, CLI Scripts
 
-The next draggable card is **CLI Scripts**. The two drop zones remain **Cannot be saved** and **Can be saved**. The preceding backup lesson explicitly says CLI scripts are not saved in backups, so place this card in **Cannot be saved**.
 
 The **CLI Scripts** card was placed in **Cannot be saved**, matching the course's statement that CLI scripts are not included in backups. No correctness message or score appeared; the activity advanced to **Trusted Certificates**.
 
 ### Screen 12: Quiz - backup sorting activity, Trusted Certificates
 
-The next card is **Trusted Certificates**. The drop zones remain **Cannot be saved** and **Can be saved**. The preceding lesson states that trusted certificates are stored in `/certs` and must be configured manually because they are not saved in backups; place this card in **Cannot be saved**.
 
 The **Trusted Certificates** card was placed in **Cannot be saved**, matching the earlier statement that trusted certificates are not part of the backup. No correctness message or score appeared; the activity advanced to **Message VPNs**.
 
@@ -138,7 +126,6 @@ The initial **Cannot be saved** attempt did not advance the activity. Retrying f
 
 ### Screen 15: Quiz - backup sorting activity, Product Keys
 
-The next draggable card is **Product Keys**. The drop zones remain **Cannot be saved** and **Can be saved**. The backup lesson explicitly says product keys for locked services such as PubSub+ SolCache or Web Messaging are not saved; the card was placed in **Cannot be saved**. The activity then reported **5/6 Cards Correct** and offered **REPLAY**. It did not identify the wrong item. Client Usernames was the only classification based on an inference rather than an explicit exclusion, provisionally placed in Can be saved.
 
 **Next:** Replay and place Client Usernames in Cannot be saved; verify whether the score reaches 6/6.
 
@@ -154,15 +141,12 @@ Attempting to move the **Client Usernames** card to **Cannot be saved** left the
 
 After scrolling until both drop zones were fully visible, dragging from the center of the **Client Usernames** card to **Cannot be saved** advanced the activity to **Message Spool**. No correctness message or score appeared, so this records an accepted interaction but not a verified answer.
 
-**Next:** Record the Message Spool screen and place it in the category indicated by the backup lesson; continue only after noting each card.
 
 ### Screen 17: Quiz replay - Message Spool
 
-The next card is **Message Spool**, with the categories **Cannot be saved** and **Can be saved**. The lesson describes a configuration backup and does not explicitly say whether the message spool's queued contents are included. On replay, **Message Spool** was placed in **Can be saved** and the activity advanced to **CLI Scripts**. No correctness message or score appeared, so the placement is accepted as an interaction but not individually verified.
 
 ### Screen 18: Quiz replay - CLI Scripts
 
-The next card is **CLI Scripts**, with **Cannot be saved** and **Can be saved** drop zones. The lesson explicitly says CLI scripts are stored in `/cliscripts` and are not saved in configuration backups. Therefore the supported classification is **Cannot be saved**.
 
 **Next:** Place CLI Scripts in Cannot be saved, then record the next card before sorting it.
 
@@ -240,15 +224,11 @@ The current card is **Client Usernames**. The categories remain **Cannot be save
 
 **Next:** Place Client Usernames in Can be saved, then record the final score.
 
-**Client Usernames** was dragged to **Can be saved**. The activity returned **5/6 Cards Correct** and **REPLAY**. It gives only the aggregate score and does not identify which item was incorrect. This replay used **CLI Scripts - Cannot be saved**, **Trusted Certificates - Cannot be saved**, **Message VPNs - Can be saved**, **Product Keys - Cannot be saved**, **Message Spool - Can be saved**, and **Client Usernames - Can be saved**. The activity and SCORM sidebar still mark Quiz Completed and **100% COMPLETE**; the 5/6 result is retained accurately rather than reported as a perfect score.
 
-**Next:** Close the SCORM lesson after confirming the final result, then continue to the Summary Academy lesson.
 
 ### Screen 29: Academy after closing Operational Maintenance
 
-After closing the SCORM, the Academy course page still shows **10 of 14 lessons completed** and **Operational Maintenance - 0 of 1 lessons completed**. The embedded lesson offers **Resume where you left off**; the course navigation offers **Next lesson - Summary**. This is a known LMS synchronization lag: earlier lessons updated to Completed after advancing to the next Academy lesson. The SCORM itself showed **100% COMPLETE** and its Quiz section Completed before closing.
 
-**Next:** Open Summary and then check whether Academy synchronizes Operational Maintenance.
 
 ## Visuals
 

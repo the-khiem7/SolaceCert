@@ -17,19 +17,15 @@ source: Solace Academy
 
 ### Screen 1: Academy lesson page
 
-The Academy course page is open to **Data Replication**. It shows the course at **7 of 14 lessons completed**. The syllabus marks **High Availability - 1 of 1 completed**; **Guaranteed Messaging - 0 of 1 completed, In progress**; and **Data Replication - 0 of 1 completed**. The lesson panel offers **Expand lesson view**; expanding it reveals **Resume where you left off**. The Academy page shows **Previous lesson High Availability** and **Next lesson VPN Bridges**. This is the outer Academy page, before opening the lesson's SCORM content.
 
-**Next:** Expand the lesson view and record the initial SCORM screen before proceeding.
 
 ### Screen 2: SCORM course overview
 
 The SCORM title is **Data Replication**. Its overview describes a focused exploration of data replication for resilient, scalable distributed systems, covering foundational replication principles, design choices and their implications, and Config-Sync as a practical application. The table of contents has four unstarted items: **What's the Scenario?** under **The Context**; **What do we mean by data replication?** and **Considering Design Choices** under **The Concept**; and **Quiz** under **The Click**. The overview offers **START COURSE**. No instructional image is exposed on this overview screen.
 
-**Next:** Start the course and record the scenario screen before interacting.
 
 ### Screen 3: What's the Scenario?
 
-The scenario is **Lesson 1 of 4**. Haroldo introduces himself as a middleware manager for ACME Retail and asks: **“It's really important that we don't lose customer data or have a disruption to order processing. How can we ensure we don't lose our data?”** A **CONTINUE** button is visible. The SCORM sidebar marks **What's the Scenario? Completed** and shows **25% COMPLETE**; the later concept sections and quiz remain Unstarted.
 
 **Next:** Continue to reveal the scenario response choices and record them before selecting an answer.
 
@@ -37,7 +33,6 @@ Continuing reveals the follow-up: **“We need to ensure that we don't lose our 
 
 **Next:** Select response 2 and record the feedback before continuing.
 
-Selecting response 2 leaves the selected sentence visible in the scenario. The course gives no explicit correct/incorrect label or separate feedback sentence; the **2 of 4 - What do we mean by data replication?** navigation link appears. The sidebar marks the scenario **Completed** and the module remains at **25% COMPLETE**.
 
 **Next:** Open **2 of 4 - What do we mean by data replication?** and capture its content before interacting.
 
@@ -51,13 +46,10 @@ The second tab, **DATA CENTRE FAILURE**, is visible but not yet opened. Under **
 
 ![Primary and backup data centers linked across a WAN by a DR Link TCP connection](img/data-replication-over-wan.png)
 
-A **Step process interaction** titled **Data Flow** is present with **START** and **Next** controls. It has not yet been started. Both local visuals are the exact original course assets read from the rendered image sources, downloaded from the Academy CDN, signature-checked, and visually inspected. The original single-failure image had no alt text; the notes supply descriptive alt text. The data-replication diagram also had descriptive alt text in the Academy page.
 
-**Next:** Save the visible original course visuals, open the **DATA CENTRE FAILURE** tab and record its contents before changing tabs or advancing.
 
 ### Screen 5: Data centre failure
 
-Selecting **DATA CENTRE FAILURE** reveals that Solace High Availability cannot resolve a data-centre failure, except for PubSub+ Software instances hosted in different data centers. Data replication protects against an entire data-center failure. It duplicates messages from the active site to the replicated site. Unlike automatic High Availability failover, data replication is a **manual failover**: due to the severity of losing an entire site, an administrator must intervene to migrate services to the replicated backup site. A data-center illustration with a Zoom image control accompanies this text. The section progress is **29% Completed**; the overall SCORM progress remains **25% COMPLETE**.
 
 ![Distributed data center infrastructure connected by network links](img/data-centre-failure.jpg)
 
@@ -71,7 +63,6 @@ Starting **Data Flow** displays **Step 1 - Message is published to Primary site*
 
 ![Data Flow Step 1 showing the publisher sending a message to the active router in the primary data center](img/data-flow-step-1.png)
 
-The original PNG comes from the rendered `assets/step 1 data flow.png` course image source; its PNG signature was checked and it was visually inspected. At this point, the module shows **50% COMPLETE**, **What do we mean by data replication? Completed**, and navigation controls **Step 1**, **Step 2**, **Step 3**, **Step 4**, **Last step**, plus **Next**.
 
 **Next:** Advance to Step 2 and record the exact text and original diagram before moving again.
 
@@ -91,7 +82,6 @@ This original PNG was obtained from the rendered `assets/step 2 data flow.png` s
 
 ![Data Flow Step 3 showing a consumer receiving a message from the primary site's active router](img/data-flow-step-3.png)
 
-The original course PNG was downloaded from the exposed `assets/step 3 data flow.png` URL, signature-checked, and visually inspected. The player retains its Step 1–4 and **Last step** controls; overall SCORM progress remains **50% COMPLETE**.
 
 **Next:** Advance to Step 4 and record the exact text and original diagram before moving on.
 
@@ -101,7 +91,6 @@ The original course PNG was downloaded from the exposed `assets/step 3 data flow
 
 ![Data Flow Step 4 showing the message removed from the backup queues after primary-site consumption](img/data-flow-step-4.png)
 
-This original PNG was downloaded from the visible course asset `assets/step 4 data flow.png`, checked for a valid PNG signature, and visually inspected. The Data Flow interaction remains at **50% COMPLETE**.
 
 **Next:** Open **Last step** and record any further explanation or completion controls.
 
@@ -142,13 +131,10 @@ Under **Design Configurations**, the course lists:
 
 Under **Config-Sync**, it says configuration should be synchronized between both sites, as with HA. Config-Sync automatically replicates configuration to the routers at the mate site. Changes need only be applied to the DR active router; Config-Sync propagates those changes to the DR backup router.
 
-The SCORM module still shows **50% COMPLETE**; **Considering Design Choices** remains **Unstarted** in its table of contents at the time this screen was read.
 
-**Next:** Open **4 of 4 - Quiz** and record its questions before answering.
 
 ### Screen 12: Quiz questions
 
-The final section is **Lesson 4 of 4** and opens with **“So, let's see if we were able to help Haroldo.”** The overall SCORM module shows **75% COMPLETE**; **Considering Design Choices** is marked Completed and **Quiz** shows **67% Completed** in the sidebar.
 
 Two multiple-choice checks are visible:
 
@@ -159,13 +145,9 @@ Both questions initially displayed **Incorrect** feedback and a **TAKE AGAIN** b
 
 For question 1, I selected **Data replication**. The exact feedback was: **“Correct. Correct answer: Data replication. Your answer: Data replication.”** The selection is marked **Correctly selected**, the other two options **Correctly unselected**, and the question **Correct**. Question 2 remains unanswered and is next.
 
-For question 2, I selected **“to increase data availability and system resilience by maintaining copies of data across multiple node”**. The exact feedback was: **“Correct. Correct answer: to increase data availability and system resilience by maintaining copies of data across multiple node. Your answer: to increase data availability and system resilience by maintaining copies of data across multiple node.”** The course marks the selection **Correctly selected**, the other two choices **Correctly unselected**, and the question **Correct**. After both retries, the sidebar marks **Quiz Completed** and the SCORM module shows **100% COMPLETE**.
 
-After closing SCORM, the Academy course page still reports **Course in progress, 7 of 14 lessons completed**. Its syllabus lists **Data Replication - 0 of 1 completed, In progress**, while **High Availability - 1 of 1 completed**. Guaranteed Messaging also remains **0 of 1, In progress**. The outer Academy status has not yet synchronized with the SCORM's 100% completion.
 
-After advancing to **VPN Bridges**, Academy refreshed to **8 of 14 lessons completed** and its syllabus now lists **Data Replication - 1 of 1 completed, Completed**. **High Availability** remains **1 of 1 completed**, while **Guaranteed Messaging** remains **0 of 1, In progress**.
 
-**Next:** Continue Lesson 10 - VPN Bridges; this delayed refresh confirms Data Replication's Academy completion.
 
 ## Visuals
 

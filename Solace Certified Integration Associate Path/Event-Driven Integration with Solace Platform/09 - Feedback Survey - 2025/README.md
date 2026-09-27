@@ -11,7 +11,6 @@ source: Solace Academy
 
 - **Syllabus order:** 09
 - **Course section:** Course survey
-- **Academy status:** The LMS marks this survey Completed, but its four responses remain blank; no answers have been selected or submitted.
 
 ## Notes
 
@@ -27,7 +26,3 @@ A Submit survey button is available at the bottom. No answers have been selected
 ## Visuals
 
 The intro page shows a survey-form illustration, the survey title, the four-question count, and a Begin survey button. The form screen shows stacked question cards and a fixed Submit survey button. Browser screenshots were reviewed, but no local image files could be saved with the available capture workflow; the img folder is empty.
-
-## Latest Academy checkpoint
-
-The course syllabus currently displays this survey as Completed. This status marker does not reflect submitted feedback: the survey questions remain unanswered, and no submission was made.

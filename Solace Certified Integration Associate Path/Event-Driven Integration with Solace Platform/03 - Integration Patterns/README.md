@@ -11,7 +11,6 @@ source: Solace Academy
 
 - **Syllabus order:** 03
 - **Course section:** The Concepts
-- **Academy status:** Completed; embedded module 100% complete and all five internal sections marked Completed
 
 ## Notes
 
@@ -19,25 +18,21 @@ source: Solace Academy
 
 The opening screen introduces key factors for choosing an event-driven integration pattern through a billing-address correction. A customer’s billing record changes from “21 Frank Street” to “12 Frank Street.” The sample customer table contains one billing address and three shipping addresses, each with its own address ID, version, and timestamp. The lesson points out that the billing address is replicated across CRM, billing, shipping/logistics, marketing, and other systems, which may be owned by different teams or companies. It asks how to implement the correction in an event-driven environment and what information to send; this screen poses the design question without answering it.
 
-The embedded module lists five sections: Introduction to Integration Patterns, Event Notification Pattern, Event Change Pattern, Event Payload Pattern, and Determining Which Pattern to Use. The introduction showed “33% Completed”; the module header still showed 0% complete at that checkpoint. The page offers an internal Continue button.
 
 ### Event Notification Pattern
 
 The publisher sends a small notification to the broker that a change happened. The minimal example says customer 2293922’s address entity changed. Its sample event envelope includes `specversion` 0.3, type `com.RealStore.customer.address`, source `/address`, an event ID, timestamp, `customerId`, and `datacontenttype` `application/json`; it omits the changed address values. The lesson then shows a more specific notification that adds metadata identifying address ID 114422 and purpose `billing`. It still omits the updated street address. In both cases, consumers are expected to query the read endpoint for the latest state. The “Quick Reference - Address Table” accordion expands to show the same four-row example table from the introduction.
 
-The embedded module showed 20% overall complete after entering this section. The introduction is marked Completed, Event Notification Pattern showed 69% Completed after reviewing the example and expanding its reference table, and the three remaining pattern sections were Unstarted. The screen has an internal Continue button; no knowledge check was visible in this section at this checkpoint.
 
 ### Event Change Pattern
 
 In contrast to Event Notification, the Event Change Pattern includes updated data in the event payload. The first sample identifies customer 2293922 and billing address ID 114422, then carries an `oldState` address line (`21 Frank Street`) and `newState` address line (`12 Frank Street`). The lesson also shows an alternative snapshot containing the billing purpose, both address lines, and an address timestamp in each state. Its concluding note says the updated data is specified in both examples. The “Reference - Address Table” accordion reveals the same four-row customer address table used earlier.
 
-The embedded module showed 40% overall complete after entering this section. The introduction and Event Notification Pattern are marked Completed; Event Change Pattern showed 67% Completed after reviewing its examples and opening the reference table. Event Payload Pattern and Determining Which Pattern to Use remained Unstarted. The section offers an internal Continue button; no knowledge check was visible here at this checkpoint.
 
 ### Event Payload Pattern
 
 This screen frames payload selection around what consumers benefit from: data about a specific customer versus records for a specific entity, while ignoring the larger context the entity operates in. Its example places the complete set of four address records inside the customer-level old and new state: billing address 114422 plus three shipping addresses. Only the billing address line changes from “21 Frank Street” to “12 Frank Street”; the three shipping addresses are repeated unchanged in both arrays. The reference accordion links back to the address table, and the concluding note says the updated data is specified in this scenario.
 
-The embedded module showed 60% overall complete. The first three sections were marked Completed, Event Payload Pattern showed 50% Completed, and Determining Which Pattern to Use remained Unstarted. The page offers an internal Continue button; no knowledge check was visible at this checkpoint.
 
 ### Determining Which Pattern to Use
 
@@ -51,9 +46,7 @@ A requirement for consumers to audit every state change overrides the earlier cr
 
 The four audio players show durations of 1:19, 0:47, 0:30, and 0:59. All four Transcript panels were expanded and reviewed. The “So What’s the Gist?” carousel has two slides. “Simplicity is Key” says Event Notification is the simplest pattern for publishers and consumers to define and implement, although consumers need an additional error-handling API call if the endpoint that retrieves the current state is unresponsive. Its image shows two people beside a computer with a “TRY AGAIN” error. Slide 2 says handling this extra error call is generally easier than dealing with out-of-order message delivery, which requires inspecting multiple parts of the consumer application and comparing them with the incoming event. When requirements rule out Event Notification, the lesson recommends deciding whether ordering belongs to individual services or a Streaming Pipeline, and ensuring data security rules-particularly for PII-are applied. Its image shows people working around a computer with gears and a wrench. The content cites [Arvind Balachandran’s Medium post](https://medium.com/swlh/event-notification-vs-event-carried-state-transfer-2e4fdf8f6662).
 
-### Knowledge check and completion
 
-The final multiple-response question asks which patterns include updated data in their event payloads. Event Change Pattern and Event Payload Pattern were selected; the course confirmed both as correct and Event Notification Pattern as correctly unchecked. The embedded module then showed 100% complete, with all five internal sections marked Completed.
 
 
 
