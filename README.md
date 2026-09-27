@@ -1,14 +1,33 @@
-# Solace Certified Event Broker Administrator Associate Path
+<p align="center">
+  <a href="https://training.solace.com/learn/home">
+    <img src="docs/img/solace-academy-logo.png" alt="Solace Academy" width="380">
+  </a>
+</p>
 
-The Academy learning plan contains four courses. The current Academy page previously confirmed 3 of 4 after Solace Event Broker Administration was completed. The final course is in progress.
+Solace Academy offers role-oriented technical certifications through structured learning paths. A path groups courses that build product and event-driven integration skills with an exam that validates them. Passing an exam earns a digital certificate and badge. See the [official Solace certification catalog](https://solace.com/learn/certifications/) for current program details.
 
-## Course sequence
+## Certification paths
 
-1. [Event Broker Administrator Associate Path Overview](<Event Broker Administrator Associate Path Overview/README.md>) - Completed.
-2. [Solace Essentials](<Solace Essentials/README.md>) - Completed.
-3. [Solace Event Broker Administration](<Solace Event Broker Administration/README.md>) - Completed; Academy confirms course completion and Guaranteed Messaging 1/1.
-4. [Solace Certified Event Broker Administrator Associate Exam](<Solace Certified Event Broker Administrator Associate Exam/README.md>) - In progress; Exam Guide complete, test not started (1 of 2 lessons).
+The Academy catalog capture used for this repository lists these learning paths:
 
-## Current checkpoint
+- Solace Certified Agent Mesh Practitioner Path
+- Solace Certified Event-Driven Integration - Boomi
+- Solace Certified Event-Driven Integration - SAP
+- Solace Certified Event-Driven Integration - MuleSoft
+- Solace Certified Integration Associate Path
+- Solace Certified Developer Practitioner Path
+- Solace Certified EDA Practitioner Path
+- Solace Certified Event Broker Administrator Associate Path
+- Solace Certified Solutions Consultant Path
 
-The final course's guide attachment is marked complete in Academy. The certification test remains Not started. Solace's current certification page says exams should not be collaborative and warns that navigating away before submission can count toward an attempt; the learner must take it independently in one sitting. Resume after the learner submits it to verify the result and final path progress.
+Certification names, course lineups, availability, and estimates can change. Use the [current catalog](https://solace.com/learn/certifications/) as the source of truth.
+
+## Technical certification paths
+
+![Solace Academy Technical Certification Paths roadmap for 2026](docs/img/technical-certification-paths.jpg)
+
+## Digital credentials
+
+<p><img src="docs/img/solace-digital-badge-icon.png" alt="Solace digital certification badge icon" width="160"></p>
+
+Solace issues digital credentials to learners who pass certification exams. The badge can be shared on professional profiles and resumes. Read the [official certification information](https://solace.com/learn/certifications/) for current exam and credential details.
