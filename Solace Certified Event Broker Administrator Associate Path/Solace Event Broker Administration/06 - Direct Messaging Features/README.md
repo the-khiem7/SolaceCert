@@ -23,7 +23,7 @@ The SCORM outline contains five sections: **What's the scenario?**; **Understand
 
 Haroldo introduces himself: “Hi! I'm Haroldo. I manage a middleware team at ACME Retail.” A **CONTINUE** control reveals the scenario. The active character artwork is the original `YlGNlyEUF20yE2Uv_564_full.png` asset (698 × 2048, empty alt text); it is saved locally:
 
-![Haroldo, the middleware-team manager at ACME Retail](img/haroldo-portrait.png)
+![Haroldo, the middleware-team manager at ACME Retail](img/haroldo-portrait.webp)
 
 ## Screen 3: In-store inventory messaging question
 
@@ -33,12 +33,12 @@ Haroldo asks: “What type of messaging should I use for our in-store inventory 
 2. “Let's learn about direct messaging to see if that will work for your situation.”
 
 
-![Haroldo gesturing while asking about in-store inventory messaging](img/haroldo-speaking.png)
+![Haroldo gesturing while asking about in-store inventory messaging](img/haroldo-speaking.webp)
 
 ## Screen 4: Scenario response
 
 
-![Haroldo smiling after the selected scenario response](img/haroldo-selected-response.png)
+![Haroldo smiling after the selected scenario response](img/haroldo-selected-response.webp)
 
 ## Screen 5: Direct Messaging and Shared Subscriptions
 
@@ -64,9 +64,9 @@ Shared subscriptions can load balance large volumes of client data across multip
 
 The example uses an ACME Retail point-of-sale (POS) system. When a customer checks out, an event from the cash register updates item inventory. The course's store illustration and shared-subscription flow diagram are saved locally:
 
-![ACME Retail grocery store used in the point-of-sale example](img/acme-retail-pos-illustration.jpg)
+![ACME Retail grocery store used in the point-of-sale example](img/acme-retail-pos-illustration.webp)
 
-![Publisher messages are load-balanced across members of shared subscriber groups](img/shared-subscription-overview.png)
+![Publisher messages are load-balanced across members of shared subscriber groups](img/shared-subscription-overview.webp)
 
 The three-step POS interaction is ready to start. Its visible labels say: Step 1, the checkout event updates inventory; Step 2, the broker routes the message to the backend; Step 3, the message is randomly assigned to one backend application in the subscription group. The course says several backend applications in one group can prevent a single instance from being overloaded. Multiple shared subscription groups may also subscribe to the same topic; one member of each group receives each message, for example a ticketing group and an analytics group.
 
@@ -74,19 +74,19 @@ The three-step POS interaction is ready to start. Its visible labels say: Step 1
 
 The first step says: “First, when the customer checks out, an event is sent from the cash updating item inventory.” Its original diagram shows three POS registers and three backend servers connected through Solace. The course asset is saved locally:
 
-![Three POS registers send checkout events through Solace to backend servers](img/pos-shared-sub-step-1.png)
+![Three POS registers send checkout events through Solace to backend servers](img/pos-shared-sub-step-1.webp)
 
 ### Shared-subscription interaction - Step 2
 
 The second step says: “The application broker would then route the message to the backend system.” Its original diagram highlights Solace between the POS registers and the backend servers:
 
-![Solace routes POS messages from the stores to backend servers](img/pos-shared-sub-step-2.png)
+![Solace routes POS messages from the stores to backend servers](img/pos-shared-sub-step-2.webp)
 
 ### Shared-subscription interaction - Step 3
 
 The third step says: “The message is then randomly assigned to one of the backend applications in the subscription group.” Its original diagram highlights the backend application group receiving messages through Solace:
 
-![Solace randomly assigns each POS message to one backend application in the group](img/pos-shared-sub-step-3.png)
+![Solace randomly assigns each POS message to one backend application in the group](img/pos-shared-sub-step-3.webp)
 
 ### Shared-subscription interaction - final screen
 
@@ -101,19 +101,19 @@ The course defines message eliding as a way for client applications to receive o
 
 The original diagram shows publisher traffic passing through a broker and branching to two subscribers: the upper subscriber has eliding enabled and receives a reduced set of messages, while the lower subscriber has eliding disabled and receives the full illustrated sequence.
 
-![Message flow comparison for subscribers with message eliding enabled and disabled](img/message-eliding-diagram.png)
+![Message flow comparison for subscribers with message eliding enabled and disabled](img/message-eliding-diagram.webp)
 
 ### Market-data example
 
 Market data may be published at a very high rate, although people can process only a few updates per second. The client still wants the latest information, but at a slower rate than the full feed. Message eliding can limit output to a few updates per topic per second. The course illustrates this with operators viewing market-data screens.
 
-![Operators viewing high-rate financial market data on multiple screens](img/market-data-eliding-example.jpg)
+![Operators viewing high-rate financial market data on multiple screens](img/market-data-eliding-example.webp)
 
 ### Message Eliding Walkthrough video
 
 The lesson provides a 2:36 walkthrough video. Its original poster shows the PubSub+ Manager **Message VPNs** page and is saved locally. The video player exposed no captions or transcript control; narration details beyond the surrounding written lesson content could not be captured.
 
-![Original poster for the Message Eliding walkthrough video](img/message-eliding-walkthrough-poster.jpg)
+![Original poster for the Message Eliding walkthrough video](img/message-eliding-walkthrough-poster.webp)
 
 ### Considerations
 

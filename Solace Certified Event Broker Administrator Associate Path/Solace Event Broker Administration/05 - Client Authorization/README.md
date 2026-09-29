@@ -25,7 +25,7 @@ This overview exposed no `<img>` course visuals. Browser screenshot capture is c
 
 Jana opens the scenario by introducing herself as a member of the administration team: “Hello, my name is Jana. I work with the admin team.” A **CONTINUE** control reveals the rest of the scenario. The screen uses the original `stock-image.jpg` office background (1680 × 943, empty alt text); I downloaded the image from the lesson's rendered course asset and saved it locally:
 
-![Original office background used on Jana's scenario screen](img/scenario-office-background.jpg)
+![Original office background used on Jana's scenario screen](img/scenario-office-background.webp)
 
 ## Screen 3: Scenario risk and response choices
 
@@ -52,7 +52,7 @@ Before a client can connect to a Solace router for messaging, the lesson says th
 
 The screen includes the course's animated `client object model.gif` asset (empty alt text). I saved the original rendered asset locally:
 
-![Solace client object model animation](img/client-object-model.gif)
+![Solace client object model animation](img/client-object-model.webp)
 
 ## Screen 6: Client Username and Profiles
 
@@ -68,7 +68,7 @@ Every Message VPN has a built-in `default` client username that always exists an
 
 The original diagram contrasts two VPNs: VPN-1 contains named username `CU-1` and `default`, while VPN-2 shows only `default`; the client provides `CU-1` and connects to either VPN. The local course asset is:
 
-![Diagram of named and default client usernames in two Message VPNs](img/default-client-username-diagram.png)
+![Diagram of named and default client usernames in two Message VPNs](img/default-client-username-diagram.webp)
 
 ### Client profiles
 
@@ -86,7 +86,7 @@ A default client profile always exists. Every client username has an associated 
 
 The original profile diagram shows client usernames `CU-1`, `CU-2`, and `CU-3` in Message VPN `VPN-1` all pointing to the shared client profile `CP-1`:
 
-![Three client usernames share client profile CP-1 in Message VPN VPN-1](img/client-profile-diagram.png)
+![Three client usernames share client profile CP-1 in Message VPN VPN-1](img/client-profile-diagram.webp)
 
 ## Screen 7: ACL profiles and the client-connect example
 
@@ -98,7 +98,7 @@ The example control opens three tabs: **ACL PROFILE CLIENT CONNECT**, **ACL PROF
 
 The original overview diagram shows three client usernames in `VPN-1` pointing to the VPN's ACL profile `AP-1`:
 
-![Three client usernames use ACL profile AP-1 in Message VPN VPN-1](img/acl-profile-overview.png)
+![Three client usernames use ACL profile AP-1 in Message VPN VPN-1](img/acl-profile-overview.webp)
 
 The **ACL PROFILE CLIENT CONNECT** example selects `AP-1` in `VPN-1`, sets the default action to `disallow`, and contains two IP exceptions: `192.168.1.0/24` and `192.168.2.200/32`. The accompanying example marks `192.168.1.100` and `192.168.2.200` as allowed and `192.168.2.100` as denied. Its CLI detail view is:
 
@@ -114,15 +114,15 @@ Exceptions : 2
 solace>
 ```
 
-![Client-connect ACL example with disallow default and two allowed IP exceptions](img/acl-client-connect-example.png)
+![Client-connect ACL example with disallow default and two allowed IP exceptions](img/acl-client-connect-example.webp)
 
 The **ACL PROFILE PUBLISH-TOPIC** tab sets the default action to `allow` for published topics but denies topics matching the exception. In the example, ACL profile `AP-1` in `VPN-1` has one exception, `system/host1/>`; publishing to `system/host1/stats` is denied, while publishing to `system/host2/stats` is allowed.
 
-![Publish-topic ACL example allowing all topics except system/host1/>](img/acl-publish-topic-example.png)
+![Publish-topic ACL example allowing all topics except system/host1/>](img/acl-publish-topic-example.webp)
 
 The **ACL PROFILE SUBSCRIBE-TOPIC** tab sets the default action to `disallow` for all topic subscriptions but allows topics matching its exception. ACL profile `AP-1` in `VPN-1` has the exception `system/*/stats`; the example permits `system/host1/stats` and blocks `system/host1/config`.
 
-![Subscribe-topic ACL example allowing system/*/stats and denying other subscriptions](img/acl-subscribe-topic-example.png)
+![Subscribe-topic ACL example allowing system/*/stats and denying other subscriptions](img/acl-subscribe-topic-example.webp)
 
 ## Screen 8: OBO (On-Behalf-Of) Subscription Manager
 
@@ -138,7 +138,7 @@ An **OBO Subscription Manager** is a custom application that adds and removes su
 
 The course diagram shows publishers and subscribers connected through Solace, with a separate OBO Manager. Its legend distinguishes OBO-manager request/reply, OBO subscriptions, and content messages:
 
-![Publisher and subscriber flow through Solace with OBO Manager requests and subscriptions](img/obo-subscription-manager.png)
+![Publisher and subscriber flow through Solace with OBO Manager requests and subscriptions](img/obo-subscription-manager.webp)
 
 The next heading is **How to manage topic subscriptions on behalf of other clients**, with two collapsed sections: **JCSMP, Java RTO, and .NET APIs** and **C API**.
 
@@ -174,7 +174,7 @@ The course follows the quiz with a video player. Its source is `ACL profile walk
 
 The original poster shows a PubSub+ Manager dashboard and the caption “So we need to create an ACL profile to manage access.” I saved the poster from the course-linked asset:
 
-![Walkthrough poster showing PubSub+ Manager and the lesson's ACL-profile caption](img/acl-profile-walkthrough-poster.jpg)
+![Walkthrough poster showing PubSub+ Manager and the lesson's ACL-profile caption](img/acl-profile-walkthrough-poster.webp)
 
 
 - The opening subtitle says the goal is to create an ACL profile to manage access.

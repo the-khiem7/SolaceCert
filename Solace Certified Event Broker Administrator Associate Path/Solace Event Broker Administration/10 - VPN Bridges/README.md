@@ -44,19 +44,19 @@ Continuing shows Haroldo's specific need: **“I need to help our order manageme
 
 Message-VPNs are isolated messaging environments in Solace. Messages published to a message-VPN are contained to that message-VPN. Message-VPN bridges provide a solution allowing messages to be shared between message-VPNs in a selective and controlled manner. Using message-VPN bridges, links can be created between message-VPNs on the same or separate appliances to share data. The messages that are allowed to flow from one message-VPN to another can be specified in the form of topic subscriptions. Message-VPN bridges can be configured to move data between message-VPNs using the direct or guaranteed messaging modes.
 
-![Diagram of a VPN bridge connecting two isolated Message VPNs](img/vpn-bridge-overview.png)
+![Diagram of a VPN bridge connecting two isolated Message VPNs](img/vpn-bridge-overview.webp)
 
 Global Applications with datacenters across the world may need a way to share data between the regions. If these applications want to share messages selectively between regions, they can use message-VPN bridging.
 
-![World map showing VPN bridging between Solace clouds in Amazon Services and Google Cloud Platform](img/global-vpn-bridge-regions.png)
+![World map showing VPN bridging between Solace clouds in Amazon Services and Google Cloud Platform](img/global-vpn-bridge-regions.webp)
 
 Bridges can also be configured to share data between different clouds and on-premise.
 
-![Architecture diagram showing VPN bridges connecting cloud and on-premise Solace deployments](img/vpn-bridge-across-clouds.png)
+![Architecture diagram showing VPN bridges connecting cloud and on-premise Solace deployments](img/vpn-bridge-across-clouds.webp)
 
 You can also use VPN bridges to connect Message-VPNs on different routers or the same router. The Message-VPNs can have the same or different names if they are on different routers.
 
-![Diagram showing VPN bridges between Message VPNs on the same or different routers](img/vpn-bridges-between-routers.png)
+![Diagram showing VPN bridges between Message VPNs on the same or different routers](img/vpn-bridges-between-routers.webp)
 
 #### Message VPN Bridge Model
 
@@ -66,7 +66,7 @@ The model can be broken down into three areas:
 - Messages are attracted using topic subscriptions, acting as the attractors.
 - The bridge client receives the messages from the source.
 
-![Message VPN bridge model showing source and destination VPNs, transport, and bridge clients](img/vpn-bridge-model.png)
+![Message VPN bridge model showing source and destination VPNs, transport, and bridge clients](img/vpn-bridge-model.webp)
 
 The labeled graphic exposes three markers: **Attractors**, **Transport**, and **Bridge Client**.
 
@@ -94,13 +94,13 @@ One of the key benefits of the Message VPN Bridging Model is the flexibility tha
 
 Message-VPN bridges for direct and guaranteed messaging both follow the same principles. For a pair of message-VPNs, bridges are always created on the message-VPN that is the destination for messaging traffic. The bridge, when created on the local (destination) message-VPN, connects to the remote (source) message-VPN and attracts messaging traffic towards it.
 
-![Direct-message VPN bridge from a source VPN to a destination VPN through a bridge client](img/direct-message-bridge-delivery.png)
+![Direct-message VPN bridge from a source VPN to a destination VPN through a bridge client](img/direct-message-bridge-delivery.webp)
 
 **Direct Messaging:** To use direct messaging, topic subscriptions are added to the bridge configuration in the “local” message VPN. Using its connection to the “remote” message VPN, these topic subscriptions are applied by the bridge client to attract messages across the bridge. The messages are then distributed in the “local” message VPN.
 
 **Guaranteed Messaging:** Bridges using guaranteed messaging use a queue endpoint on the remote message VPN. Topic subscriptions are added to the queue in the “remote” message VPN. The bridge client binds to the queue to attract messages across the bridge. The messages are then distributed in the “local” message VPN.
 
-![Guaranteed-message VPN bridge using a queue in the source VPN](img/guaranteed-message-bridge-delivery.png)
+![Guaranteed-message VPN bridge using a queue in the source VPN](img/guaranteed-message-bridge-delivery.webp)
 
 #### Mixed Delivery Modes
 
@@ -108,7 +108,7 @@ Message VPN bridges may be configured to use both delivery modes. The message de
 
 If we have a two of the same topic subscription configured on the bridge but one has a guaranteed delivery mode and the other has a direct delivery mode, then the destination message vpn will get the same message twice. In order to avoid this, we would ensure that we have a separate topic name subscription on the bridge. If the topic space doesn’t naturally divide into guaranteed and direct delivery modes, consider including the `<DeliveryMode>` in the topic structure. This can simplify the configuration needed to ensure the desired delivery mode is used end to end when using both delivery modes.
 
-![Diagram illustrating messages flowing across bridge clients with mixed direct and guaranteed delivery modes](img/mixed-bridge-delivery-modes.png)
+![Diagram illustrating messages flowing across bridge clients with mixed direct and guaranteed delivery modes](img/mixed-bridge-delivery-modes.webp)
 
 **Next:** Open **3 of 4 - VPN Bridge Topologies and Direction**; all displayed text, visuals, and marker content from this section are saved above.
 

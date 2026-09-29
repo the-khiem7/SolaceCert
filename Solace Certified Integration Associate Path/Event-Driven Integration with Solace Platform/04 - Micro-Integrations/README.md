@@ -151,30 +151,30 @@ The lesson links to [Mapping Headers and Payloads (Beta)](https://docs.solace.co
 
 #### What Are Micro-Integrations and Connecting Services
 
-- [What Are Micro-Integrations title card](img/what-are-micro-integrations-title.png) - dark teal circular motif with the lesson title.
-- [Old integration model](img/old-integration-model.png) - systems connect through a dense centralized point-to-point cluster.
-- [New event-mesh model](img/new-event-mesh-model.png) - decentralized, distributed, event-driven connections around an event mesh.
-- [Micro-Integrations video poster](img/micro-integrations-video-poster.jpg) - source device connected through an adapter to a monitor.
-- [Connecting Services title card](img/connecting-services-title.png).
-- [Micro-Integrations around an event mesh](img/micro-integrations-around-event-mesh.jpg) - sources and targets connect through specialized components around the mesh.
+- [What Are Micro-Integrations title card](img/what-are-micro-integrations-title.webp) - dark teal circular motif with the lesson title.
+- [Old integration model](img/old-integration-model.webp) - systems connect through a dense centralized point-to-point cluster.
+- [New event-mesh model](img/new-event-mesh-model.webp) - decentralized, distributed, event-driven connections around an event mesh.
+- [Micro-Integrations video poster](img/micro-integrations-video-poster.webp) - source device connected through an adapter to a monitor.
+- [Connecting Services title card](img/connecting-services-title.webp).
+- [Micro-Integrations around an event mesh](img/micro-integrations-around-event-mesh.webp) - sources and targets connect through specialized components around the mesh.
 - [Carousel introduction diagram](img/micro-integrations-carousel-intro.svg).
-- [Accelerate integration illustration](img/benefit-accelerate-integration.png), [agility illustration](img/benefit-agility-adaptability.png), [scaling illustration](img/benefit-horizontal-scaling.png), [reliability illustration](img/benefit-reliability.png), and [platform connector dashboard](img/micro-integration-console-list.jpg).
+- [Accelerate integration illustration](img/benefit-accelerate-integration.webp), [agility illustration](img/benefit-agility-adaptability.webp), [scaling illustration](img/benefit-horizontal-scaling.webp), [reliability illustration](img/benefit-reliability.webp), and [platform connector dashboard](img/micro-integration-console-list.webp).
 
 #### Core Concepts
 
-- [Core Concepts title card](img/core-concepts-title.png).
-- [Source, broker, and target flow](img/source-broker-target-flow.jpg) - external system to source Micro-Integration to event broker to target Micro-Integration to external system; an identical copy is also available as [the unidirectional flow diagram](img/microintegration-unidirectional-diagram.jpg).
-- [Lifecycle state diagram](img/micro-integration-lifecycle-states.png); an identical copy is also available as [the lifecycle diagram](img/microintegration-lifecycle.png).
-- [Micro-Integration classification title card](img/microintegration-classification-title.png).
-- [Micro-Integration classification overview](img/microintegration-classification-table.jpg) - introductory category descriptions and an example Integration Hub connector record.
-- [Comparison of Broker-Integrated, Self-Managed, and Cloud-Managed options](img/microintegration-classification-followup.png).
-- [Connector dashboard example](img/micro-integration-console-list.jpg).
+- [Core Concepts title card](img/core-concepts-title.webp).
+- [Source, broker, and target flow](img/source-broker-target-flow.webp) - external system to source Micro-Integration to event broker to target Micro-Integration to external system; an identical copy is also available as [the unidirectional flow diagram](img/microintegration-unidirectional-diagram.webp).
+- [Lifecycle state diagram](img/micro-integration-lifecycle-states.webp); an identical copy is also available as [the lifecycle diagram](img/microintegration-lifecycle.webp).
+- [Micro-Integration classification title card](img/microintegration-classification-title.webp).
+- [Micro-Integration classification overview](img/microintegration-classification-table.webp) - introductory category descriptions and an example Integration Hub connector record.
+- [Comparison of Broker-Integrated, Self-Managed, and Cloud-Managed options](img/microintegration-classification-followup.webp).
+- [Connector dashboard example](img/micro-integration-console-list.webp).
 
 #### Header, Payload, and Transformations
 
-- [Solace header reference fields](img/solace-header-reference.png).
-- [Mapping constants and source headers in the console](img/mapping-constants-console.jpg).
-- [Payload concatenation mapping](img/payload-concatenation-mapping.jpg) - source name fields connect through a Concatenate function to full_name.
-- [Smart Topic concatenation mapping](img/smart-topic-concatenation-mapping.jpg) - a constant and a source value feed the topic destination.
-- [Smart Topic destination in the console](img/smart-topic-destination-console.jpg).
-- [Transformation demo poster](img/transformation-demo-poster.jpg).
+- [Solace header reference fields](img/solace-header-reference.webp).
+- [Mapping constants and source headers in the console](img/mapping-constants-console.webp).
+- [Payload concatenation mapping](img/payload-concatenation-mapping.webp) - source name fields connect through a Concatenate function to full_name.
+- [Smart Topic concatenation mapping](img/smart-topic-concatenation-mapping.webp) - a constant and a source value feed the topic destination.
+- [Smart Topic destination in the console](img/smart-topic-destination-console.webp).
+- [Transformation demo poster](img/transformation-demo-poster.webp).

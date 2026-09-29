@@ -41,55 +41,55 @@ The section is **Lesson 2 of 5** and defines high availability for mission-criti
 
 Expanding **High Availability Appliance** reveals that two Solace PubSub+ appliances are required for high availability. A network administrator defines them as a **redundant pair** so that if one appliance fails, the other automatically takes over.
 
-![Two PubSub+ appliances configured as a redundant pair](img/redundant-appliance-pair.png)
+![Two PubSub+ appliances configured as a redundant pair](img/redundant-appliance-pair.webp)
 
 Expanding **High Availability Software** reveals that a PubSub+ software HA redundancy group contains **three event broker instances**: two act as active/standby messaging nodes and the third acts as a monitoring node. The group can be deployed in almost any cloud or on-premises environment.
 
-![Three software broker instances in active, standby, and monitoring roles](img/software-ha-redundancy-group.png)
+![Three software broker instances in active, standby, and monitoring roles](img/software-ha-redundancy-group.webp)
 
 Under **High Availability Redundancy Model**, Solace PubSub+ software event brokers use an **active/standby** model. The primary broker provides messaging services to clients; a backup broker waits in standby and provides service only if the primary fails. Fault detection triggers standby activation and service restoration.
 
-![Solace active/standby redundancy model](img/active-standby-redundancy-model.png)
+![Solace active/standby redundancy model](img/active-standby-redundancy-model.webp)
 
 The **PubSub+ Redundancy Group** diagram and accompanying list identify three roles: the primary node provides messaging services to clients; the backup node is prepared to take activity if the primary is unreachable; and the monitoring node acts as a tie-breaker to prevent split-brain scenarios.
 
-![PubSub+ redundancy group roles and client connections](img/pubsub-redundancy-group.png)
+![PubSub+ redundancy group roles and client connections](img/pubsub-redundancy-group.webp)
 
 The **Failover Mechanism** description says the software broker supports host-list failover, transferring client connections from one message-routing node to another after a node failure. The list contains IP addresses or DNS names for both primary and backup brokers. Their IP addresses remain different, but only one broker is active and accepts connections at a time. Connecting clients know both addresses and handle reconnecting from one address to the other; brokers in the HA group do not perform that client reconnect on the clients' behalf.
 
 Two interactive step processes are shown: **Failover Detection** and **Failback**, each with a **START** control. Starting **Failover Detection** reveals a numbered sequence of five steps plus **Last step**. **Step 1** says clients connect to the primary node while the backup remains in standby, prepared to take over if the primary node goes down.
 
-![Failover detection Step 1 showing clients connected to the primary node while the backup remains in standby](img/pubsub-redundancy-group.png)
+![Failover detection Step 1 showing clients connected to the primary node while the backup remains in standby](img/pubsub-redundancy-group.webp)
 
 **Step 2** says that when the primary node goes down, the client's TCP connection is broken. The course image marks the primary node as failed while the backup remains in standby and the monitoring node remains present.
 
-![Failover detection Step 2 showing primary-node failure and the broken client connection](img/failover-step-2.png)
+![Failover detection Step 2 showing primary-node failure and the broken client connection](img/failover-step-2.webp)
 
 **Step 3** says: **“When the primary node goes down, the lient TCP connection is broken. The monitoring and backup nodes cannot see the primary, but they can see each other.”** The displayed text has the apparent typo **“lient”**; it is preserved here as shown. The diagram depicts the failed primary and the backup and monitoring nodes retaining communication.
 
-![Failover detection Step 3 showing the monitoring and backup nodes communicating after primary failure](img/failover-step-3.png)
+![Failover detection Step 3 showing the monitoring and backup nodes communicating after primary failure](img/failover-step-3.webp)
 
 **Step 4** says **“Then the backup node goes into an active state.”** The diagram labels the backup node **Active** after takeover, while the primary remains failed and the monitoring node stays in place.
 
-![Failover detection Step 4 showing the backup node active](img/failover-step-4.png)
+![Failover detection Step 4 showing the backup node active](img/failover-step-4.webp)
 
 **Step 5** says **“Then the client reconnects to the second IP, the backup node.”** The diagram shows the backup node active and the client connection routed to it; the primary remains failed.
 
-![Failover detection Step 5 showing the client reconnecting to the active backup node](img/failover-step-5.png)
+![Failover detection Step 5 showing the client reconnecting to the active backup node](img/failover-step-5.webp)
 
 The **Last step** control reveals an additional final statement, labeled **Step 6** in the player: **“When the backup event broker takes activity, it will start accepting connections on the Management VRF static IP address. The connecting clients will traverse their host lists and connect to the backup event broker using the backup event broker’s static IP address.”** The final state offers **START AGAIN**. This step has text but no separate image control.
 
 Starting the **Failback** process reveals a three-step sequence. **Step 1** says that when the failed broker returns online, it uses the mate-link VRF to resynchronize its message-spool contents to match the active broker. Resynchronization may take a few seconds if the spool differences are small, or several hours if the failed broker was offline for a long time and large quantities of data accumulated on the active broker. Resynchronization does not affect service; the backup continues serving connected clients.
 
-![Failback Step 1 showing the active backup broker resynchronizing message-spool contents](img/failback-resynchronization.png)
+![Failback Step 1 showing the active backup broker resynchronizing message-spool contents](img/failback-resynchronization.webp)
 
 **Step 2** says **“Once re-synchronized, the primary node goes into a standby state.”** The original image shows the primary in **Standby** and the backup still **Active**.
 
-![Failback Step 2 showing the primary node in standby after resynchronization](img/failback-primary-standby.png)
+![Failback Step 2 showing the primary node in standby after resynchronization](img/failback-primary-standby.webp)
 
 **Step 3** says the administrator runs the **`revert-activity`** command to return activity from the backup node to the primary node. The diagram shows the primary active, the backup in standby, and the **Revert Activity** action.
 
-![Failback Step 3 showing the revert-activity action returning service to the primary](img/failback-revert-activity.png)
+![Failback Step 3 showing the revert-activity action returning service to the primary](img/failback-revert-activity.webp)
 
 The Failback **Last step** control advances to a player state labeled **Step 4**. It contains only **START AGAIN** and the step navigation controls; it exposes no additional explanatory text or separate instructional image. The process is complete.
 
@@ -179,7 +179,7 @@ solace_backup(admin/redundancy)# revert-activity
 
 For an automatic failover, the course says only `revert-activity` on the backup is needed to return activity to the primary. Its recommendation is: **“Failbacks can be automatic or manual, but Solace always recommends a manual failback.”** The accompanying diagram depicts the primary and backup event broker nodes and a monitoring node in an HA redundancy group, with client connections and replication activity.
 
-![Solace HA redundancy group with primary, monitoring, and backup nodes, replication activity, and client connections](img/failback-modes.png)
+![Solace HA redundancy group with primary, monitoring, and backup nodes, replication activity, and client connections](img/failback-modes.webp)
 
 The original image is `assets/_JiLso/revert.png`, read from the visible image element and downloaded from that exact course URL; the PNG signature was checked and the image was visually inspected.
 
@@ -193,7 +193,7 @@ The course compares config-sync to a corporate office distributing branding guid
 
 The course says a PubSub+ event broker maintains two types of configuration information: **system-level configuration information** and **configuration information for each message VPN**. In HA redundant pairs or replicated data centers, Config-Sync automatically propagates changes in both types between two event brokers. Config-Sync relies on **guaranteed messaging**, which must be configured and enabled on each participating broker.
 
-![Network of franchise storefronts illustrating consistent configuration across locations](img/config-sync-franchise-analogy.jpg)
+![Network of franchise storefronts illustrating consistent configuration across locations](img/config-sync-franchise-analogy.webp)
 
 The local original course image was read from the visible image element's exact `assets/AdobeStock_411448069.jpg` URL, downloaded, signature-checked as JPEG, and visually inspected. The original image element had no alt text, so this note supplies a descriptive alt.
 

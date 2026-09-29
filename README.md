@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://training.solace.com/learn/home">
-    <img src="docs/img/solace-academy-logo.png" alt="Solace Academy" width="380">
+    <img src="docs/img/solace-academy-logo.webp" alt="Solace Academy" width="380">
   </a>
 </p>
 
@@ -24,10 +24,10 @@ Certification names, course lineups, availability, and estimates can change. Use
 
 ## Technical certification paths
 
-![Solace Academy Technical Certification Paths roadmap for 2026](docs/img/technical-certification-paths.jpg)
+![Solace Academy Technical Certification Paths roadmap for 2026](docs/img/technical-certification-paths.webp)
 
 ## Digital credentials
 
-<p><img src="docs/img/solace-digital-badge-icon.png" alt="Solace digital certification badge icon" width="160"></p>
+<p><img src="docs/img/solace-digital-badge-icon.webp" alt="Solace digital certification badge icon" width="160"></p>
 
 Solace issues digital credentials to learners who pass certification exams. The badge can be shared on professional profiles and resumes. Read the [official certification information](https://solace.com/learn/certifications/) for current exam and credential details.

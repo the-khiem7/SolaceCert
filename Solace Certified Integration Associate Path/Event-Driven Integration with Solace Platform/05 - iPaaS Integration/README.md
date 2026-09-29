@@ -44,7 +44,7 @@ The closing carousel recommends three related courses:
 
 ## Visuals
 
-- [iPaaS Integration title card](img/ipaas-title.png).
-- [Boomi course card](img/recommended-boomi-course.jpg).
-- [SAP course card](img/recommended-sap-course.jpg).
-- [MuleSoft course card](img/recommended-mulesoft-course.jpg).
+- [iPaaS Integration title card](img/ipaas-title.webp).
+- [Boomi course card](img/recommended-boomi-course.webp).
+- [SAP course card](img/recommended-sap-course.webp).
+- [MuleSoft course card](img/recommended-mulesoft-course.webp).

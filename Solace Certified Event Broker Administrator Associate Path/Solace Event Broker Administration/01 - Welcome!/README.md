@@ -25,9 +25,9 @@ The slide is titled “Welcome to PubSub+ Event Broker Administration!” It say
 
 The slide uses the course’s original image assets: an instructor portrait over a dark server-room background.
 
-![Instructor portrait used on the course introduction slide](img/welcome-instructor.png)
+![Instructor portrait used on the course introduction slide](img/welcome-instructor.webp)
 
-![Dark server-room background used on the course introduction slide](img/server-room-background.jpg)
+![Dark server-room background used on the course introduction slide](img/server-room-background.webp)
 
 The two images are separate source assets shown together in the Academy slide, not replacements or generated images.
 

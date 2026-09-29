@@ -52,6 +52,6 @@ The four audio players show durations of 1:19, 0:47, 0:30, and 0:59. All four Tr
 
 ## Visuals
 
-- [Integration Patterns title card](img/integration-patterns-introduction.png) - title artwork SHA-256 verified as identical across the lesson section title screens.
-- [Simplicity recap, slide 1](img/simplicity-is-key-slide-1.jpg) - two people beside a laptop showing an error and Try Again.
-- [Simplicity recap, slide 2](img/simplicity-is-key-slide-2.jpg) - people working on a computer with gears and a wrench.
+- [Integration Patterns title card](img/integration-patterns-introduction.webp) - title artwork SHA-256 verified as identical across the lesson section title screens.
+- [Simplicity recap, slide 1](img/simplicity-is-key-slide-1.webp) - two people beside a laptop showing an error and Try Again.
+- [Simplicity recap, slide 2](img/simplicity-is-key-slide-2.webp) - people working on a computer with gears and a wrench.

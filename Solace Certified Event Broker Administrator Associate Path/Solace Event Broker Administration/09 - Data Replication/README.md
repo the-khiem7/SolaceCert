@@ -40,18 +40,18 @@ Continuing reveals the follow-up: **“We need to ensure that we don't lose our 
 
 This section is **Lesson 2 of 4**. Under **Types of Infrastructure Failures**, the course says there are two types and displays the original wording: **“There are two types of infrastructure failures that can occur. There is are on-site failures, where your appliance or software broker that is deployed in your data centre fails, or you can have a data center failure.”** The selected tab is **ON-SITE SINGLE FAILURE**. It lists **Power failure**, **Hardware component failure**, and **Network infrastructure failure**. It says on-site failures can be resolved with Solace High Availability, which helps with a single point of failure of an appliance or software broker. The panel includes an illustration with a Zoom image control.
 
-![Row of event-broker appliances in a data center, illustrating an on-site failure scenario](img/on-site-failure.jpg)
+![Row of event-broker appliances in a data center, illustrating an on-site failure scenario](img/on-site-failure.webp)
 
 The second tab, **DATA CENTRE FAILURE**, is visible but not yet opened. Under **What is Data Replication?**, a diagram shows a primary data center and a backup data center connected across a WAN with a **DR Link TCP Connection**. The accompanying text says Solace replicates an existing HA pair by using a TCP connection over the WAN between the primary and backup data centers. When event brokers are provisioned as a DR pair, the active router in each data center automatically establishes the DR link, which sends messages to the backup data center for all VPNs.
 
-![Primary and backup data centers linked across a WAN by a DR Link TCP connection](img/data-replication-over-wan.png)
+![Primary and backup data centers linked across a WAN by a DR Link TCP connection](img/data-replication-over-wan.webp)
 
 
 
 ### Screen 5: Data centre failure
 
 
-![Distributed data center infrastructure connected by network links](img/data-centre-failure.jpg)
+![Distributed data center infrastructure connected by network links](img/data-centre-failure.webp)
 
 The image is the original Academy asset from the selected tab's exposed `assets/AdobeStock_649978181.jpg` source. It was downloaded, verified as JPEG, and visually inspected. The Academy image has no alt text; the note provides a descriptive one.
 
@@ -61,7 +61,7 @@ The image is the original Academy asset from the selected tab's exposed `assets/
 
 Starting **Data Flow** displays **Step 1 - Message is published to Primary site**. The course text says: **“First, a publisher publishes messages to the active router on the primary site.”** The diagram highlights a publisher sending a message into the primary site's active router, with the DR Link TCP connection leading toward the backup data center.
 
-![Data Flow Step 1 showing the publisher sending a message to the active router in the primary data center](img/data-flow-step-1.png)
+![Data Flow Step 1 showing the publisher sending a message to the active router in the primary data center](img/data-flow-step-1.webp)
 
 
 **Next:** Advance to Step 2 and record the exact text and original diagram before moving again.
@@ -70,7 +70,7 @@ Starting **Data Flow** displays **Step 1 - Message is published to Primary site*
 
 **Step 2 - Forward to backup site** says: **“Once the active router on the primary site receives the messages it will automatically be forwarded to the active router on the backup site.”** The diagram highlights the message's path across the DR Link TCP connection from the primary data center to the backup data center.
 
-![Data Flow Step 2 showing messages forwarded from the primary to the backup data center over the DR Link TCP connection](img/data-flow-step-2.png)
+![Data Flow Step 2 showing messages forwarded from the primary to the backup data center over the DR Link TCP connection](img/data-flow-step-2.webp)
 
 This original PNG was obtained from the rendered `assets/step 2 data flow.png` source, signature-checked, and visually inspected. The interaction provides Step 1–4 and **Last step** navigation; overall progress remains **50% COMPLETE**.
 
@@ -80,7 +80,7 @@ This original PNG was obtained from the rendered `assets/step 2 data flow.png` s
 
 **Step 3 - Message is consumed by consumer** says: **“Then, if we have a consumer subscribed to the same topic that the publisher publishes to, it will consume the message.”** The diagram highlights the consumer receiving the message from the primary site's active router; the primary-to-backup DR link remains illustrated.
 
-![Data Flow Step 3 showing a consumer receiving a message from the primary site's active router](img/data-flow-step-3.png)
+![Data Flow Step 3 showing a consumer receiving a message from the primary site's active router](img/data-flow-step-3.webp)
 
 
 **Next:** Advance to Step 4 and record the exact text and original diagram before moving on.
@@ -89,7 +89,7 @@ This original PNG was obtained from the rendered `assets/step 2 data flow.png` s
 
 **Step 4 - Messages removed from backup** says: **“Once consumed at the primary site messages are automatically removed from the queues at the backup site.”** The diagram shows the message removed from the backup data center after it has been consumed on the primary side.
 
-![Data Flow Step 4 showing the message removed from the backup queues after primary-site consumption](img/data-flow-step-4.png)
+![Data Flow Step 4 showing the message removed from the backup queues after primary-site consumption](img/data-flow-step-4.webp)
 
 
 **Next:** Open **Last step** and record any further explanation or completion controls.
@@ -119,7 +119,7 @@ The course says an administrator can downgrade to asynchronous replication when 
 
 Under **Disabling Consumer ACK Propagation**, the course gives a hot/warm deployment as an example: a consumer application connected to the backup replicated site may need to receive the same messages for state verification. The property can be configured on the client profile at the backup site. The course text has the spelling **“propogation”** in this paragraph.
 
-![Primary and backup data centers with a DR link, publisher, and consumers connected at each site](img/consumer-ack-propagation.png)
+![Primary and backup data centers with a DR link, publisher, and consumers connected at each site](img/consumer-ack-propagation.webp)
 
 The original Academy asset is `assets/ACK.png`; it was read from the displayed image element, downloaded, signature-checked as PNG, and visually inspected. The image element had no alt text, so this note supplies a descriptive one.
 

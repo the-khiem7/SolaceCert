@@ -47,26 +47,26 @@ DMR routes events or messages from one Message VPN to another, similarly to stat
 
 The first diagram depicts three Solace brokers interconnected in a multi-site arrangement, with local endpoint/server groups at the sites.
 
-![Three Solace event brokers connected in a DMR network, with local server endpoints attached to each broker](img/dmr-overview.jpg)
+![Three Solace event brokers connected in a DMR network, with local server endpoints attached to each broker](img/dmr-overview.webp)
 
 
-![Multi-site DMR connecting Solace Message VPNs in Amazon Web Services and Google Cloud Platform to an on-premises Solace broker](img/multi-site-connectivity-video-poster.jpg)
+![Multi-site DMR connecting Solace Message VPNs in Amazon Web Services and Google Cloud Platform to an on-premises Solace broker](img/multi-site-connectivity-video-poster.webp)
 
-![Four Solace brokers connected in a full-mesh topology](img/full-mesh-topology-card.jpg)
+![Four Solace brokers connected in a full-mesh topology](img/full-mesh-topology-card.webp)
 
-![Solace brokers arranged as a tree with three branches and downstream brokers](img/tree-topology-card.jpg)
+![Solace brokers arranged as a tree with three branches and downstream brokers](img/tree-topology-card.webp)
 
 Under **Clustering: Full Mesh**, all event brokers in the network connect together to form one cluster. The diagram labeled **Cluster 1** shows four event brokers connected in a mesh.
 
-![Four event brokers joined as Cluster 1 in a full mesh](img/full-mesh-cluster.jpg)
+![Four event brokers joined as Cluster 1 in a full mesh](img/full-mesh-cluster.webp)
 
 In the illustrated message-propagation example, a publisher at the bottom sends toward a queue at the top with a matching subscription; the left and right nodes do not see the messages because neither has a matching subscription.
 
-![Message propagation through the full-mesh cluster from a publisher to a queue with a matching a/b subscription](img/full-mesh-message-propagation.jpg)
+![Message propagation through the full-mesh cluster from a publisher to a queue with a matching a/b subscription](img/full-mesh-message-propagation.webp)
 
 Under **Clustering: Tree**, event brokers connect as one cluster and messages move in a north/south pattern, enabling high fan-out to millions of connections for data-distribution and IoT use cases. The diagram shows a root broker connected to three leaf brokers, each with three downstream brokers.
 
-![Tree cluster with one root, three leaf brokers, and downstream brokers](img/tree-cluster.jpg)
+![Tree cluster with one root, three leaf brokers, and downstream brokers](img/tree-cluster.webp)
 
 The screen also presents five DMR bridge prerequisites as unchecked checklist items:
 
@@ -103,7 +103,7 @@ Selecting **Play Video** changed the player controls to **Pause**. The duration 
 
 The course says configurations occur at the broker level. Cluster information is specified on each broker, along with link configurations between event brokers. If the brokers belong to the same cluster, their link is identified as an **internal link**. If the link connects brokers in different clusters, it is an **external link**. Only one external link is allowed between different clusters.
 
-![Two Solace brokers connected by a link, with cluster information, node span, initiator, TCP parameters, authentication, and transport mode](img/dmr-cluster-link-configuration.jpg)
+![Two Solace brokers connected by a link, with cluster information, node span, initiator, TCP parameters, authentication, and transport mode](img/dmr-cluster-link-configuration.webp)
 
 #### Link Flexibility
 
@@ -116,7 +116,7 @@ The course says configurations occur at the broker level. Cluster information is
 
 The selected tab says: **“For the clustered link, you can either use direct messaging or guaranteed messaging with topic subscriptions on a queue.”** The other tabs are **Direct Messages** and **Guaranteed Messages**.
 
-![Direct messages flow one way while guaranteed messages use a queue on the clustered link](img/dmr-link-delivery-modes.jpg)
+![Direct messages flow one way while guaranteed messages use a queue on the clustered link](img/dmr-link-delivery-modes.webp)
 
 #### Feature Comparison
 
@@ -137,7 +137,7 @@ The selected tab says: **“For the clustered link, you can either use direct me
 
 The **Direct Messages** tab says: **“How the messages are consumed does not affect how the messages are propagated across the data channel. The publisher defines messages as being direct or guaranteed.”** The direct-message diagram shows an `a/b` publisher on **Node A - VPN1** publishing across the link to a matching subscription/queue on **Node B - VPN1**, which delivers to its local endpoint group.
 
-![Direct messages published on Node A with an a/b topic arrive at the matching endpoint on Node B](img/dmr-direct-message-flow.jpg)
+![Direct messages published on Node A with an a/b topic arrive at the matching endpoint on Node B](img/dmr-direct-message-flow.webp)
 
 The sidebar shows **A Deeper Dive - 88% Completed**. **Guaranteed Messages** is the remaining tab.
 
@@ -147,7 +147,7 @@ The sidebar shows **A Deeper Dive - 88% Completed**. **Guaranteed Messages** is 
 
 The **Guaranteed Messages** tab says: **“The consumer defines if they would like the messages to wait for them when they are not connected, or if they only want to receive messages real-time.”** The diagram contrasts a publisher sending `a/b` messages through queues on Node A and Node B to an endpoint, with the queue path preserving messages for a consumer that is disconnected.
 
-![Guaranteed a/b messages pass through queues over the cluster link and reach a Node B endpoint](img/dmr-guaranteed-message-flow.jpg)
+![Guaranteed a/b messages pass through queues over the cluster link and reach a Node B endpoint](img/dmr-guaranteed-message-flow.webp)
 
 
 

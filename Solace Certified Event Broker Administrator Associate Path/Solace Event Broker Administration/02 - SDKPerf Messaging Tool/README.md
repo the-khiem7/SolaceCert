@@ -27,7 +27,7 @@ The guide repeats the Academy description of SDKPerf and introduces its common a
 
 SDKPerf is modeled as a common core plus messaging-client implementations. The core exposes a client interface and interacts with API-specific implementations, allowing the tool to work in a consistent, client-agnostic way across supported APIs and protocols. The figure shows adapters for C, C#, Java, JavaScript, JMS, MQTT, and REST, with Solace APIs and open APIs/protocols beneath them.
 
-![SDKPerf core connected to API-specific clients and Solace or open APIs](img/sdkperf-architecture.png)
+![SDKPerf core connected to API-specific clients and Solace or open APIs](img/sdkperf-architecture.webp)
 
 ## Command-line application flow
 
@@ -47,7 +47,7 @@ The guide directs learners to the Solace downloads page and the SDKPerf Command-
 
 The guide's “Other Software” image lists platform or API variants: C for Linux 2.6 x86/x64, Solaris, SPARC, and Windows; .NET for Windows; Java; JMS; JavaScript; MQTT (Paho Java); and REST.
 
-![SDKPerf download variants shown in the guide](img/sdkperf-tool-details.png)
+![SDKPerf download variants shown in the guide](img/sdkperf-tool-details.webp)
 
 ## Sample commands
 
@@ -59,6 +59,6 @@ The guide says the -stl option starts a subscribing client and the -ptl option s
 
 The example publisher sends to news/sports/football; the subscriber pattern news/sports/> matches descendants beneath that topic prefix.
 
-![SDKPerf publisher and subscriber example using topic news/sports/](img/sdkperf-command-examples.png)
+![SDKPerf publisher and subscriber example using topic news/sports/](img/sdkperf-command-examples.webp)
 
 Its PDF guide has been saved beside this note, and the architecture, download-options, and command-example visuals have been extracted from the guide into this lesson's img folder.

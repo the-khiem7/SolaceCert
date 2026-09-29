@@ -17,7 +17,7 @@ source: Solace Academy
 
 The overview says the course covers message VPNs, resource management, and security through role-based access. It combines theory, practical tips, and a hands-on exercise.
 
-![Solace Multi-Tenancy course cover](img/course-overview-cover.jpg)
+![Solace Multi-Tenancy course cover](img/course-overview-cover.webp)
 
 The overview groups its SCORM content into three parts:
 
@@ -32,9 +32,9 @@ Haroldo introduces himself as a middleware manager with ACME Retail. He says fre
 
 The screen shows Haroldo in an office setting.
 
-![Haroldo, the ACME Retail middleware manager](img/haroldo-scenario.png)
+![Haroldo, the ACME Retail middleware manager](img/haroldo-scenario.webp)
 
-![Office background shown in the scenario](img/scenario-background.jpg)
+![Office background shown in the scenario](img/scenario-background.webp)
 
 ## Screen 2: Performance concern and response choices
 
@@ -60,7 +60,7 @@ Each use case or group of applications can use a message VPN so messaging applic
 
 The original illustration shows one Solace broker with four separate, secured Message VPN compartments.
 
-![Solace broker illustration showing four isolated, secured Message VPNs](img/message-vpn-multitenancy.png)
+![Solace broker illustration showing four isolated, secured Message VPNs](img/message-vpn-multitenancy.webp)
 
 
 ## Resource Management
