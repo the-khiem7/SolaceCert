@@ -1,0 +1,503 @@
+YouTube transcript
+Video ID: n8oN4wyix08
+Language: en
+Captions: auto-generated
+
+[0:00] Hi there and welcome to introduction to
+[0:02] LLM rag and agentic AI. This is an
+[0:04] introductory tutorial on some key AI
+[0:06] concepts presented in a highle easy to
+[0:08] understand way without going into all
+[0:10] the technical details. The topics that
+[0:13] we'll cover are as follows. We'll start
+[0:15] by going through a brief introduction to
+[0:16] LLM and how it works then into how it
+[0:19] can be enhanced with retrieval augmented
+[0:21] generation otherwise known as rag. and
+[0:23] then in the following section we'll talk
+[0:25] a little bit about how these concepts
+[0:26] are being applied for real world use
+[0:28] cases through the use of agentic AI. So
+[0:31] let's just jump into it. We'll start
+[0:33] with our introduction to LLMs.
+[0:35] So what is an LLM? Well, the short story
+[0:38] is effectively that it's an AI that can
+[0:41] understand and generate human language.
+[0:43] And the long story is that it's an AI
+[0:46] model based on neural network
+[0:47] architecture that plays a critical role
+[0:49] in natural language processing that
+[0:52] allows machines to be able to interpret
+[0:54] and understand human language. So in
+[0:57] this section, we'll break that down a
+[0:59] little bit so we can understand more of
+[1:00] how that actually works. Before we go
+[1:03] into that though, some of the key
+[1:04] capabilities that LLM are good for are
+[1:07] text generation. They're good at
+[1:09] creating coherent text based on prompts
+[1:11] and refinement. It's good at working
+[1:13] with large text and being able to work
+[1:16] with large amounts of scale and text
+[1:19] inputs and it's good at translating. It
+[1:21] can convert languages with pretty high
+[1:23] accuracy.
+[1:25] So at its core, LLM is a sequence
+[1:28] prediction machine. It's trying to
+[1:30] predict what's most likely to appear
+[1:32] next. So here's a simple example on the
+[1:34] right hand side here. Um it's raining
+[1:37] cats and blank. So for most of us, we
+[1:41] are pretty familiar with this idiom and
+[1:43] we can sort of infer that well based on
+[1:45] this idiom dogs is probably the blank
+[1:47] that goes in there for the AI. That's
+[1:50] also what it's trying to do. It can
+[1:51] infer that this is a common idiom and
+[1:53] fills in the blank much like how we
+[1:55] would do it. So that's a very basic
+[1:56] example of sequence prediction. Now the
+[2:00] complex prediction is probably a little
+[2:02] bit more similar to your typical
+[2:03] interaction with an AI. When you're
+[2:05] having a conversation, all it's really
+[2:07] doing is trying to predict what comes
+[2:09] next to your prompt. So, for example, if
+[2:12] you ask, "What's the weather like in
+[2:14] Ottawa?" The LLM is trying to infer,
+[2:16] okay, in situations where someone's
+[2:18] asking about the weather, what's the
+[2:20] most common or typical response to that?
+[2:23] And that would be you answer with what
+[2:25] the weather is. And if someone were to
+[2:27] say thanks to your response, then the
+[2:29] LLM kind of thinks, okay, what's the
+[2:31] most common or expected response to
+[2:34] something like thanks, oh, you're
+[2:37] welcome. So that's how it would reply.
+[2:39] So basically, the response to what
+[2:41] you're telling it is the blank that the
+[2:43] LLM is trying to fill in.
+[2:46] So now the question is, how does it do
+[2:49] that? So earlier I did say this is going
+[2:51] to be a highle easy to understand way,
+[2:53] but bear with me. I'm going to go a
+[2:54] little bit into the technical side of
+[2:56] this. So we mentioned earlier about
+[2:59] neural networks. LLMs generally use a
+[3:01] specific type of neural network called a
+[3:03] transformer. So a neural network is
+[3:05] essentially a computational system that
+[3:08] has multiple neuron layers and tries to
+[3:12] do the prediction of the output based on
+[3:14] the input. So you can kind of think of
+[3:16] it like an orchestra. um within the
+[3:18] orchestra, the musicians represent a
+[3:21] neuron and LLM is the conductor that
+[3:24] uses those neurons to create that
+[3:26] output.
+[3:28] So if we dig a little bit deeper, how it
+[3:30] works is that as I mentioned, it's a
+[3:33] system that's made up of neuron layers.
+[3:35] So they self-modify themselves based on
+[3:38] the large amounts of training data and
+[3:40] they learn to predict better outputs
+[3:41] after seeing many inputs. And each
+[3:44] individual neuron takes in inputs and
+[3:46] performs math functions to evaluate the
+[3:48] input and then passes it next to the
+[3:50] next function. And it just keeps going
+[3:52] until it gets to the output. So based on
+[3:54] the diagram on the right here, you can
+[3:56] see that the input layer takes in the
+[3:58] input. It passes it to all the hidden
+[4:00] layers in the middle that are doing all
+[4:02] these um different functions and
+[4:04] progressively influencing each other to
+[4:06] get a better understanding of the input
+[4:08] and predict the next output that comes.
+[4:11] And then finally it outputs the
+[4:13] prediction to the output layer.
+[4:16] Um so I mentioned that the LLMs use a
+[4:19] special type of neural network called a
+[4:20] transformer. So this is a architecture
+[4:23] that allows words every word to be aware
+[4:25] of each other word in a passage. So if
+[4:29] in uh much like a human community
+[4:31] they're self-organizing. So each person
+[4:34] is aware of their role in the community
+[4:35] and other people's roles. So in this
+[4:37] architecture, each word sort of
+[4:39] understands itself and wants to
+[4:41] understand what other words do. So for
+[4:43] example, in isolation, if you were just
+[4:45] to look at the word John or his, that
+[4:48] really doesn't tell you anything. And if
+[4:50] you just looked at the word bank, again,
+[4:52] doesn't tell you anything about the
+[4:53] sentence. But the more um you start to
+[4:56] understand the context around it, once
+[4:59] you know that, okay, this sentence sort
+[5:00] of has bank, it has wants, it has cash,
+[5:03] and this is sort of what each word
+[5:04] means. And then once you put it
+[5:06] together, you sort of understand that,
+[5:08] oh, okay, this person wants his bank to
+[5:12] do this thing. So that's roughly how
+[5:14] transformers work.
+[5:17] Now, we've talked about math functions a
+[5:19] lot, and you might be wondering, okay,
+[5:21] but how do words fit into that? So, what
+[5:24] LLMs use are actually tokens, which are
+[5:27] what they call what they use to refer to
+[5:30] words or word fragments. And tokens are
+[5:33] basically encoded as these vector
+[5:35] embeddings which are coordinates in this
+[5:38] abstract sense of space. And so AI can
+[5:41] compare words by basically comparing the
+[5:44] space between them. So if you look at
+[5:45] the um diagram on the right here, you
+[5:48] can see that bananas is sort of plotted
+[5:51] at this specific coordinate in this
+[5:53] abstract space and you can see roughly
+[5:55] nearby it green apple and pears also
+[5:58] appears in their own different
+[6:01] coordinates. But you can see how they're
+[6:02] a little bit close to each other because
+[6:04] it understands that, you know, these are
+[6:06] types of fruits. And on the other side
+[6:08] over here, ships and boats are plotted
+[6:10] very close together as well because um
+[6:14] it can understand that they're very
+[6:16] similar concepts.
+[6:18] So an example of an abetting would be if
+[6:21] we look at this picture of a creature, a
+[6:24] human would probably say, "Oh, that's a
+[6:26] cat." whereas an LLM would say all of
+[6:29] this, which I'm not going to bother to
+[6:30] read out, but you can sort of see the
+[6:32] difference in even though an LLM can
+[6:35] process and understand that of this
+[6:38] creature, it doesn't really understand
+[6:40] the same way that a human would
+[6:41] understand it.
+[6:43] So, there are a lot of research being
+[6:45] done into embeddings today. Um, the
+[6:47] question that might be on your mind is
+[6:49] how are these tokens turned into these
+[6:50] vector dimensions? How does it know
+[6:52] where to plot them? and no one on earth
+[6:54] actually knows because it's all done
+[6:56] through the neural network which is kind
+[6:58] of a black box from what I understand.
+[7:00] So it's not actually meant to be human
+[7:02] readable although the research that's
+[7:04] being done is trying to understand more
+[7:05] about how these um get a better
+[7:08] understanding of how that's actually
+[7:09] working. And another research question
+[7:12] might be how to mitigate biases because
+[7:14] the interesting thing is these vectors
+[7:17] are built from the way that we as humans
+[7:19] use words. It's not just coming out of
+[7:21] thin air. So it does actually end up
+[7:24] reflecting how humans tend to use words
+[7:26] and meaning. So for example, there are
+[7:30] some vector models where if you look at
+[7:32] doctor minus man plus woman, it yields
+[7:36] nurse instead of doctor. So mitigating
+[7:40] these types of biases is an area of
+[7:43] active research that's being done. So
+[7:45] that's the basics of an LLM. So the next
+[7:50] thing to go into is retrieval augmented
+[7:52] generation aka rag. So what is rag?
+[7:57] Basically your brain uses information
+[7:59] from the past to match with the current
+[8:01] context to make a decision. You have the
+[8:04] knowledge and context around you and by
+[8:07] default LLM doesn't have that context.
+[8:09] So what rag does is it's able to enhance
+[8:12] the model's responses and what it knows
+[8:15] by giving it external sources of
+[8:17] information to help understand things
+[8:19] better and that makes it generate better
+[8:22] responses.
+[8:23] So, as an example, if you were to ask it
+[8:26] a question like, "What is the smallest
+[8:28] planet in the Milky Way?" With RAG, it
+[8:31] can retrieve the data from the most
+[8:33] up-to-date trustworthy sources from the
+[8:36] internet, from anywhere that it's been
+[8:37] provided, and it can answer, "Oh, okay.
+[8:40] Mercury is the smallest planet." Whereas
+[8:43] if you didn't have rag and if your LLM
+[8:45] was programmed, you know, maybe a a
+[8:48] couple years ago or however long ago
+[8:49] this was, I don't actually remember. Um
+[8:52] it might generate a response that's
+[8:53] actually pretty out of date because it's
+[8:54] only referencing its internal knowledge
+[8:56] base, which is dated to the time that it
+[8:58] was originally trained. So in some cases
+[9:01] like this, it might give you an outdated
+[9:03] response like to the answer to the
+[9:06] question of the smallest planet, it
+[9:07] might say Pluto, which we all know is no
+[9:09] longer the case.
+[9:11] So this diagram is just a little bit of
+[9:13] a visual just to show exactly how rag
+[9:16] works. Effectively it goes from here
+[9:18] starting with the user sending the query
+[9:20] to let's use solless chat as an example
+[9:22] of like the service in the middle. um it
+[9:25] basically references a vector database
+[9:27] which we'll go into later to retrieve
+[9:29] the context specific information using
+[9:32] rag and then it sends the query with
+[9:34] this additional context to the LLM and
+[9:37] then the LLM is able to formulate its
+[9:39] response from the query as well as the
+[9:42] additional context and its own internal
+[9:44] trainings and returns a response. So in
+[9:47] the middle here the service does some
+[9:50] post-processing and then finally returns
+[9:51] the response to the user.
+[9:54] So, some of the advantages of rag over
+[9:56] traditional LLM is that it combines
+[9:59] external knowledge with the model's own
+[10:01] internal knowledge um so that it has
+[10:04] more up-to-date information. It's a lot
+[10:06] easier to update LLMs with new data
+[10:09] without having to retrain the actual
+[10:11] model which can take a lot of time and
+[10:13] it's actually very expensive as well.
+[10:15] Uh, so it's not very practical and it
+[10:17] generally does provide more factually
+[10:19] accurate responses compared to LLMs
+[10:21] which reduces the likelihood of
+[10:23] hallucinations which I'm sure we're all
+[10:25] familiar with if you used AI where it
+[10:26] just makes things up because it doesn't
+[10:28] actually know. And finally, it has
+[10:31] better transparency because it can
+[10:33] actually provide you sources for the
+[10:35] information that it's giving you rather
+[10:37] than being kind of a black box because
+[10:39] the model's training is not usually
+[10:41] exposed to the end user.
+[10:44] So going into hallucinations a little
+[10:46] bit. These are some of the ways that it
+[10:48] actually works to reduce hallucinations.
+[10:50] One, it's actually fetching relevant
+[10:53] data which I mentioned earlier instead
+[10:54] of only relying on its own internal
+[10:56] knowledge base which could be outdated.
+[10:58] Two, it can do contextual validation. So
+[11:00] it can actually check multiple sources
+[11:02] and then cross-check them with each
+[11:03] other to see that if it's accurate
+[11:05] because it's showing up in multiple
+[11:07] places. Three, it can perform dynamic
+[11:09] querying to retrieve precise information
+[11:12] to the user's request. And four, it
+[11:15] applies checks after it generates the
+[11:17] response to make sure that it can
+[11:19] correct any inaccuracies before sending
+[11:21] to the user.
+[11:23] So some of the primary use cases for rag
+[11:25] is typically around enhancing domain
+[11:27] specific knowledge. So for example, if
+[11:29] you're doing research, LLMs can um you
+[11:33] can provide it with research documents.
+[11:34] It'll look at your question and then
+[11:36] give the context to the LLM generate to
+[11:38] generate the output with the research
+[11:41] documents as the context. So you'll get
+[11:43] information that's relevant to those
+[11:45] docu research and it won't be
+[11:47] hallucinated. Another one is financial
+[11:49] workflows. You can connect the um your
+[11:52] LLM to real-time market info and then it
+[11:54] can generate financial analysis and
+[11:56] reports that are actually grounded in
+[11:58] fact when someone wants to ask it about
+[12:00] investment advice. That way, it won't
+[12:01] give you outdated investment advice from
+[12:04] the 2000s, let's say, if you're asking
+[12:06] for it in 2025.
+[12:08] And finally, customer support is another
+[12:10] good use case. Um, when giving support
+[12:12] to customers, a lot of times customer
+[12:14] support agents need to reference their
+[12:16] specific internal policies or documents
+[12:19] to answer their questions. And so, LLM
+[12:21] can help actually reference those
+[12:23] knowledge bases to find and give the
+[12:25] answers correctly.
+[12:28] So as we talked about earlier, words in
+[12:30] the human language are encoded as vector
+[12:33] embeddings so that the LLM can actually
+[12:35] understand it. Vector databases are
+[12:37] basically special types of databases
+[12:39] that stores these vectors so that LLMs
+[12:41] can retrieve and search through them
+[12:43] efficiently. So while it's not required
+[12:45] for rag, rag does typically use vector
+[12:47] databases to store the data that it's
+[12:49] referencing for a couple of reasons. And
+[12:52] on the right hand side here, I've just
+[12:53] put a couple of the most commonly used
+[12:55] uh vector databases as of today. Here
+[12:58] are some of the benefits of
+[12:59] vectorization. So the first one is
+[13:02] similarity searching. We talked earlier
+[13:04] about how LLMs understand human language
+[13:06] not as words as we understand it, but as
+[13:09] coordinates in an abstract space and
+[13:11] different words could be plotted close
+[13:13] together in that abstract space based on
+[13:16] their meaning. So that enables
+[13:18] similarity search which is finding
+[13:20] vectors that are close to the original
+[13:22] input and searching for things that are
+[13:25] similar instead of needing explicit
+[13:27] keyword parameters. So taking e-commerce
+[13:30] as the example if I were to search for a
+[13:33] blue t-shirt um in a traditional
+[13:35] database it could only return me things
+[13:37] that are explicitly tagged with blue
+[13:39] t-shirt. Whereas, if I were to take
+[13:42] advantage of vectors and vectorization,
+[13:44] it could help me search for things that
+[13:46] are similar to a blue t-shirt, like a
+[13:48] blue sweater or a blue tank top. And it
+[13:51] can do this in a fast and costefficient
+[13:52] way by using techniques like algorithms
+[13:54] and partitioning to enable that. And
+[13:57] finally, it's scalable because vector
+[13:59] databases are optimized to handle
+[14:01] massive amounts of highdimensional
+[14:02] embeddings.
+[14:05] So going into some examples of AI
+[14:07] products that use rag, Perplexity is a
+[14:09] search engine that can search the web
+[14:12] for a variety of external sources to
+[14:14] generate response about the topic that
+[14:17] the user is asking about. So if I were
+[14:18] to ask it a question about the puppy
+[14:20] bold in 2025, which is not something
+[14:22] you'd expect an LLM model to be trained
+[14:24] on, Perplexi can actually reach out to
+[14:27] the web and find information for me
+[14:28] about it and return it to me in an easy
+[14:31] to understand way.
+[14:34] Another example of an AI product that
+[14:36] uses rag is Claude projects which is a
+[14:39] little bit more transparent to the user.
+[14:41] They actually allow you to upload your
+[14:43] own documents to tell claude chats to
+[14:47] reference while generating responses for
+[14:49] your queries. So that way you can get
+[14:51] specialized and customized responses
+[14:54] based on your specific information. So
+[14:57] then we head into the last section here
+[14:58] which is Agentic AI. Thus far, we've
+[15:01] talked about LLMs and we've talked about
+[15:03] rag, which are both powerful technology,
+[15:06] but many people today aren't just using
+[15:08] a basic LLM. They're starting to use
+[15:10] what we call agents. And the idea of
+[15:12] agentic AI is to really have these sets
+[15:15] of autonomous systems with agents that
+[15:18] can make decisions and act with minimal
+[15:20] human involvement.
+[15:22] So, what agents are are like kind of
+[15:25] specialized helpers in this AI system.
+[15:28] They each have their own set of skills
+[15:29] and knowledge. For example, one might be
+[15:32] good at searching the web. Another one
+[15:33] is trained or given the tools to create
+[15:36] images and then another one is sort of
+[15:39] specialized in answering questions. And
+[15:41] each of them can do one thing but one
+[15:43] thing very well is kind of the idea
+[15:45] there. So an agent is built off of an
+[15:47] LLM at its core, but it's given
+[15:49] additional tools and instructions that
+[15:50] make it viable for a specific real world
+[15:53] purpose. So on the right here I've shown
+[15:56] an anatomy of an agent and this is just
+[15:58] what's coming from OpenAI. Um different
+[16:00] providers I believe may have slightly
+[16:03] different ways of structuring or
+[16:05] architecting their agents but I think
+[16:06] these are a couple of the common ones
+[16:08] that are um consistent where you have
+[16:11] some sort of instructions. So these are
+[16:13] kind of prompts that tell the agent how
+[16:15] it behaves, what it is and what it
+[16:17] should do. um the model. So again, the
+[16:20] LLM model that the agent is built off of
+[16:22] and actually uses to accomplish its
+[16:24] tasks. Uh different models do have
+[16:26] different things they're good at. So for
+[16:27] example, one model might be especially
+[16:29] good at doing research and analyzing uh
+[16:33] large amounts of data. Another model
+[16:35] might be much more geared towards
+[16:36] technical concepts and doing coding, for
+[16:39] example. So being able to choose the
+[16:41] right model for your agent is usually
+[16:42] key. And then finally, agents are given
+[16:45] tools that it has access to to
+[16:47] accomplish its actions. So these can
+[16:49] come built in uh depending on the
+[16:52] framework you use or it can be executing
+[16:54] custom Python functions that you code
+[16:56] yourself for your agent.
+[16:59] And to
+[17:02] go go into the agent mesh, imagine it's
+[17:06] a team of these agents, the AI helpers
+[17:09] that basically work together to solve
+[17:11] problems. So um instead of working
+[17:14] alone, you have to talk to a specific
+[17:16] agent and it can only do one thing.
+[17:18] These agents can share information. They
+[17:19] can build each other and they're all
+[17:21] connected to each other. So this diagram
+[17:24] here is representing some gateways, the
+[17:27] ways that information can enter the
+[17:29] agent mesh, the orchestrator in the
+[17:31] middle that basically takes in that
+[17:32] information and figures out what to do
+[17:34] with it, like which agents it should
+[17:36] call. And down here you can see the
+[17:38] agents it has access to. So one example
+[17:41] of a flow through the agent mesh would
+[17:44] be for example um the gateway start we
+[17:47] start with a gateway. So again it's a
+[17:49] communication endpoint that handles
+[17:50] communication between the user and the
+[17:52] system. So for an example a user might
+[17:54] ask a question to solhat about a Jira
+[17:56] ticket in Slack and then that input then
+[17:59] goes into the orchestrator which then
+[18:01] process the question and determines that
+[18:03] okay it needs to use the Jira agent to
+[18:05] answer the question. Then it reaches out
+[18:08] to the agent in this case the Jira agent
+[18:11] which would find the relevant Jira
+[18:13] ticket based on the question and then
+[18:14] read the description and then provide a
+[18:16] response to answer the user's question.
+[18:19] So that is agent tick AI in a very quick
+[18:23] nutshell. And so that's the end of my
+[18:25] presentation as well. Again like I
+[18:26] mentioned this is an introductory
+[18:28] tutorial. So the concepts I covered here
+[18:30] are at a very high level. If you're
+[18:31] interested in any of them I do encourage
+[18:33] you to continue researching. Maybe try
+[18:36] out Perplexity and see how it can help
+[18:38] you. Um, yeah.
+[18:40] [Music]
